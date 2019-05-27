@@ -1,2 +1,3 @@
-# licenciatura-sistemas
-Apuntes para Licenciatura en Sistemas de la Información - UADER
+# Apuntes para Licenciatura en Sistemas de la Información - UADER
+
+A completar.
