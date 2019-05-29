@@ -1,0 +1,8 @@
+1. Dado un texto de 500 bytes en ASCII a partir de la posicion 0200, realice un programa que cuente la cantidad de palabras y guarde
+	el resultado en la posicion 0500. (24h espacio).
+2. Realice un programa que ingrese una clave de dos letras sin eco en la pantalla, si la clave no es la correcta que termine el programa,
+	y si es la correcta que escriba en el centro del monitor "Arquitectura 2016" en modo de video 40x25 y termine.
+3. Cual es el calor en HEXA del atributo de un caracter amarillo parpadeante sobre azul y donde se encuentra almacenado si su posicion es
+	3era fila 3era columna.
+4. Nombre los modos de direccionamiento y de un ejemplo de cada uno.
+5. Explique el funcionamiento del buffer del teclado en la memoria.
