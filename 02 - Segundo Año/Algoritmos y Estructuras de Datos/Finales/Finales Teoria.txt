@@ -1,0 +1,38 @@
+TEORIA
+Marzo 2010:
+1) Def. formal: paso, ideal derecho, grafo lineal y grafo básico.
+2) Explique ABM de una cola implementada en celdas de memoria.
+3) Defina: nivel, árbol AVL, árbol principal izquierdo.
+4) Explique al menos dos métodos para dar de alta registros en una organización directa.
+5) Explique detalladamente la tarea que realiza el SO para recuperaaar el índice de un archivo indexado.
+ 
+Diciembre 2010 - Primer llamado:
+1) De las definiciones formales de grafo lineal, paso y circuito.
+2) ¿Qué diferencias y similitudes hay entre una cola dinámica y una lista?
+3) ¿Un árbol es un grafo básico? ¿Y viceversa? Justifique.
+4) ¿Un grafo básico puede tener circuitos? Justifique.
+5) ¿Es posible que el grado de salida de un nodo de un árbol sea mayor o igual a dos? Justifique.
+6) Mencione las particularidades de los árboles B, tres como mínimo. 
+ 
+Diciembre 2011 - Primer llamado:
+1)Definir los siguientes conceptos; Grafo lineal, Paso, Hipergrafo y grafo isomorfo.
+2)¿Un grafo basico puede contener circuitos? justificar.
+3)Diferencias entre cola dinamica y lista simplemente enlazada.
+4)Un arbol puede ser considerado un grafo? y viseversa? justificar.
+5)El conjunto izquierdo de un grafo >= 2 ,verdadero o falso?, justificar.
+6)Definir arbol B y nombrar diferencias con un arbol binario.
+ 
+Diciembre 2011 - Segundo llamado:
+1)Definir los siguientes conceptos: grafo, camino y grafo básico.
+2)-
+3)Definir Cola Circular, explicar detalladamente su funcionamiento (altas/ bajas/ controles necesarios).
+4)Decir si la siguiente aseveración es verdadera o falsa. Justificar.Aseveración: “G es lineal      G es básico”.
+5)Diferencias entre una lista simplemente enlazada y una pila.
+6)Diferencias (estructurales y operativos) entre un arbol B y un arbol AVL
+ 
+Marzo 2012
+1) Defina formalmente los siguientes conceptos: Conjunto izquierdo, Maximal, Ideal Principal derecho, Subarbol, Hipergrafo
+2) ¿Que entiende por estructura de datos lineal? Describa detalladamente que estructuras de datos lineales conoce y cómo funcionan
+3) Describa qué diferencias y qué similitudes hay entre un árbol n-ario y un árbol B
+4) Una empresa tiene expresada (en papel) su estructura orgánica utilizando un organigrama. Indique detalladamente cómo implementaría computacionalmente dicha estructura.
+5) * habia que hacer La demostración nº 10 que está en el resumen de shumacher (Anexo)
