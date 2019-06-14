@@ -1,0 +1,48 @@
+Ejercicios de estructuras de datos lineales (A)
+A1- Describa detalladamente las similitudes y diferencias existentes entre una estructura
+de datos tipo "Cola Circular" y una estructura de datos tipo "Cola Dinamica". No olvide
+mencionar las ventajas y desventajas de cada una. Utilizar graficos como soporte para su desarrollo.
+
+Ejercicios sobre árboles (B)
+B1- Mencione los tipos de árboles que conoce y sus características principales.
+B2- Defina los conceptos:
+a. Altura.
+b. Árbol completo.
+c. Árbol lleno.
+d. Nodo hoja.
+e. Nodo raiz.
+f. Orden del árbol.
+g. Barrido de un árbol.
+
+Ejercicio de teoría de grafos (C)
+C1- Defina formalmente los siguientes conceptos:
+a. Camino.
+b. Circuito.
+c. Ideal Principal Derecho.
+d. Grafo Básico.
+C2- Utilizando la teoría de grafos, defina formalmente la estructura de datos "Árbol Ternario". Indicar además cómo implementaría la estructura de datos dinámica.
+C3- Realice un análisis comparativo de las estructuras de datos "Matriz de Adyacencia" vs "Listas de Adyacencia" para la representación computacional de un Grafo. Ventajas y desventajas de cada una. Ejemplifique cuando utilizaria una u otra.
+
+
+Grafos de pagina 16 a 21
+Estructuras lineales (Lista, Pila, Cola) de pagina 22 a 34
+Arboles (Binario, AVL, B) de pagina 35 a 48
+Formulas y demostraciones importantes 56 a 58
+
+Final 2017
+- Diferencia entre pila circular y cola circular.
+
+- Diferencia y similitudes entre pila y cola.
+
+- Comparación entre árbol B y B+.
+
+- Que es un árbol de busqueda binario y para que se usa.
+
+- Definicion formal de:
+	- Grafo basico.
+	- Maxima.
+	- Conjunto Izquiero.
+	- Camino.
+	- Paso.
+
+- Definicion formal de grafo irrestricto y eliminacion de un nodo. (Explicacion sin codigo)
