@@ -1,0 +1,60 @@
+
+
+<captions>
+
+    <event type="caption" time="0"  duration="4">�Dejar�as que un extra�o en la puerta de entrada a pie a la derecha en su casa?</event>
+    <event type="caption" time="4"  duration="4">No tener un firewall es como dejar la puerta de entrada en el equipo </event>
+    <event type="caption" time="8"  duration="4">wide open to all of your family photos, home movies, music… </event>
+    <event type="caption" time="12" duration="4">not to mention the financial information you’ve saved there. </event>
+	<event type="caption" time="16" duration="3">A firewall is like a computerized version of locking your door, </event>
+	<event type="caption" time="19" duration="3">managing your computer’s incoming and outgoing communication.</event>
+	<event type="caption" time="22" duration="5">One way you can think of your firewall is like the walls of your home, </event>
+	<event type="caption" time="27" duration="3">protecting all of your belongings from the outside world.</event>
+	<event type="caption" time="30" duration="3">However, in order for your computer to communicate with the internet, </event>
+	<event type="caption" time="33" duration="3">information has to pass through an open port.</event>
+	<event type="caption" time="36" duration="5">A port is like an open door that allows access into and out of your home.</event>
+	<event type="caption" time="41" duration="3">So, how exactly does your firewall protect you?</event>
+	<event type="caption" time="44" duration="6">First, a good firewall can alert you to suspicious behavior, so you can decide who to trust.</event>
+	<event type="caption" time="50" duration="6">You may not be aware of this, but when you’re online, internet criminals are constantly </event>
+	<event type="caption" time="56" duration="4">looking for open ports they can use to access your computer.</event>
+	<event type="caption" time="60" duration="5">The average computer has over 65,000 ports, all of which can be used to connect with </event>
+	<event type="caption" time="65" duration="2">another computer on the internet.</event>
+	<event type="caption" time="67" duration="5">A properly configured firewall won’t respond to communication from a hacker</event>
+	<event type="caption" time="72" duration="3">who’s trying to steal passwords and credit card information.</event>
+	<event type="caption" time="75" duration="6">This is like having an invisible house – if they can't see your computer internet </event>
+	<event type="caption" time="81" duration="2">criminals can’t attack it.</event>
+	<event type="caption" time="83" duration="4">A firewall blocks hackers scanning the internet looking for potential victims</event>
+	<event type="caption" time="87" duration="2">and trying to gain control over their computers.</event>
+	<event type="caption" time="89" duration="4">If some outside program tries to gain access to your computer,</event>
+	<event type="caption" time="93" duration="5">your firewall can detect it and let you know.</event>
+	<event type="caption" time="98" duration="5">If it’s a well-known company you trust, or that you initiated contact with, </event>
+	<event type="caption" time="103" duration="2">you probably don’t need to worry.</event>
+	<event type="caption" time="105" duration="3">For example, I often get an alert message when i download a statement</event>
+	<event type="caption" time="108" duration="2"> from my bank’s website.</event>
+	<event type="caption" time="110" duration="9">But since this is an organization that I trust, I always click to "allow". </event>
+	<event type="caption" time="119" duration="5">Another thing your firewall can do is stop unauthorized outgoing communication.</event>
+	<event type="caption" time="124" duration="4">Like if your computer is trying to connect to the internet without your knowledge.</event>
+	<event type="caption" time="128" duration="4">If you have some type of spyware on your computer, your firewall can stop it</event>
+	<event type="caption" time="132" duration="4">from establishing connections with other computers from the outside world.</event>
+	<event type="caption" time="136" duration="3">So, why does this matter?</event>
+	<event type="caption" time="139" duration="5">Imagine a criminal trying to set up shop in your guest room – you wouldn’t let that happen.</event>
+	<event type="caption" time="144" duration="4">In the same way your firewall blocks your computer from becoming a source </event>
+	<event type="caption" time="148" duration="2">of attacks against other computers.</event>
+	<event type="caption" time="150" duration="7">It also prevents spyware from sending out your passwords and other private information.</event>
+	<event type="caption" time="157" duration="3">You may be wondering if there’s anything your firewall can't do?</event>
+	<event type="caption" time="160" duration="4">Well, although it’s a key element in your home internet security, </event>
+	<event type="caption" time="164" duration="3">your firewall does have some limitations.</event>
+	<event type="caption" time="167" duration="5">You need to use some ports for everyday things like sending email and using the internet,</event>
+	<event type="caption" time="172" duration="4">so your firewall can’t stop attacks that use these entrances.</event>
+	<event type="caption" time="176" duration="4">As long as your firewall is configured to allow email, it can’t block viruses</event>
+	<event type="caption" time="180" duration="3">that arrive as email attachments.</event>
+	<event type="caption" time="183" duration="5">For the most complete protection, your Norton Personal Firewall works side by side </event>
+	<event type="caption" time="188" duration="9">with your Norton Antivirus and Norton Antispam software.</event>
+	<event type="caption" time="197" duration="3">Remember, your firewall can only do what you tell it to do.</event>
+	<event type="caption" time="200" duration="3">And, as with all elements of home internet security,</event>
+	<event type="caption" time="203" duration="5">it’s important for you to keep your software up to date.</event>
+	<event type="caption" time="208" duration="5">You can be confident that with a properly configured norton personal firewall installed,</event>
+	<event type="caption" time="213" duration="4">you and your family are always in a safer place.</event>
+	<event type="caption" time="217" duration="2">thanks again for joining me, </event>
+	<event type="caption" time="219" duration="4">and for more information about home Internet Security click the link below.</event>
+</captions>
