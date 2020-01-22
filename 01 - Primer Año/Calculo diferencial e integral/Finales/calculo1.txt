@@ -1,0 +1,38 @@
+1er examen
+
+1)Continuidad de una funcion en un punto.
+a)definicion
+b)Discontinuidades
+c)clasificacion
+
+2)derivada de una funcion,a)definicion,b)interpretacion geometrica
+
+3)integrales indefinidas
+a)definicion
+b)Enunciar 3 propiedades..
+
+
+
+2do examen Teoria: 
+
+1) Discontinuidades y los graficos 
+2) Teorema de Lagrange 
+3) Integracion por parte
+
+3er examen Teoria :
+
+E-1: Mediante Derivacion Logaritmica demostrar la derivadas de las funciones: a) y = xn ; b) y = ax
+E-2: Teorema del Valor Medio del Calculo Integral. Definir. Demostrar y realizar la Interpretacion geometrica. 
+E-3: Limite Finito de la función y = f(x), para la variable que tiende a un valor finito. Definicion simbolica e Interpretacion geometrica.
+
+
+otro
+
+E1. Definicion de Extremos relativos, Graficar
+    Definicion de Puntos Criticos, Graficar
+    Definicion de Extremos absolutos
+
+E2. Teorema del valor medio del calculo integral
+    Hipotesis, Tesis, Demostracion e Interpretacion Geometrica
+
+E3. F. Homografica: Estudio
