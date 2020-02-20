@@ -1,0 +1,18 @@
+Practica: 
+Estudio completo de funciones 
+Cálculo de area con integrales 
+Integrales "descomposicion en fracciones simples" 
+
+Teoría: 
+Rolle 
+Discontinuidades 
+Integrales Impropias 
+
+Teoría: 
+
+1) Discontinuidades y los gráficos 
+2) Teorema de Lagrange 
+3) Integración por parte
+
+También suelen tomar L' hopital y en la teoría lagrange, 
+Definición de limite y cambio universal eso tienen que buscarlo en Integrales Trigonométricas. 

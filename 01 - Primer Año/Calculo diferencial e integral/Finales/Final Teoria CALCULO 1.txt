@@ -1,0 +1,36 @@
+TEORIA
+
+Primer Llamado Diciembre
+
+lagrange­­
+todo ­­
+definicion grafico­­
+demostrcion­­
+la 2 ­­
+1era parte del calculo fundamental­­
+y la 3 ­­
+continuidad, intervalos abiertos y cerrados­­
+
+
+Segundo Llamado Diciembre
+
+1- derivacion logaritmica­­
+2- definir discontinuidad­­
+a- discontinuidad en (a,b)­­
+b-discontinuidad en [a,b]­­
+c- discontinuidad evitable­­
+3- Integrales impropias de 1era especie
+definir e indicar la forma de calculo. graficar­­
+
+
+
+La practica tomaron calculo de area, estudio completo de una funcion,
+L' hopital y un ejercicio de integracion por el metodo de descomponer en fracciones simples... 
+y en la teoria tomaron teorema del valor medio del calculo DIFERENCIAL (lagrange), 
+definicion de limite y sustitucion universal.
+
+PRACTICA
+
+Estudio completo de funcion.
+Calculo de area (Integrales).
+Integrales Impropias.

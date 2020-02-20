@@ -1,0 +1,405 @@
+<!--
+=======================================
+Intro Text
+======================================= 
+-->
+<instructions>
+<title>WELCOME TO IT ESSENTIALS VIRTUAL DESKTOP</title>
+<text><br>Our Virtual Desktop enables you to learn the essential steps to assemble a desktop computer, explore its components, and test your knowledge. If this is your first time, please take a moment to walk through the key features of the Virtual Desktop. This walkthrough is always available by pressing Help in the upper right hand corner.</text>
+</instructions>
+
+<instructions>
+<title>WELCOME TO IT ESSENTIALS VIRTUAL DESKTOP</title>
+<text><br>Our Virtual Desktop enables you to learn the essential steps to assemble a desktop computer, explore its components, and test your knowledge. If this is your first time, please take a moment to walk through the key features of the Virtual Desktop. This walkthrough is always available by pressing Help in the upper right hand corner.</text>
+</instructions>
+
+<instructions>
+<title>WELCOME TO IT ESSENTIALS VIRTUAL DESKTOP</title>
+<text><br>Our Virtual Desktop enables you to learn the essential steps to assemble a desktop computer, explore its components, and test your knowledge. If this is your first time, please take a moment to walk through the key features of the Virtual Desktop. This walkthrough is always available by pressing Help in the upper right hand corner.</text>
+</instructions>
+
+<instructions>
+<title>WELCOME TO IT ESSENTIALS VIRTUAL DESKTOP</title>
+<text><br>Our Virtual Desktop enables you to learn the essential steps to assemble a desktop computer, explore its components, and test your knowledge. If this is your first time, please take a moment to walk through the key features of the Virtual Desktop. This walkthrough is always available by pressing Help in the upper right hand corner.</text>
+</instructions>
+
+<instructions>
+<title>WELCOME TO IT ESSENTIALS VIRTUAL DESKTOP</title>
+<text><br>Our Virtual Desktop enables you to learn the essential steps to assemble a desktop computer, explore its components, and test your knowledge. If this is your first time, please take a moment to walk through the key features of the Virtual Desktop. This walkthrough is always available by pressing Help in the upper right hand corner.</text>
+</instructions>
+<!--
+=======================================
+ Accordian Menu
+======================================= 
+-->
+<accordian id="  POWER SUPPLY" file="mcBOTTOMLAYER">
+	<text><br>A power supply provides the needed voltage to power the various electronic circuits that make up the PC. <br>Attach the power supply to the case.</text>
+	<text2><br>INSTALL POWER SUPPLY<br><ul><li>Move the power supply to the case</li><li>Align the holes in the power supply with the holes in the case</li><li>Secure the power supply to the case using the proper screws</li></ul></text2>
+</accordian>
+<accordian id="  MOTHERBOARD"     file= "mcMOTHERBOARD">
+	<text><br>The motherboard is the main printed circuit board that connects all the components of the computer. <br>On the motherboard, you will work with the following components:<Br> <ul><li>CPU</li><li>Thermal compound</li><li>CPU heat sink/fan assembly</li><li>RAM module (2)</li><li>Motherboard</li></ul></text>
+	<text2><br>INSTALL CPU<UL><LI>Retrieve the CPU from the antistatic mat.</li><li>Rotate the CPU so the Connection 1 Indicator is lined up with pin 1 on the CPU socket.</li><li>Align the orientation notches on the CPU to the orientation keys on the socket.</li><li>Place the CPU gently into the socket</li><li>Close the CPU load plate and secure it in place by closing the load lever and moving it under the load lever retention tab.</li><li>Apply small amount of thermal compound to the CPU chip and spread it evenly. (Note: Thermal compound is only necessary when not included on the heat sink. Follow the instructions provided by the manufacturer for specific application details.)</li><li>Line up the heat sink/fan assembly retainers to the holes on the motherboard. </li><li>Place the heat sink/fan assembly onto the CPU socket being careful not to pinch the CPU fan wires.</li><li>Tighten the heat sink/fan assembly retainers to secure it in place.</li><li>Plug the heat sink into the motherboard</li></ul>
+INSTALL RAM<ul><li>Retrieve one RAM module from the antistatic mat</li><li>Align the latch notches on the RAM module to the notches in the slot and press down till the side tabs click. </li><li>Make sure that the side tabs have locked the RAM module and visually check for exposed contacts</li><li>Repeat for second RAM module.</li></ul>
+INSTALL THE MOTHERBOARD <ul><li>Slowly move the motherboard into the case while you align the holes for the screws and the stand offs.</li><li>Attach the motherboard to the case using the appropriate screws</li></ul><br><br></text2>
+</accordian>
+<accordian id="  ADAPTER CARDS" file="mcEXPANSIONCARDS">
+	<text><br>Adapter cards are installed on the motherboard to add functionality to your computer.<ul><li>A network interface card (NIC) is an adapter card used to connect your computer to a network.</li><li>A wireless NIC is an adapter card used to connect your computer to another computer or a wireless access point using radio signals.</li><li>A video adapter is an adapter card that sends data to a computer display.</li></ul></text>
+	<text2><br>INSTALL NIC<ul><li>Move the NIC to the case</li><li>Align the NIC to the PCIe x1 slot on the motherboard </li><li>Press down gently on the NIC until the card is fully seated. </li><li>Secure the NIC by attaching the PC mounting bracket to the case with a screw.</li></ul><br>INSTALL WIRELESS NIC<ul><li>Move the Wireless NIC to the case. </li><li>Align the Wireless NIC to the PCI slot on the motherboard </li><li>Press down gently on the Wireless NIC until the card is fully seated </li><li>Secure the Wireless NIC by attaching the PC mounting bracket to the case with a screw. </li></ul><br>INSTALL VIDEO ADAPTER<ul><li>Move the Video Adapter to the case</li><li>Align the Video Adapter to the PCIe x16 slot on the motherboard </li><li>Press down gently on the Video Adapter until the card is fully seated</li><li>Secure the Video Adapter by attaching the PC mounting bracket to the case with a screw. </li></ul><br><br></text2>
+</accordian>
+<accordian id="  INTERNAL DRIVES" file="mcINTERNALDRIVES">
+	<text><br>The hard disk drive (HDD) is a magnetic drive that stores large amounts of data on fixed media.<br><br>Install the HDD into the case.</text>
+	<text2><br>INSTALL HARD DISK DRIVE<ul><li>Move the  HDD to the case</li><li>Position the  HDD so it aligns with the 3.5” drive bay</li><li>Insert the HDD into the drive bay</li><li>Secure the HDD to the case using the proper screws.</li><li><br><br></text2>
+</accordian>
+<accordian id="  DRIVES IN EXTERNAL BAYS" file="mcEXTERNALDRIVES">
+	<text><br>The CD-RW/DVD drive is an optical storage device that reads and writes information to CDs and reads DVDs.<BR><BR>A floppy disk drive (FDD) is a magnetic drive that reads and writes information to floppy diskettes.<BR><BR>Install the Optical Drive and FDD.</text>
+	<text2><br>INSTALL OPTICAL DRIVE<UL><LI>Move the optical drive to the case</LI><LI>Position the optical drive so it aligns with the 5.25” drive bay</LI><LI>Insert the optical drive into the drive bay</LI><LI>Secure the optical drive to the case using the proper screws.</LI></UL><BR>INSTALL FLOPPY DRIVE<UL><LI>Move the FDD to the case</LI><LI>Position the FDD so it aligns with the 3.5 “ drive bay</LI><LI>Insert the FDD into the drive bay</LI><LI>Secure the FDD to the case using the proper screws.</LI><UL><BR><BR>
+</text2>
+</accordian>
+<!--===============================-->
+<accordian id="  INTERNAL CABLES" file="mcINTERNALCABLES">
+
+<text><br>Connect all internal cables to the appropriate computer components. Be sure to match Pin 1 to Pin 1 when connecting cables to the devices.<br><br>Connect the cables to the devices:<br><br><LI>20-pin ATX Power</LI><LI>4-pin Auxiliary Power</LI><LI>SATA Power</LI><LI>Molex Power</LI><LI>Berg Power</LI><LI>Case Fan Power</LI><LI>SATA</LI><LI>PATA</LI><LI>Floppy Drive</LI>
+</text>
+
+<text2><br>Connect all internal cables:<br><br><LI>Align the 20-pin ATX power supply cable to the socket on the motherboard and gently press down to secure the connection.</LI><br><LI>Align the 4-pin auxiliary power connector to the auxiliary power socket on the motherboard and gently press down to secure the connection.</LI><br><LI>Plug in a SATA power supply cable to the hard drive.</LI><br><LI>Plug in a Molex power supply cable to the Optical drive.</LI><br><LI>Plug in a Berg power supply cable to the floppy drive.</LI><br><LI>Align the 3-pin case-fan power cable and gently press down to secure to the case-fan pins on the motherboard.</LI><br><LI>Align and plug in the SATA cable to the motherboard socket. Align and plug in the other end of the SATA data cable to the hard drive.</LI><br><LI>Align and plug in the PATA cable to the motherboard socket. Align and plug in the other end of the PATA data cable to the Optical drive.</LI><br><LI>Align and plug in the floppy data cable to the motherboard socket.  Align and plug in the other end of the floppy data cable to floppy drive.</LI>
+</text2>
+</accordian>
+<!--===============================-->
+<accordian id="  EXTERNAL CABLES" file="mcEXTERNALCABLES">
+	<text><br>To complete the computer assembly, attach the panels and secure them to the case using the panel screws. You are now ready to connect the external cables to the ports on the back of the computer. <br><br>Connect the cables to the computer: <br><br><LI>Monitor</LI><LI>Keyboard</LI><LI>Mouse</LI><LI>USB</LI><LI>Ethernet</LI><LI>Parallel</LI><LI>Power</LI>
+</text>
+	<text2><br>Before connecting the external cables, you must attach the case panels and secure them with the case panel screws.<br><br>Note: Connect the power cable after all other external cables are attached.<br><br><LI>Align and attach the monitor cable to the video port on the video adapter. Secure it by tightening the screws on the connector.</LI><br><LI>Align and plug in the keyboard cable to the PS/2 port. </LI><br><LI>Align and plug in the mouse cable to the PS/2 port.</LI><br><LI>Align and plug in the USB cable to the port.</LI><br><LI>Align and plug in the Ethernet cable to the port. </LI><br><LI>Align and plug in the power cable to the port.</LI><br>
+	</text2>
+</accordian> 
+<!--
+=======================================
+ Devices
+======================================= 
+-->
+<thumb id="iPowerSupply" accessLevel="0">
+	<title></title>
+	<title2>Power Supply</title2>
+	<smallImg>powerSupply.png</smallImg>
+	<largeImg>powerSupply.png</largeImg>
+	<explore>explorePowerSupply.swf</explore>
+</thumb> 
+
+<thumb id="iPowerSupplyScrews" accessLevel="1" linkTo="iPowerSupply">
+	<title>Power Supply</title>
+	<title2>Screws</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iRAM1" accessLevel="0">
+	<title></title>
+	<title2>RAM 1</title2>
+	<smallImg>ram.png</smallImg>
+	<largeImg>ram.png</largeImg>
+	<explore>exploreRam.swf</explore>
+</thumb>
+
+<thumb id="iRAM2" accessLevel="0">
+	<title></title>
+	<title2>RAM 2</title2>
+	<smallImg>ram.png</smallImg>
+	<largeImg>ram.png</largeImg>
+	<explore>exploreRam.swf</explore>
+</thumb>
+
+<thumb id="iCPU" accessLevel="0">
+	<title></title>
+	<title2>CPU</title2>
+	<smallImg>cpu.png</smallImg>
+	<largeImg>cpu.png</largeImg>
+	<explore>exploreCPU.swf</explore>
+</thumb>
+
+<thumb id="iThermalGlue" accessLevel="1" linkTo="iCPU">
+	<title>Thermal</title>
+	<title2>Compound</title2>
+	<smallImg>thermalGlue.png</smallImg>
+	<largeImg>thermalGlue.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iHeatsink" accessLevel="2" linkTo="iThermalGlue">
+	<title></title>
+	<title2>Heat Sink</title2>
+	<smallImg>heatsink.png</smallImg>
+	<largeImg>heatsink.png</largeImg>
+	<explore>exploreHeatSink.swf</explore>
+</thumb>
+
+<thumb id="iMoboScrews" accessLevel="0">
+	<title>Motherboard</title>
+	<title2>Screws</title2>
+	<smallImg>MBscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iMobo" accessLevel="0">
+	<title></title>
+	<title2>Motherboard</title2>
+	<smallImg>motherboard.png</smallImg>
+	<largeImg>motherboard.png</largeImg>
+	<explore>exploreMotherboard.swf</explore>
+</thumb>
+
+<thumb id="iNic" accessLevel="0">
+	<title></title>
+	<title2>NIC</title2>
+	<smallImg>nicCard.png</smallImg>
+	<largeImg>nicCard.png</largeImg>
+	<explore>exploreNicCard.swf</explore>
+</thumb> 
+
+<thumb id="iNicScrews" accessLevel="1" linkTo="iNic">
+	<title>NIC</title>
+	<title2>Screw</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iWireless" accessLevel="0">
+	<title>Wireless</title>
+	<title2>NIC</title2>
+	<smallImg>wirelessCard.png</smallImg>
+	<largeImg>wirelessCard.png</largeImg>
+	<explore>exploreWirelessCard.swf</explore>
+</thumb>
+
+<thumb id="iWirelessScrews" accessLevel="1" linkTo="iWireless">
+	<title>Wireless</title>
+	<title2>NIC Screw</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iVideoCard" accessLevel="0">
+	<title>Video</title>
+	<title2>Adapter</title2>
+	<smallImg>videoCard.png</smallImg>
+	<largeImg>videoCard.png</largeImg>
+	<explore>exploreVideoCard.swf</explore>
+</thumb> 
+
+<thumb id="iVideoScrews" accessLevel="1" linkTo="iVideoCard">
+	<title>Video Adapter</title>
+	<title2>Screw</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iHD" accessLevel="0">
+	<title>Hard Disk</title>
+	<title2>Drive (HDD)</title2>
+	<smallImg>hardDrive.png</smallImg>
+	<largeImg>hardDrive.png</largeImg>
+	<explore>exploreHarddrive.swf</explore>
+</thumb> 
+
+<thumb id="iHDScrews" accessLevel="1" linkTo="iHD">
+	<title>HDD</title>
+	<title2>Screws</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iDvdDrive" accessLevel="0">
+	<title>Optical</title>
+	<title2>Drive</title2>
+	<smallImg>dvdDrive.png</smallImg>
+	<largeImg>dvdDrive.png</largeImg>
+	<explore>exploreDVD.swf</explore>
+</thumb> 
+
+<thumb id="iDvdScrews" accessLevel="1" linkTo="iDvdDrive">
+	<title>Optical Drive</title>
+	<title2>Screws</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iFloppyDrive" accessLevel="0">
+	<title>Floppy</title>
+	<title2>Drive</title2>
+	<smallImg>floppyDrive.png</smallImg>
+	<largeImg>floppyDrive.png</largeImg>
+	<explore>exploreFloppy.swf</explore>
+</thumb>
+
+<thumb id="iFloppyScrews" accessLevel="1" linkTo="iFloppyDrive">
+	<title>Floppy Drive</title>
+	<title2>Screws</title2>
+	<smallImg>Drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iPata1" accessLevel="0">
+	<title>PATA</title>
+	<title2>Cable</title2>
+	<smallImg>pata1.png</smallImg>
+	<largeImg>pata1.png</largeImg>
+	<explore>exploreParallelDVD.swf</explore>
+</thumb> 
+
+<thumb id="iPata2" accessLevel="0">
+	<title>Floppy</title>
+	<title2>Cable</title2>
+	<smallImg>pata2.png</smallImg>
+	<largeImg>pata2.png</largeImg>
+	<explore>exploreParallelFloppy.swf</explore>
+</thumb>
+
+<thumb id="iSata" accessLevel="0">
+	<title>SATA</title>
+	<title2>Cable</title2>
+	<smallImg>sata.png</smallImg>
+	<largeImg>sata.png</largeImg>
+	<explore>exploreSata.swf</explore>
+</thumb>
+
+<thumb id="iCasePanels" accessLevel="0">
+	<title></title>
+	<title2>Case Panels</title2>
+	<smallImg>panels.png</smallImg>
+	<largeImg>panels.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iPanelScrews" accessLevel="1" linkTo="iCasePanels">
+	<title>Panel</title>
+	<title2>Screws</title2>
+	<smallImg>casescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>	
+</thumb>
+
+<thumb id="iMonitor" accessLevel="0">
+	<title></title>
+	<title2>Monitor</title2>
+	<smallImg>perimonitor.png</smallImg>
+	<largeImg>perimonitor.png</largeImg>
+	<explore>explorePeriMonitor.swf</explore>	
+</thumb>
+
+<thumb id="iKeyboard" accessLevel="0">
+	<title></title>
+	<title2>Keyboard</title2>
+	<smallImg>perikeyboard.png</smallImg>
+	<largeImg>perikeyboard.png</largeImg>
+	<explore>explorePeriKeyboard.swf</explore>	
+</thumb>
+
+<thumb id="iMouse" accessLevel="0">
+	<title></title>
+	<title2>Mouse</title2>
+	<smallImg>perimouse.png</smallImg>
+	<largeImg>perimouse.png</largeImg>
+	<explore>explorePeriMouse.swf</explore>	
+</thumb>
+
+<thumb id="iUSB" accessLevel="0">
+	<title></title>
+	<title2>USB</title2>
+	<smallImg>periusb.png</smallImg>
+	<largeImg>periusb.png</largeImg>
+	<explore>explorePeriUSB.swf</explore>	
+</thumb>
+
+<thumb id="iEthernet" accessLevel="0">
+	<title></title>
+	<title2>Ethernet</title2>
+	<smallImg>periethernet.png</smallImg>
+	<largeImg>periethernet.png</largeImg>
+	<explore>explorePeriEthernet.swf</explore>	
+</thumb>
+
+<thumb id="iAntenna" accessLevel="0">
+	<title>Wireless</title>
+	<title2>Antenna</title2>
+	<smallImg>wirelessAntenna.png</smallImg>
+	<largeImg>wirelessAntenna.png</largeImg>
+	<explore></explore>	
+</thumb>
+
+<thumb id="iPowerCord" accessLevel="0">
+	<title></title>
+	<title2>Power Cord</title2>
+	<smallImg>peripheralPower.png</smallImg>
+	<largeImg>peripheralPower.png</largeImg>
+	<explore>explorePeriPOWER.swf</explore>	
+</thumb>
+<!--
+=======================================
+Lessons
+======================================= 
+-->
+<lesson layer="1" file="PowerSupply.swf">
+	<modelName id="iPowerSupply" />
+	<modelName id="iPowerSupplyScrews" />
+</lesson>
+
+<lesson layer="2" file="Motherboard.swf">
+	<modelName id="iThermalGlue" />
+	<modelName id="iMoboScrews" />
+	<modelName id="iCPU" />
+	<modelName id="iHeatsink" />
+	<modelName id="iRAM1" />
+	<modelName id="iRAM2" />
+</lesson>
+
+<lesson layer="3" file="ExpansionCards.swf">
+	<modelName id="iWireless" />
+	<modelName id="iNic" />
+	<modelName id="iVideoCard" />
+	<modelName id="iVideoScrews" />
+	<modelName id="iWirelessScrews" />
+	<modelName id="iNicScrews" />
+</lesson>
+
+<lesson layer="4" file="InternalDrive.swf">
+	<modelName id="iHDScrews" />
+	<modelName id="iHD" />
+</lesson>
+
+<lesson layer="5" file="ExternalDrives.swf">
+	<modelName id="iDvdScrews" />
+	<modelName id="iFloppyScrews" />
+	<modelName id="iDvdDrive" />
+	<modelName id="iFloppyDrive" />
+</lesson>
+
+<lesson layer="6" file="InternalCables.swf">
+	<modelName id="iSata" />
+	<modelName id="iPata1" />
+	<modelName id="iPata2" />
+</lesson>
+
+<lesson layer="7" file="ExternalCables.swf">
+	<modelName id="iCasePanels" />
+	<modelName id="iPanelScrews" />
+	<modelName id="iAntenna" />
+	<modelName id="iMonitor" />
+	<modelName id="iUSB" />
+	<modelName id="iPowerCord" />
+	<modelName id="iParallel" />
+	<modelName id="iMouse" />
+	<modelName id="iKeyboard" />
+	<modelName id="iEthernet" />
+	<modelName id="iAudio" />
+</lesson>
+
+
+
+
+

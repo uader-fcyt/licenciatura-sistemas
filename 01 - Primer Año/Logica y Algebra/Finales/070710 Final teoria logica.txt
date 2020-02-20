@@ -1,0 +1,31 @@
+1) Sea Anxn
+
+	a:definir matris inversa.
+
+	b:propiedades.
+
+	c:verdadero o falso	A(Adj A)=(det A)(det I) 
+	demostrar o corregir y demostrar.
+
+	d:de la demostracion anterior, hallar la expresion para calcular la inversa.
+
+
+2) Enunciar en que lugar geometrico se representa la expresion Ax+By+Xz+D=0. A,B,C,D: constantes x,y,z: variables.
+
+	-justificar con todos los pasos y graficar.
+
+
+3) Dado el e.v. V sean v1,v2,...,vn vectores de V
+
+Definir:	-conbinacion lineal	-conjunto generador	-espacio generado
+		
+		-dependencia e independencia lineal
+
+
+4) Dada la preposicion: "Una funcion es diferencial solo si es continua"
+	
+	-simbolizar
+
+	-encontrar una equivalente a la dada. Expresarla simbolica y coloquialmente.
+
+	-dada ~q->p encontrar asociadas, nombrar e indicar cuales tienen igual valor de verdad.justificar

@@ -1,0 +1,387 @@
+<!--
+=======================================
+Intro Text
+======================================= 
+-->
+<instructions>
+<title>BIENVENIDO CURSO DE ENSAMBLAJE VIRTUAL</title>
+<text><br>Nuestro Curso Virtual  le permite aprender los pasos esenciales para montar un ordenador de sobremesa, explorar sus componentes, y poner a prueba sus conocimientos. explorar sus componentes, y poner a prueba tu Si esta es tu primera vez, por favor tome un momento para caminar a través de las características principales del escritorio virtual. Este tutorial está siempre disponible pulsando Ayuda en la esquina superior derecha.</text>
+</instructions>
+
+
+<!--
+=======================================
+ Accordian MenuNSTALACION DE UNIDAD OPTICA
+======================================= 
+-->
+<accordian id="  FUENTE DE ALIMENTACION" file="mcBOTTOMLAYER">
+	<text><br>Una fuente de alimentacion proporciona la tension necesaria para alimentar los circuitos electronicos que conforman el PC. <br>conecte la fuente de alimentacion a la caja.</text>
+	<text2><br>INSTALACION DE LA FUENTE DE ALIMENTACION<br><ul><li>Mueva la fuente de alimentacion al modelo 3d </li><li>Alinear los agujeros de la fuente de alimentacion con los agujeros del gabinete</li><li>Asegurar el suministro de alimentacion al gabinete con los tornillos apropiados</li></ul></text2>
+</accordian>
+<accordian id="  PLACA BASE"     file= "mcMOTHERBOARD">
+	<text><br>La placa base es la principal tarjeta de circuito impreso que conecta todos los componentes del equipo. <br>En la placa base, se trabajara con los siguientes componentes:<Br> <ul><li>CPU</li><li>Compuesto termico</li><li>CPU disipador de calor / ventilador</li><li>modulos RAM(2)</li><li>Placa base</li></ul></text>
+	<text2><br>INSTALAR CPU<uL><LI>Instalar el CPU en el modelo 3d.</li><li>Girar la CPU  hasta que se alinee con el perno 1 en el zocalo de la CPU.</li><li>Alinear las muescas de la CPU.</li><li>Coloque con cuidado la CPU en el zocalo</li><li>Cierre la placa  de la CPU y asegure  cerrando con la palanca.</li><li>Aplique una minima cantidad de compuesto termico en el chip de la CPU y  distribuya de forma equilibrada. (Nota: Compuesto termico solo es necesario cuando no se incluye en el disipador de calor Siga las instrucciones proporcionadas por el fabricante para obtener detalles de la aplicacion especifica.)</li><li>Alinee el disipador de calor / ventilador  a los agujeros en la placa base. </li><li>Coloque el disipador de calor / ventilador en el zocalo de la CPU con cuidado de no agarrar los cables del ventilador de la CPU.</li><li>Apriete el disipador de calor / ventilador  para asegurarlo en su lugar.</li><li>Conecte el disipador de calor en la placa base</li></ul>
+INSTALAR RAM<ul><li>Colocar la memoria RAM en el modelo 3d </li><li>Alinear el modulo de memoria RAM con las  muescas en la ranura y presione hacia abajo hasta que haga clic . </li><li>Asegurese de que las lenguetas laterales han cerrado el modulo de RAM y inspecione visualmente  los contactos </li><li>Repita el primer paso para instalar la memoria RAM numero 2.</li></ul>
+Instalar la placa base <ul><li>Mueva lentamente la placa en la caja,alinee los agujeros de los tornillos y los separadores.</li><li>Fije la placa a la caja usando los tornillos adecuados</li></ul><br><br></text2>
+</accordian>
+<accordian id="  ADAPTADOR DE TARJETAS" file="mcEXPANSIONCARDS">
+	<text><br>Adaptador de tarjetas se instalan en la placa base para dar funcionalidad a su computadora.<ul><li>una tarjeta de interfaz de red (NIC) es una tarjeta de adaptador para conectar el ordenador a una red.</li><li>una tarjeta de red inalambrica es una tarjeta de adaptador para conectar su ordenador a otro ordenador o un punto de acceso inalambrico con senales de radio.</li><li>un adaptador de video es una tarjeta de adaptador que envia datos a una pantalla de ordenador.</li></ul></text>
+	<text2><br>INSTALAR NIC<ul><li>Mueva el NIC al modelo 3d</li><li>Alinee la tarjeta a la ranura PCIe x1 en la placa base</li><li>Presione suavemente la tarjeta hasta que la tarjeta este completamente asentado. </li><li>Fije la tarjeta de PC a la caja con los tornillo.</li></ul><br>Instale Wireless NIC<ul><li>Mueva la tarjeta inalambrica hasta el modelo 3d. </li><li>Alinee la tarjeta de red inalambrica en la ranura PCI en la placa base</li><li>Presione suavemente la tarjeta inalambrica hasta que la tarjeta este completamente asentado</li><li>Fije la tarjeta de red inalambrica al soporte con los tornillo correspondientes. </li></ul><br>INSTALAR adaptador de video<ul><li>Mueva el adaptador de video al modelo 3d</li><li>Alinee el adaptador de video a la ranura PCIe x16 en la placa base</li><li>Presione suavemente en el adaptador de video hasta que la tarjeta este completamente asentado</li><li>Asegure el adaptador de video al soporte con su tornillos. </li></ul><br><br></text2>
+</accordian>
+<accordian id="  DISCOS INTERNOS" file="mcINTERNALDRIVES">
+	<text><br>La unidad de disco duro(HDD) es un disco magnetico que almacena grandes cantidades de datos en soportes fijos.<br><br>Instale el disco duro en el caso.</text>
+	<text2><br>INSTALACION DE UNIDAD DE DISCO DURO<ul><li>Mueva el disco duro hasta el modelo 3d</li><li>Coloque el disco  que se alinee con la bahia de 3.5 "</li><li>Inserte el disco duro en el compartimento de la unidad</li><li>Asegure la unidad de disco duro a la caja usando los tornillos apropiados.</li><li><br><br></text2>
+</accordian>
+<accordian id="  unidades en compartimientos externos" file="mcEXTERNALDRIVES">
+	<text><br>La unidad CD-RW/DVD es un dispositivo de almacenamiento optico que lee y escribe informacion en CD y lee DVD.<BR><BR>una unidad de disquete (FDD) es un disco magnetico que lee y escribe informacion en disquetes.<BR><BR>Instale la unidad de discos opticos y las FDD.</text>
+	<text2><br>INSTALACION DE UNIDAD OPTICA<uL><LI>Mueva la unidad optica al modelo 3d</LI><LI>Coloque la unidad optica  alinear con el 5,25” la bahia de disco</LI><LI>Inserte la unidad optica en el compartimento de la unidad</LI><LI>Asegure la unidad optica al gabinete con los tornillos apropiados.</LI></uL><BR>INSTALAR UNIDAD DE DISCO<uL><LI>Mueva el FDD al modelo 3d</LI><LI> posicione el FDD para que se alinee con la 3,5 “ la bahia de disco</LI><LI>Inserte el FDD en el compartimento de la unidad</LI><LI>Asegure la FDD a la caja usando los tornillos apropiados.</LI><uL><BR><BR>
+</text2>
+</accordian>
+<!--===============================-->
+<accordian id="  CABLES DE INTERIOR" file="mcINTERNALCABLES">
+
+<text><br>Conecte todos los cables internos de los componentes de equipo adecuado. Asegurese de hacer coincidir el pin 1 al pin 1 al conectar los cables a los dispositivos.<br><br>Conecte los cables a los dispositivos:<br><br><LI>20-pines ATX</LI><LI>4-pin de alimentacion auxiliar</LI><LI>de alimentacion SATA</LI><LI>Molex de alimentacion</LI><LI>Berg energia</LI><LI>Caso de alimentacion de ventilador</LI><LI>SATA</LI><LI>PATA</LI><LI>unidad de disquete</LI>
+</text>
+
+<text2><br>Conecte todos los cables internos:<br><br><LI>Alinear el ATX de 20 pines del cable de alimentacion a la toma de la placa base y presionar suavemente hacia abajo para asegurar la conexion.</LI><br><LI>Alinear los 4 pines conector de alimentacion auxiliar a la toma de corriente auxiliar en la placa base y presione suavemente hacia abajo para asegurar la conexion.</LI><br><LI>Conecte un cable de alimentacion SATA de alimentacion a la unidad de disco duro.</LI><br><LI>Conecte un cable de alimentacion Molex a la unidad optica.</LI><br><LI>Conecte un cable de alimentacion Berg de alimentacion a la unidad de disquete.</LI><br><LI>Alinear el cable de 3 pines caso de alimentacion del ventilador y presionar suavemente hacia abajo para asegurar a los pines del ventilador de casos sobre la placa base.</LI><br><LI>Alinear y conectar el cable SATA a la toma de la placa base. Alinee y conecte el otro extremo del cable de datos SATA al disco duro.</LI><br><LI>Alinear y conectar el cable PATA a la toma de la placa base. Alinee y conecte el otro extremo del cable de datos PATA a la unidad optica.</LI><br><LI>Alinee y conecte el cable de datos flexibles a la toma de la placa base.  Alinee y conecte el otro extremo del cable de datos disco a la unidad de disquete.</LI>
+</text2>
+</accordian>
+<!--===============================-->
+<accordian id="  CABLES EXTERNOS" file="mcEXTERNALCABLES">
+	<text><br>Para completar el ensamblaje de computadoras, fije los paneles y fijarlos a la caja usando los tornillos del panel. Ahora esta listo para conectar los cables externos a los puertos en la parte posterior de la computadora. <br><br>Conecte los cables a la computadora: <br><br><LI>Monitor</LI><LI>Teclado</LI><LI>Mouse</LI><LI>USB</LI><LI>Ethernet</LI><LI>Paralelo</LI><LI>Potencia(power)</LI>
+</text>
+	<text2><br>Antes de conectar los cables externos, debe conectar los paneles de casos y fijarlos con los tornillos en panel.<br><br>Nota: Conecte el cable de alimentacion despues de que todos los cables externos se unen otros.<br><br><LI>Alinear y conectar el cable del monitor al puerto de video del adaptador de video. Asegurelo apretando los tornillos en el conector.</LI><br><LI>Alinee y conecte el cable del teclado al puerto PS / 2. </LI><br><LI>Alinee y conecte el cable del mouse al puerto PS / 2.</LI><br><LI>Alinear y conectar el cable uSB al puerto.</LI><br><LI>Alinear y conectar el cable Ethernet al puerto. </LI><br><LI>Alinee y conecte el cable de alimentacion al puerto.</LI><br>
+	</text2>
+</accordian> 
+<!--
+=======================================
+ Devices
+======================================= 
+-->
+<thumb id="iPowerSupply" accessLevel="0">
+	<title></title>
+	<title2>Fuente</title2>
+	<smallImg>powerSupply.png</smallImg>
+	<largeImg>powerSupply.png</largeImg>
+	<explore>explorePowerSupply.swf</explore>
+</thumb> 
+
+<thumb id="iPowerSupplyScrews" accessLevel="1" linkTo="iPowerSupply">
+	<title>Tornillos </title>
+	<title2>Fuente</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iRAM1" accessLevel="0">
+	<title></title>
+	<title2>RAM 1</title2>
+	<smallImg>ram.png</smallImg>
+	<largeImg>ram.png</largeImg>
+	<explore>exploreRam.swf</explore>
+</thumb>
+
+<thumb id="iRAM2" accessLevel="0">
+	<title></title>
+	<title2>RAM 2</title2>
+	<smallImg>ram.png</smallImg>
+	<largeImg>ram.png</largeImg>
+	<explore>exploreRam.swf</explore>
+</thumb>
+
+<thumb id="iCPU" accessLevel="0">
+	<title></title>
+	<title2>CPU</title2>
+	<smallImg>cpu.png</smallImg>
+	<largeImg>cpu.png</largeImg>
+	<explore>exploreCPU.swf</explore>
+</thumb>
+
+<thumb id="iThermalGlue" accessLevel="1" linkTo="iCPU">
+	<title>Pasta</title>
+	<title2>Termica</title2>
+	<smallImg>thermalGlue.png</smallImg>
+	<largeImg>thermalGlue.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iHeatsink" accessLevel="2" linkTo="iThermalGlue">
+	<title>Disipador </title>
+	<title2>de calor</title2>
+	<smallImg>heatsink.png</smallImg>
+	<largeImg>heatsink.png</largeImg>
+	<explore>exploreHeatSink.swf</explore>
+</thumb>
+
+<thumb id="iMoboScrews" accessLevel="0">
+	<title>Tornillos</title>
+	<title2>Placa base</title2>
+	<smallImg>MBscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iMobo" accessLevel="0">
+	<title>Placa</title>
+	<title2> base</title2>
+	<smallImg>motherboard.png</smallImg>
+	<largeImg>motherboard.png</largeImg>
+	<explore>exploreMotherboard.swf</explore>
+</thumb>
+
+<thumb id="iNic" accessLevel="0">
+	<title>Tarjeta red</title>
+	<title2>(NIC)</title2>
+	<smallImg>nicCard.png</smallImg>
+	<largeImg>nicCard.png</largeImg>
+	<explore>exploreNicCard.swf</explore>
+</thumb> 
+
+<thumb id="iNicScrews" accessLevel="1" linkTo="iNic">
+	<title>Tarjeta red (NIC)</title>
+	<title2>Tornillos</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iWireless" accessLevel="0">
+	<title>Wi-fi</title>
+	<title2>NIC</title2>
+	<smallImg>wirelessCard.png</smallImg>
+	<largeImg>wirelessCard.png</largeImg>
+	<explore>exploreWirelessCard.swf</explore>
+</thumb>
+
+<thumb id="iWirelessScrews" accessLevel="1" linkTo="iWireless">
+	<title>Wi-fi</title>
+	<title2>NIC Tornillos</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iVideoCard" accessLevel="0">
+	<title>adaptador </title>
+	<title2>de video</title2>
+	<smallImg>videoCard.png</smallImg>
+	<largeImg>videoCard.png</largeImg>
+	<explore>exploreVideoCard.swf</explore>
+</thumb> 
+
+<thumb id="iVideoScrews" accessLevel="1" linkTo="iVideoCard">
+	<title>Adap.video</title>
+	<title2>Tornillos</title2>
+	<smallImg>cardscrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iHD" accessLevel="0">
+	<title>Disco Duro</title>
+	<title2>unidad(HDD)</title2>
+	<smallImg>hardDrive.png</smallImg>
+	<largeImg>hardDrive.png</largeImg>
+	<explore>exploreHarddrive.swf</explore>
+</thumb> 
+
+<thumb id="iHDScrews" accessLevel="1" linkTo="iHD">
+	<title>HDD</title>
+	<title2>Tornillos</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb> 
+
+<thumb id="iDvdDrive" accessLevel="0">
+	<title>unidad</title>
+	<title2>Optica</title2>
+	<smallImg>dvdDrive.png</smallImg>
+	<largeImg>dvdDrive.png</largeImg>
+	<explore>exploreDVD.swf</explore>
+</thumb> 
+
+<thumb id="iDvdScrews" accessLevel="1" linkTo="iDvdDrive">
+	<title>unidad Optica</title>
+	<title2>Tornillos</title2>
+	<smallImg>drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iFloppyDrive" accessLevel="0">
+	<title>unidad </title>
+	<title2>de disquete</title2>
+	<smallImg>floppyDrive.png</smallImg>
+	<largeImg>floppyDrive.png</largeImg>
+	<explore>exploreFloppy.swf</explore>
+</thumb>
+
+<thumb id="iFloppyScrews" accessLevel="1" linkTo="iFloppyDrive">
+	<title>unid.disquete</title>
+	<title2>Tornillos</title2>
+	<smallImg>Drivescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iPata1" accessLevel="0">
+	<title>PATA</title>
+	<title2>Cable</title2>
+	<smallImg>pata1.png</smallImg>
+	<largeImg>pata1.png</largeImg>
+	<explore>exploreParallelDVD.swf</explore>
+</thumb> 
+
+<thumb id="iPata2" accessLevel="0">
+	<title>Cables</title>
+	<title2>Disquete</title2>
+	<smallImg>pata2.png</smallImg>
+	<largeImg>pata2.png</largeImg>
+	<explore>exploreParallelFloppy.swf</explore>
+</thumb>
+
+<thumb id="iSata" accessLevel="0">
+	<title>SATA</title>
+	<title2>Cable</title2>
+	<smallImg>sata.png</smallImg>
+	<largeImg>sata.png</largeImg>
+	<explore>exploreSata.swf</explore>
+</thumb>
+
+<thumb id="iCasePanels" accessLevel="0">
+	<title></title>
+	<title2>Panel</title2>
+	<smallImg>panels.png</smallImg>
+	<largeImg>panels.png</largeImg>
+	<explore></explore>
+</thumb>
+
+<thumb id="iPanelScrews" accessLevel="1" linkTo="iCasePanels">
+	<title>Panel</title>
+	<title2>Tornillos</title2>
+	<smallImg>casescrews.png</smallImg>
+	<largeImg>cardscrews.png</largeImg>
+	<explore></explore>	
+</thumb>
+
+<thumb id="iMonitor" accessLevel="0">
+	<title>Cable</title>
+	<title2>Monitor</title2>
+	<smallImg>perimonitor.png</smallImg>
+	<largeImg>perimonitor.png</largeImg>
+	<explore>explorePeriMonitor.swf</explore>	
+</thumb>
+
+<thumb id="iKeyboard" accessLevel="0">
+	<title></title>
+	<title2>Teclado</title2>
+	<smallImg>perikeyboard.png</smallImg>
+	<largeImg>perikeyboard.png</largeImg>
+	<explore>explorePeriKeyboard.swf</explore>	
+</thumb>
+
+<thumb id="iMouse" accessLevel="0">
+	<title></title>
+	<title2>Mouse</title2>
+	<smallImg>perimouse.png</smallImg>
+	<largeImg>perimouse.png</largeImg>
+	<explore>explorePeriMouse.swf</explore>	
+</thumb>
+
+<thumb id="iuSB" accessLevel="0">
+	<title></title>
+	<title2>uSB</title2>
+	<smallImg>periusb.png</smallImg>
+	<largeImg>periusb.png</largeImg>
+	<explore>explorePeriuSB.swf</explore>	
+</thumb>
+
+<thumb id="iEthernet" accessLevel="0">
+	<title></title>
+	<title2>Ethernet</title2>
+	<smallImg>periethernet.png</smallImg>
+	<largeImg>periethernet.png</largeImg>
+	<explore>explorePeriEthernet.swf</explore>	
+</thumb>
+
+<thumb id="iAntenna" accessLevel="0">
+	<title>WI-FI</title>
+	<title2>Antenna</title2>
+	<smallImg>wirelessAntenna.png</smallImg>
+	<largeImg>wirelessAntenna.png</largeImg>
+	<explore></explore>	
+</thumb>
+
+<thumb id="iPowerCord" accessLevel="0">
+	<title>Cable de </title>
+	<title2>alimentacion</title2>
+	<smallImg>peripheralPower.png</smallImg>
+	<largeImg>peripheralPower.png</largeImg>
+	<explore>explorePeriPOWER.swf</explore>	
+</thumb>
+<!--
+=======================================
+Lessons
+======================================= 
+-->
+<lesson layer="1" file="PowerSupply.swf">
+	<modelName id="iPowerSupply" />
+	<modelName id="iPowerSupplyScrews" />
+</lesson>
+
+<lesson layer="2" file="Motherboard.swf">
+	<modelName id="iThermalGlue" />
+	<modelName id="iMoboScrews" />
+	<modelName id="iCPU" />
+	<modelName id="iHeatsink" />
+	<modelName id="iRAM1" />
+	<modelName id="iRAM2" />
+</lesson>
+
+<lesson layer="3" file="ExpansionCards.swf">
+	<modelName id="iWireless" />
+	<modelName id="iNic" />
+	<modelName id="iVideoCard" />
+	<modelName id="iVideoScrews" />
+	<modelName id="iWirelessScrews" />
+	<modelName id="iNicScrews" />
+</lesson>
+
+<lesson layer="4" file="InternalDrive.swf">
+	<modelName id="iHDScrews" />
+	<modelName id="iHD" />
+</lesson>
+
+<lesson layer="5" file="ExternalDrives.swf">
+	<modelName id="iDvdScrews" />
+	<modelName id="iFloppyScrews" />
+	<modelName id="iDvdDrive" />
+	<modelName id="iFloppyDrive" />
+</lesson>
+
+<lesson layer="6" file="InternalCables.swf">
+	<modelName id="iSata" />
+	<modelName id="iPata1" />
+	<modelName id="iPata2" />
+</lesson>
+
+<lesson layer="7" file="ExternalCables.swf">
+	<modelName id="iCasePanels" />
+	<modelName id="iPanelScrews" />
+	<modelName id="iAntenna" />
+	<modelName id="iMonitor" />
+	<modelName id="iuSB" />
+	<modelName id="iPowerCord" />
+	<modelName id="iParallel" />
+	<modelName id="iMouse" />
+	<modelName id="iKeyboard" />
+	<modelName id="iEthernet" />
+	<modelName id="iAudio" />
+</lesson>
+
+
+
+
+
