@@ -1,0 +1,60 @@
+Finales de Algoritmos y estructuras de datos
+De Emiliano Gonzalez, el miércoles, 21 de noviembre de 2012 a la(s) 20:29
+TEORIA
+ 
+ 
+Marzo 2010:
+1) Def. formal: paso, ideal derecho, grafo lineal y grafo básico.
+2) Explique ABM de una cola implementada en celdas de memoria.
+3) Defina: nivel, árbol AVL, árbol principal izquierdo.
+4) -
+5) -
+ 
+ 
+ 
+Diciembre 2010 - Primer llamado:
+1) De las definiciones formales de grafo lineal, paso y circuito.
+2) ¿Qué diferencias y similitudes hay entre una cola dinámica y una lista?
+3) ¿Un árbol es un grafo básico? ¿Y viceversa? Justifique.
+4) ¿Un grafo básico puede tener circuitos? Justifique.
+5) ¿Es posible que el grado de salida de un nodo de un árbol sea mayor o igual a dos? Justifique.
+6) Mencione las particularidades de los árboles B, tres como mínimo. 
+ 
+ 
+Diciembre 2011 - Primer llamado:
+1) definir los siguientes conceptos; Grafo lineal, Paso, Hipergrafo y grafo isomorfo.
+2)¿un grafo basico puede contener circuitos? justificar.
+3)Diferencias entre cola dinamica y lista simplemente enlazada.
+4)un arbol puede ser considerado un grafo? y viseversa? justificar.
+5)El conjunto izquierdo de un grafo >= 2 ,verdadero o falso?, justificar.
+6)definir arbol B y nombrar diferencias con un arbol binario.
+ 
+ 
+Diciembre 2011 - Segundo llamado:
+1)Definir los siguientes conceptos: grafo, camino y grafo básico.
+2)-
+3)Definir Cola Circular, explicar detalladamente su funcionamiento (altas/ bajas/ controles necesarios).
+4)Decir si la siguiente aseveración es verdadera o falsa. Justificar.Aseveración: “G es lineal      G es básico”.
+5)Diferencias entre una lista simplemente enlazada y una pila.
+6)Diferencias (estructurales y operativos) entre un arbol B y un arbol AVL
+ 
+ 
+ 
+Marzo 2012
+1) Defina formalmente los siguientes conceptos: Conjunto izquierdo, Maximal, Ideal Principal derecho, Subarbol, Hipergrafo
+2) ¿Que entiende por estructura de datos lineal? Describa detalladamente que estructuras de datos lineales conoce y cómo funcionan
+3) Describa qué diferencias y qué similitudes hay entre un árbol n-ario y un árbol B
+4) Una empresa tiene expresada (en papel) su estructura orgánica utilizando un organigrama. Indique detalladamente cómo implementaría computacionalmente dicha estructura.
+5) * habia que hacer La demostración nº 10 que está en el resumen de shumacher (Anexo)
+ 
+ 
+ 
+PRACTICA
+ 
+Marzo 2012
+1- Dada una lista doblemente enlazada. hacer un algoritmo que elimine un elemento (celda) de dicha lista. Se ingresa como dato el contenido de la celda a localizar y luego eliminar.
+2- En un árbol binario de búsqueda se almacena información de las personas participantes de un evento (nombre, domicilio, edad, dni y teléfono). El dni fue el dato elegido para organizar dicho árbol.Se pide: hacer un algoritmo que permita incorporar datos de nuevas personas que participen de levento
+3- Definir a nivel de funciones un algoritmo. Realice las siguientes tareas sobre un grafo irrestricto:
+3.a ingrese un dato
+3.b determine si el dato ingresado es el identificador (nodo-i) de una celda de nodo.
+3.c en caso de que 3.b sea verdadero, informe los identificadores de las celdas de nodos desde las que se puede llegar al nodo considerado (nodo-i)
