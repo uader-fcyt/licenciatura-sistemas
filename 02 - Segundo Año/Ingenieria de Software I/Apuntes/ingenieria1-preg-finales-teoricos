@@ -1,0 +1,69 @@
+Ing del software 1 - Parcial final
+
+1.- ¿que elementos permiten definir el alcance de un sistema? (NO ESTA)
+
+2.- si tenemos que llevar adelante un proyecto grande (gran cantidad de funcionalidades) y el usuario tiene urgencia en poder contar con resultados . ¿Que ciclo de vida utilizaria? (RESPUESTA = INCREMENTAL Y ESPIRAL)
+
+3.- ¿Que se entiende por abstraccion? (NO ESTA)
+
+6.- ¿Como podemos evaluar la independencia funcional entre modulos? (RESPUESTA = DOS MODULOS SON TOTALMENTE INDEPENDIENTES SI PUEDE FUNCIONAR UNO SIN EL OTRO. A MAYOR
+NUMERO DE INTERCONEXIONES ENTRE MODULOS TENDREMOS UNA MAYOR INDEPENDENCIA. EL ACOPLAMIENTO ES EL NOS INDICA EL GRADO DE DEPENDENCIA INTERMODULAR)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+11/02/2014
+
+proceso de diseño estructurado. (RESPUESTA = DEFINICION: DISEÑO ESTRUCTURADO ES EL PROCESO DE DEFINIR QUE COMPONENTES Y LA INTERCONEXION ENTRE LOS MISMOS PARA SOLUCIONAR UN PROBLEMA BIEN ESPECIFICADO.
+RESPUESTA = El costo de implementación de un sistema, se minimizara cuando pueda separarse en partes manejablemente
+pequeñas, y solucionables separadamente.
+El mantenimiento de un sistema, también se verá minimizado cuando sus partes son: fácilmente relacionables
+con la aplicación, manejablemente pequeñas y corregibles separadamente.
+Para minimizar los costos de mantenimiento debemos lograr que cada pieza sea independiente de otra
+(bajamente acopladas))
+cohesion y acoplamiento, niveles de cohesion , niveles de acoplamiento. (ESTA)
+-------------------------------------------------------------------------------------------------------------------------
+
+INGENIERIA DE SOFTWARE I - 15-09-2015 
+Alumno: 
+
+1. ¿Qué factores influyen a la hora de elegir un ciclo de vida para resolver un problema 
+dado? (ESTA)
+3. Cómo se evalúa la madurez de un proceso? 
+(NO ESTA)
+4. ¿Cuáles son las tareas o etapas fundamentales en el análisis de requisitos? (ESTA PAG 3)
+5. ¿El diseño estructurado garantiza, por sí sólo, la independencia funcional? Indique 
+cómo se mide la independencia funcional y explique en qué consisten estas métricas. (ESTA, NIVELES DE ACOPLAMIENTO)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+INGENIERA DE SOFTWARE I - 09-05-2018 
+Alumno: 
+
+1. Defina y explique el significado de refinamiento sucesivo. De un ejemplo (El refinamiento sucesivo es una primera estrategia de diseño descendente. Se desarrolla una jerarquía descomponiendo una declaración macroscópica de una función de una forma sucesiva, hasta que se llega a las sentencias del lenguaje de programación)
+2. Defina el Ciclo de Vida del Software. Justifique la importancia de este concepto y la 
+necesidad de su utilización. (VER PAG 1)
+4. Durante el transcurso de un proyecto de sistemas se ha tenido que implementar 
+repetidas veces de manera improvisada distintas funcionalidades que eran muy 
+similares entre sí, pero debido a la falta de tiempo se realizaron con el método de 
+copiar y pegar código, adaptando luego las particularidades de cada una. 
+
+- ¿Qué consecuencias puede acarrear esto? 
+
+- ¿Qué principios no fueron tenidos en cuenta? NIVELES DE COHESION
+
+- ¿En qué etapa debió haberse tenido en cuenta estos principios?ETAPAS DE DISEÑO (ESTA)
+6. Para evaluar la corrección de un sistema ¿qué tipo de prueba debería utilizarse, de 
+caja negra o de caja transparente? Razone la respuesta. (CAJA TRANSPARENTE)
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+PREGUNTAS QUE TIRO LA PROFE - 2018 (RESPUESTAS WORD AUDIO)
+
+1. Diferencia entre el ciclo de vida incremental y en cascada. Ventajas y desventajas.
+2. Desarrollar un ciclo de vida.
+3. Definir ingenieria de requerimientos, requerimientos funcional y no funcionales. Dar ejemplos.
+4. Concepto de modularidad y ocultamiento de la informacion.
+5. Definir el proceso de prueba, distintos niveles de prueba y los actores que actuan en ellas.
+6. Definir y distinguir validacion y verificacion.
+

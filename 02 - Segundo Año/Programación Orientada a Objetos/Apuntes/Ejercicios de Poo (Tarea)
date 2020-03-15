@@ -1,0 +1,25 @@
+   /*int Mcd;
+    Mcd=mcd(8,12);
+    cout<<Mcd<<endl;*/
+    //fraccion f1,f2,res,r2;
+    //cout<<"ingrese numerador"<<endl;
+    //cin>>f1.numer;
+    //cout<<"ingrese denominador"<<endl;
+    //cin>>f1.denom;
+    /*cout<<"ingrese numerador"<<endl;
+    cin>>f2.numer;
+    cout<<"ingrese denominador"<<endl;
+    cin>>f2.denom;*/
+      //res=suma_frac(f1,f2);
+     //res=resta_frac(f1,f2);
+    //res=mul_frac(f1,f2);
+    //res=div_frac(f1,f2);
+    //propia(f1);
+    //cout<<res.numer<<"/"<<res.denom<<endl;
+    //r2=simple_frac(res);
+    //cout<<r2.numer<<"/"<<r2.denom<<endl;
+    fraccion f1,f2;
+    f1.numer=2; f1.denom=4;
+    f2.numer=3; f2.denom=2;
+    bool res=equiv(f1,f2);
+    cout<<res<<endl;
