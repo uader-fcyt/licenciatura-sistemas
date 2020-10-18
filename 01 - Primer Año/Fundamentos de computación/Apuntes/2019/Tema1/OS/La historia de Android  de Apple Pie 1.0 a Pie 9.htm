@@ -1,0 +1,1473 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=8; IE=edge">
+  <meta charset="utf-8"/>
+  <title>La historia de Android: de Apple Pie 1.0 a Pie 9</title>
+  <meta name="description" content="Te invitamos a descubrir la historia de Android: de Apple Pie 1.0 a Android Pie 9, y a conocer los aspectos más importantes de Android y cada una de sus versiones desde su nacimiento"/>
+  <meta name="robots" content="all"/>
+  <link rel="shortcut icon" href="https://www.malavida.com/favicon.ico" type="image/x-icon"/>
+  <link rel="canonical" href="https://www.malavida.com/es/analisis/la-historia-de-android"/>
+  <link rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/malavida" title="RSS Artículos"/>
+  <script  type="text/javascript">var NSMalavida = NSMalavida || {};NSMalavida.cmd = NSMalavida.cmd || [];</script >
+  <script>
+    (function (d){
+      var js = d.createElement('script');
+      js.async = true;    
+      js.type = 'text/javascript';
+      js.src = 'https://www.malavida.com/es/js/v23/visits-malavida.js';
+      js.onload = function(){Malavida.addVisit({"id":51254612,"type":"posts","url":"http:\/\/www.malavida.com\/es\/analisis\/la-historia-de-android","random":1717040980});};
+      d.head.appendChild(js);
+    }(document));
+  </script>
+
+                      <script type="application/ld+json">
+                        {
+                          "@context": "http://schema.org",
+                          "@type": "Article",
+                          "mainEntityOfPage":{
+                            "@type":"WebPage",
+                            "@id":"https://www.malavida.com/es/analisis/la-historia-de-android"
+                          },
+                          "headline": "La historia de Android: de Apple Pie 1.0 a Pie 9",
+                          "image": {
+                            "@type": "ImageObject",
+                            "url": "https://imag.malavida.com/articulos-big/normal-size/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-50.jpg",
+                            "height": 532,
+                            "width": 800
+                          },
+                          "datePublished": "2017-08-21T12:17:00+02:00",
+                          "dateModified": "2019-05-02T10:00:49+02:00",
+                          "author": {
+                            "@type": "Person",
+                            "name": "Héctor Hernández"
+                          },
+                           "publisher": {
+                            "@type": "Organization",
+                            "name": "Malavida",
+                            "logo": {
+                              "@type": "ImageObject",
+                              "url": "https://static.malavida.com/global/imag/malavida_logo.png",
+                              "width": 150,
+                              "height": 50
+                            }
+                          },
+                          "description": "Te invitamos a descubrir la historia de Android: de Apple Pie 1.0 a Android Pie 9, y a conocer los aspectos más importantes de Android y cada una de sus versiones desde su nacimiento"
+                        }    
+                      </script>
+  <meta property="og:title" content="La historia de Android: de Apple Pie 1.0 a Pie 9"/>
+  <meta property="og:url" content="https://www.malavida.com/es/analisis/la-historia-de-android"/>
+  <meta property="og:image" content="https://imag.malavida.com/articulos-big/normal-size/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-50.jpg"/>
+  <meta property="og:description" content="Te invitamos a descubrir la historia de Android: de Apple Pie 1.0 a Android Pie 9, y a conocer los aspectos más importantes de Android y cada una de sus versiones desde su nacimiento"/>
+  <meta property="og:type" content="article"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="La historia de Android: de Apple Pie 1.0 a Pie 9"/>
+  <meta name="twitter:url" content="https://www.malavida.com/es/analisis/la-historia-de-android"/>
+  <meta name="twitter:image" content="https://imag.malavida.com/articulos-big/normal-size/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-50.jpg"/>
+  <meta name="twitter:description" content="Te invitamos a descubrir la historia de Android: de Apple Pie 1.0 a Android Pie 9, y a conocer los aspectos más importantes de Android y cada una de sus versiones desde su nacimiento"/>    <meta name="viewport" content="width = device-width, maximum-scale=5.0, initial-scale=1.0"/>
+<script>
+            var checkEeu = {
+                isEeu: false,
+                hasCookie: false,
+                isRequested: false,
+                cookieName: 'cookie-warning-v2',
+                getCookie: function(name){
+                    let cookieName = name + '=';
+                    let ca = document.cookie.split(';');
+                    for(let i = 0; i < ca.length; i++) {
+                        let c = ca[i];
+                        while (c.charAt(0) === ' ') {
+                            c = c.substring(1);
+                        }
+                        if (c.indexOf(cookieName) === 0) {
+                            return c.substring(cookieName.length, c.length);
+                        }
+                    }
+                    return '';
+                },
+                createRequest: function(vURL, vMethod, typeRespond){
+                    let ajax = new XMLHttpRequest();
+                    if(ajax.overrideMimeType){
+                        ajax.overrideMimeType(typeRespond);
+                    }
+                    ajax.withCredentials = true;
+                    if (vMethod == null){
+                        vMethod = 'POST';
+                    }
+                    ajax.open(vMethod, vURL, true);
+                    if (vMethod === 'POST'){
+                        ajax.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                    }
+                    return ajax;
+                },
+                execute: function(){
+                    if(this.getCookie(this.cookieName) !== '1'){
+                        let request = this.createRequest('https://actions.malavida.com/check-eeu', 'POST', 'text/json');
+                        request.responseType = 'json';
+                        request.addEventListener('load', function() {
+                            checkEeu.isEeu = this.response.isEeu;
+                            checkEeu.hasCookie = false;
+                            checkEeu.isRequested = true;
+                        });
+                        request.send();
+                    } else {
+                        this.hasCookie = true;
+                        this.isRequested = true;
+                    }
+                }
+            };
+            checkEeu.execute();
+        </script>
+    <style type="text/css">@charset "UTF-8";@font-face{font-family:mvfont;src:url(https://static.malavida.com/global/css_V29/fonts/mvfont.woff2) format("woff2"),url(https://static.malavida.com/global/css_V29/fonts/mvfont.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Open Sans';src:url(https://static.malavida.com/global/css/fonts/opensans.woff2) format("woff2"),url(https://static.malavida.com/global/css/fonts/opensans.woff) format("woff");font-weight:400;font-style:normal;font-display:block}@font-face{font-family:'Open Sans';src:url(https://static.malavida.com/global/css/fonts/opensans_bold.woff2) format("woff2"),url(https://static.malavida.com/global/css/fonts/opensans_bold.woff) format("woff");font-weight:700;font-style:normal;font-display:block}#Footer .footer-logo .mvlogo{width:150px;height:50px;background-color:#35548f;top:5px;left:10px;position:relative}header,main,nav,section{display:block}h1{font-size:100%;font-weight:700;margin:0;padding:0}@media (min-width:320px) and (max-width:1023px){.articles .entry-header .entry-title{margin-top:10px}.articles .entry-header .entry-authordate{text-align:left}.articles .entry-content{padding:0 20px}}@media (min-width:320px) and (max-width:599px){#Footer .footer-logo .mvlogo{display:none}.articles{display:block;width:100%;min-width:320px;padding:50px 0 0}.articles .entry{width:100%;margin-top:0;margin-bottom:20px}.articles .entry-header .entry-title{font-size:32px;line-height:32px}.articles .entry-header .entry-social a{overflow:hidden;width:50px;height:50px;text-align:center}.articles .entry-header .entry-social a:before{font-size:24px;line-height:50px;width:50px;height:50px}.articles .entry-header .entry-tags{margin-bottom:10px}.articles .entry-header .entry-authordate .date{display:inline}.articles .entry .entry-content{padding:0 20px}.articles .entry.full-width .entry-content{padding:0 20px}.publisubtitle{min-height:inherit}}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,header,main,nav,section{display:block}a{background-color:transparent}h1{font-size:2em;margin:.67em 0}small{font-size:80%}img{border:0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button,input[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}#Sidebar .sidebox>.title,section>.title{background:#d9dde1}.facebook{background-color:#3b5998}.twitter{background-color:#55acee}.bg-facebook{background-color:#3b5998}.bg-googleplus{background-color:#dd4b39}.bg-twitter{background-color:#55acee}.bg-meneame{background-color:#ff6400}.bg-whatsapp{background-color:#34af23}html{box-sizing:border-box;height:100%}*,:after,:before{box-sizing:inherit}body{font:100% Trebuchet MS,Helvetica,Arial,sans-serif;counter-reset:top-list 0;counter-reset:answer 0;text-align:center;color:#555;background-color:#eee;-webkit-text-size-adjust:100%}body #Web.jp{letter-spacing:-1px}img{max-width:100%;height:auto}ol,ul{margin:0;padding:0;list-style:none}ol li{position:relative;margin-bottom:10px;padding:0 0 0 40px;counter-increment:top 1}ol li:before{width:25px;content:counter(top,decimal) ".";text-align:right;top:0;left:0;position:absolute}h1,h6{font-size:100%;font-weight:700;margin:0;padding:0}a{text-decoration:none;color:#35548f}strong{font-weight:700}.hide{z-index:-1;display:none;max-height:0;opacity:0}.fl_flip_button:before,[class*=mvicon-]::before{font-family:mvfont;font-weight:400;font-style:normal;font-variant:normal;line-height:1;text-transform:none;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.mvicon-android:before{content:"\e601"}.mvicon-blog:before{content:"\e603"}.mvicon-iphone:before{content:"\e606"}.mvicon-linux:before{content:"\e608"}.mvicon-mac:before{content:"\e60a"}.mvicon-webapp:before{content:"\e60c"}.mvicon-windows:before{content:"\e60d"}.mvicon-search:before{content:"\e631"}.mvicon-email:before{content:"\e63a"}.mvicon-facebook:before{content:"\e63b"}.fl_flip_button:before{content:"\e63e"}.mvicon-googleplus:before{content:"\e63f"}.mvicon-meneame:before{content:"\e641"}.mvicon-share:before{content:"\e643"}.mvicon-twitter:before{content:"\e644"}.mvicon-whatsapp:before{content:"\e646"}.mvicon-close:before{content:"\e64b"}.mvicon-user:before{content:"\e658"}div[id*=div-gpt]{font-size:0}div[id*=div-gpt]>div{margin-bottom:10px}.publisubtitle{clear:both;margin:0 auto;text-align:center;font-size:0}.sidebanner{font-size:0;float:left;width:100%;text-align:center}.breadcrumb{font:bold 13px/20px arial,sans-serif;float:left;width:1200px;padding:0 10px;color:#35548f;top:-25px;left:0;position:absolute}.breadcrumb ol li{font-weight:700;line-height:14px;display:inline;padding:0}.breadcrumb ol li:first-child::before{display:none}.breadcrumb ol li::before{font-size:14px;font-weight:700;position:relative;top:1px;left:0;margin-right:2px;content:'>';color:#35548f}@media (min-width:320px) and (max-width:1199px){.breadcrumb{width:100vw}}.sidebox.best{margin:0;box-shadow:none}.sidebox.best>.title{position:relative;margin:0 0 10px;padding:0;border:none;background-color:transparent!important}.sidebox.best>.title:after{bottom:50%;left:0;position:absolute;display:block;width:100%;height:1px;margin-bottom:-1px;content:'';box-shadow:0 -1px #d9dde1 inset}.sidebox.best>.title span{font-family:'Open Sans',sans-serif;font-size:20px;font-weight:400;position:relative;z-index:1;display:inline-block;padding:10px;text-transform:uppercase;background-color:#fff}.sidebox.best article{position:relative;float:left;width:100%;margin:0 0 10px;padding:0 10px;list-style:none}.sidebox.best article a{font-weight:700;position:relative;z-index:5;bottom:0;display:block;float:left;overflow:hidden;width:100%;height:180px;padding:0;color:#fff;background-color:#fff;box-shadow:0 1px 1px #d8d8d8}.sidebox.best article a img{display:block;width:100%;opacity:.9;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.sidebox.best article .header{bottom:0;left:0;position:absolute;width:100%}.sidebox.best article .title{font-size:1em;font-weight:700;line-height:20px;position:relative;z-index:10;float:left;width:100%;margin:0;text-align:left;border:none;background-color:rgba(255,255,255,.9);text-shadow:none}.sidebox.best article .category{right:0;bottom:100%;position:absolute;font-family:arial;font-size:10px;font-weight:700;line-height:20px;z-index:1;padding:0 5px;text-transform:uppercase;color:#fff;background-color:rgba(129,156,207,.75)}@media (min-width:320px) and (max-width:999px){.sidebox.best{padding:10px}.sidebox.best article{margin-bottom:20px}.sidebox.best article a{height:160px}}@media (min-width:600px) and (max-width:767px){#Footer .footer-logo .mvlogo{display:none}.publisubtitle{min-height:inherit}.sidebanner{min-height:inherit}.breadcrumb{line-height:16px;position:relative;padding-bottom:5px;top:0}.sidebox.best article{width:50%}}@media (min-width:768px) and (max-width:999px){#Footer .footer-logo .mvlogo{display:none}.sidebox.best article{width:33.3333%}.sidebox.best article a{height:140px}.has-recommended-2 .sidebox.best{text-align:center}.has-recommended-2 .sidebox.best article{display:inline-block;float:none;margin:0 auto 10px}}@media (min-width:1000px) and (max-width:1023px){.sidebox.best article{width:33.3333%}.sidebox.best article a{height:140px}.has-recommended-2 .sidebox.best{text-align:center}.has-recommended-2 .sidebox.best article{display:inline-block;float:none;margin:0 auto 10px}}.notification.cookie{bottom:0;left:50%;position:fixed;font-size:16px;font-style:normal;line-height:16px;z-index:100;display:table;width:100%;max-width:1200px;min-height:40px;padding:10px 120px 10px 10px;transform:translateX(-50%);text-align:left;opacity:1;color:#eee;background-color:#35548f}.notification.cookie.hide{display:none}.notification.cookie a{text-decoration:underline;color:#fff}.notification.cookie button{right:10px;bottom:50%;position:absolute;font-weight:700;width:100px;padding:8px 10px;transform:translateY(50%);text-decoration:none;color:#fff;border:none;border-radius:1px;background-color:#819ccf}@media (min-width:320px) and (max-width:999px){.notification.cookie{left:0;width:100%;margin:0;transform:none}.notification.cookie a{white-space:pre}}@media (min-width:320px) and (max-width:599px){.sidebanner{min-height:inherit}.breadcrumb{position:relative;padding-bottom:5px;top:0}.breadcrumb ol li{line-height:20px}.notification.cookie{font-size:13px;padding:5px}.notification.cookie button{position:static;float:right;margin:5px 10px 10px;transform:none}}input[type=submit]{font:bold 14px/20px trebuchet ms}input[type=text]{padding:10px;border:none;box-shadow:0 0 0 1px #ccc}input{border-radius:0;-webkit-appearance:none}.notification{font-size:14px;font-style:italic;clear:both;max-height:0;text-align:center;opacity:0}.scroll-social{top:0;right:50%;position:fixed;z-index:100;display:block;width:80px;max-height:100%;transform:translateX(-600px);opacity:1;background-color:#fff}.scroll-social .total-shares{font-family:arial;font-size:10px;height:80px;padding:10px 0;text-align:center;text-transform:uppercase;color:#81909f}.scroll-social .total-shares .number{font-size:30px;font-weight:700;line-height:35px;display:block;letter-spacing:-2px}.scroll-social .total-shares small{font-size:10px;position:relative;top:0}.scroll-social .social-box a{font-family:arial;font-size:0;font-weight:700;line-height:80px;position:relative;display:block;float:left;width:80px;height:80px;text-align:center;color:#fff}.scroll-social .social-box a:before{font-size:40px;line-height:80px;position:absolute;top:0;left:0;display:block;width:100%;height:80px;margin:0;text-align:center;background:0 0}.scroll-social .social-box .fl_flip_button{font-family:'Helvetica Neue',Helvetica,sans-serif;font-size:10px!important;font-weight:500;line-height:80px!important;position:relative!important;display:inline-block!important;box-sizing:content-box!important;height:80px!important;padding-right:0!important;text-decoration:none!important;text-indent:-999999px!important;color:#fff!important;border:0 solid #ccc!important;border-radius:0!important;background:#c10000!important}.scroll-social .social-box .fl_flip_button::before{text-indent:0!important}.scroll-social .social-box .fl_flip_button::after{font-size:10px;font-weight:700;position:absolute;z-index:1;top:0;left:0;display:block;width:100%;content:'AÑÁDELO';-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);text-indent:0!important;text-transform:uppercase}.scroll-social button{font-size:24px;line-height:55px;display:none;width:50px;height:50px;padding:0;text-align:center;color:#819ccf;border:none;background:0 0}.scroll-social .claim,.scroll-social .close,.scroll-social .share{display:none}.scroll-social.hide{display:none}@media (min-width:320px) and (max-width:599px){.notification{font-size:12px}.scroll-social{top:inherit;right:0;bottom:90px;width:auto;margin:0;transform:none;opacity:1;border-radius:50px 0 0 50px;background-color:#fff;box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}.scroll-social button{font-size:16px;line-height:40px;display:block;float:right;width:40px;height:30px;padding:0;text-align:center;color:#35548f;border:none;background:0 0}.scroll-social button.share::after{position:absolute;top:0;right:50px;display:block;width:70px;height:50px;content:''}.scroll-social .social-box{top:50%;left:50%;position:absolute;display:block;width:180px;margin:-100px 0 0 -90px}.scroll-social .claim{font-family:Open-sans,sans-serif;font-size:12px;font-weight:700;line-height:35px;float:left;padding:0 0 0 15px;text-transform:uppercase;color:#819ccf}.scroll-social .total-shares{font-size:0;float:left;width:60px;height:50px;padding:0;color:#819ccf}.scroll-social .total-shares .number{font-size:22px;line-height:50px;text-indent:0}.scroll-social .total-shares small{display:none}.scroll-social .claim,.scroll-social .share{display:block}.scroll-social .close,.scroll-social .social-box .fl_flip_button,.scroll-social .social-box a{display:none!important}.scroll-social .social-box{transform:scale(0);opacity:0}}@media (min-width:600px) and (max-width:767px){.scroll-social{top:inherit;bottom:0;left:0;display:block;overflow:hidden;width:100%;height:80px;margin:0;transform:none}.scroll-social .total-shares{float:left;width:15%;padding:10px 0}.scroll-social .social-box{display:block;float:left;width:85%}.scroll-social .social-box a{line-height:80px;display:block!important;width:16.667%;height:80px}.scroll-social .social-box a.fl_flip_button{display:block!important}.scroll-social .total-shares.hide+.claim+.social-box{display:block;width:100%}.scroll-social .total-shares.hide+.claim+.social-box a{display:block!important}}@media (min-width:768px) and (max-width:1384px){.scroll-social{top:inherit;bottom:0;left:0;display:block;overflow:hidden;width:100%;height:80px;margin:0;transform:none}.scroll-social .total-shares{float:left;width:15%;padding:10px 0}.scroll-social .social-box{display:block;float:left;width:85%}.scroll-social .social-box a{line-height:80px;display:block!important;width:16.667%;height:80px}.scroll-social .social-box a.fl_flip_button{display:block!important}.scroll-social .total-shares.hide+.claim+.social-box{display:block;width:100%}.scroll-social .total-shares.hide+.claim+.social-box a{display:block!important}}.title{font-size:18px;font-weight:700;line-height:18px;position:relative;float:left;width:100%;padding:10px;color:#35548f;border-top:3px solid #35548f;border-bottom:1px solid #bbb;background:#d9dde1;text-shadow:0 1px 0 #fff}.articles .entry.full-width{width:100%}.articles .entry.full-width .entry-content{padding:0 20px}.articles .entry.full-width .entry-content>div>iframe{width:100%}.articles .entry.full-width .entry-content .player-video{max-width:960px;margin:0 auto}.articles .entry-header{font-family:'Open Sans',sans-serif;font-weight:400;position:relative;display:block;float:left;width:100%;margin-bottom:20px;padding:0 20px}.articles .entry-header .entry-title{font-size:48px;line-height:48px;width:100%;margin-top:20px;margin-bottom:20px}.articles .entry-header .entry-description{font-size:18px;font-weight:400;display:block;margin-bottom:10px;color:#5a5a5a}.articles .entry-header .entry-social{position:relative;display:inline-block;vertical-align:middle}.articles .entry-header .entry-social a{font-size:14px;line-height:30px;position:relative;z-index:1;display:inline-block;overflow:hidden;width:110px;height:30px;margin-right:5px;padding-right:10px;text-align:center;color:#fff;border-radius:2px}.articles .entry-header .entry-social a:before{font-size:16px;line-height:30px;display:inline-block;width:30px;height:30px;vertical-align:middle}.articles .entry-header .entry-social a.email{background-color:#81909f}.articles .entry-header .entry-authordate{font-size:14px;display:inline;text-align:center}.articles .entry-header .entry-authordate .author,.articles .entry-header .entry-authordate .date{line-height:20px;display:inline-block;color:#aaa}.articles .entry-header .entry-authordate .date strong{font-weight:400;color:#333}.articles .entry-header .entry-authordate .author a{font-weight:700}.articles .entry-header .entry-authordate .author{margin-right:5px}.articles .entry-header .entry-meta{font-size:14px;position:relative;display:inline-block;text-align:center;color:#aaa}.articles .entry-header .entry-meta a{font-weight:700}.articles .entry-header .entry-meta .category a{color:#819ccf}.articles .entry-header .entry-tags{display:inline-block}.articles .entry-header .entry-tags a{font-family:arial,sans-serif;font-size:11px;display:inline-block;margin-right:5px;padding:5px 10px;text-transform:uppercase;color:#81909f;border-radius:2px;background-color:#e4e6e9}.articles .entry-header .entry-tags a:before{font-weight:700;position:relative;display:inline;content:'# ';text-align:center}.articles .entry-content{font-family:'Open Sans',sans-serif;float:left;width:100%;padding:0 20px;padding-right:380px;background-color:#fff}.articles .entry-content .entry-photo{margin-bottom:20px;text-align:center}.articles .entry-content .player-video{position:relative;width:100%;height:0;margin-bottom:10px;padding-top:25px;padding-bottom:56.25%}.articles .entry-content .player-video iframe{top:0;left:0;position:absolute;width:100%;height:100%}.articles .rel-profile.articles{margin:0;padding-top:10px;background-color:transparent;box-shadow:none}.articles .rel-profile.comment{margin-bottom:0}@media (min-width:320px) and (max-width:1023px){.articles .entry-header .entry-title{margin-top:10px}.articles .entry-header .entry-authordate{text-align:left}.articles .entry.full-width .entry-content .player-video{width:auto}.articles .entry-content{padding:0 20px}.articles .post .sidebar{position:static;margin:0}}@media (min-width:768px) and (max-width:1023px){.articles .entry-header .entry-tags{margin-bottom:10px}.articles .entry .entry-content{padding:0 20px}.articles .entry.full-width .entry-content{padding:0 20px}.articles .sidebar{width:100%;max-width:inherit;padding:0}}#Web{position:relative;z-index:auto;display:inline-block;width:100%;max-width:1200px;margin:0 auto;background-color:#fff;text-align:left}#MainContent{position:relative;z-index:5;float:left;width:100%;margin-top:20px}main{float:left;width:calc(100% - 380px)}.articles main{position:relative;width:100%}@media (min-width:320px) and (max-width:999px){#Web{max-width:100vw}main{width:100%}}@media (min-width:320px) and (max-width:599px){.articles{display:block;width:100%;min-width:320px;padding:50px 0 0}.articles .entry{width:100%;margin-top:0;margin-bottom:20px}.articles .entry-header .entry-title{font-size:32px;line-height:32px}.articles .entry-header .entry-social a{overflow:hidden;width:50px;height:50px;text-align:center}.articles .entry-header .entry-social a:before{font-size:24px;line-height:50px;width:50px;height:50px}.articles .entry-header .entry-tags{margin-bottom:10px}.articles .entry-header .entry-authordate .date{display:inline}.articles .entry .entry-content{padding:0 20px}.articles .entry .entry-content iframe{width:100%!important}.articles .entry.full-width .entry-content{padding:0 20px}#Web{padding:60px 0 0}#MainContent{margin:0}}@media (min-width:1000px) and (max-width:1199px){main{width:calc(100% - 360px)}}#Header{position:relative;float:left;width:100%;height:100px;margin-bottom:10px;background:#d9dde1;box-shadow:0 3px 0 #35548f inset}#Header .logomv{z-index:10;width:150px;height:100px;opacity:1;background:url(https://static.malavida.com/global/css/img/malavida_top.svg) center center no-repeat #35548f;-moz-background-size:100% 100%;background-size:100% 100%;top:0;left:0;position:absolute;-ms-background-size:100% 100%}#Header .logomv img{display:none}#Header .show-menunav{display:none;width:40px;height:30px;top:10px;right:50px;position:absolute}#Header .show-menunav::after{font-family:mvfont;font-size:22px;font-weight:400;font-style:normal;font-variant:normal;text-indent:0;text-transform:none;color:#eee;top:4px;left:4px;position:absolute;speak:none}#Header .menunav{float:left;width:calc(100% - 50px);height:50px;padding-left:150px}#Header ul{position:relative;z-index:1;top:0;left:0;float:left;width:100%;height:45px}#Header ul li{position:relative;float:left;width:14.28%;height:45px;margin:0;list-style:none;text-align:center}#Header ul li a{font-size:14px;font-weight:700;line-height:32px;position:relative;display:inline-block;height:32px;margin:10px 0 0;padding:0 0 0 32px;text-decoration:none;color:#81909f}#Header ul li a::before{font-size:21px;line-height:32px;position:absolute;left:0;width:32px;height:32px;text-indent:0}.jp #Header ul li a{letter-spacing:0}#Header ul li.selected{box-shadow:0 3px 0 #ff7705 inset}#Header ul li.selected a{text-decoration:none;color:#ff7705}#Header .show-form-search{position:absolute;top:12px;right:13px;display:none;width:32px;height:32px}#Header .form-search{position:absolute;z-index:1;bottom:10px;display:block;width:100%;height:35px;padding:0 10px 0 160px}#Header .form-search.mvicon-search::before{z-index:1;color:#35548f;top:10px;right:20px;position:absolute}#Header .form-search .form_txt{font:bold 14px/20px Trebuchet MS,Tahoma,Helvetica;float:left;width:100%;height:35px;margin:0;padding:0 40px 0 5px;color:#35548f;border:none}#Header .form-search .submit{z-index:2;display:block;width:35px;height:35px;padding:0;text-indent:-99999px;border:none;background:0 0;box-shadow:none;top:0;right:10px;position:absolute}#Header .login-user{font-weight:700;line-height:30px;display:block;width:40px;height:30px;text-align:center;text-align:right;color:#81909f;box-shadow:1px 0 0 rgba(0,0,0,.1) inset;top:10px;right:10px;position:absolute}#Header .login-user:before{font-size:21px;line-height:32px;display:block;width:50px;height:32px;text-align:center;top:0;left:0;position:absolute}.is-logged #Header .login-user:before{display:none}@media (min-width:320px) and (max-width:599px){#Header{position:fixed;z-index:2147483647;top:0;display:block;overflow:visible;width:100%;height:50px;margin:0;background:#35548f;box-shadow:0 3px 0 0 #ff7705}#Header .logomv{float:left;width:150px;height:50px;background:0 0}#Header .logomv img{display:block}#Header .show-menunav{top:0;right:100px;position:absolute;display:block;width:50px;height:50px;max-height:inherit;padding:10px;opacity:.5}#Header .show-menunav::before{font-size:24px;line-height:50px;width:50px;height:50px;text-align:center;color:#eee;top:0;left:0;position:absolute}#Header .show-menunav::after{font-size:10px;line-height:18px;top:15px;left:-10px;position:absolute;display:block;width:20px;height:20px;content:'\e649';text-align:center;color:#eee}#Header .show-menunav.hide{opacity:1}#Header .show-menunav.hide::after{-ms-transform:rotate(180deg);transform:rotate(180deg);-ms-transform-origin:center center 0;transform-origin:center center 0}#Header .show-menunav.hide+.menunav{display:none}#Header .menunav{position:absolute;z-index:10;top:53px;left:0;display:block;overflow:hidden;width:100%;min-height:160px;max-height:160px;padding:0}#Header .menunav ul{position:static;top:inherit;float:left;height:auto;background:#35548f}#Header .menunav ul li{width:50%;height:auto;margin:0;border:none;box-shadow:1px 1px 0 0 rgba(255,255,255,.25)}#Header .menunav ul li:first-child{border:none}#Header .menunav ul li a{font-size:16px;line-height:24px;display:block;float:left;width:100%;height:40px;margin:0;padding:10px 10px 10px 40px;text-align:left;text-indent:0;color:#fff!important;text-shadow:none}#Header .menunav ul li a::before{top:5px;left:5px}#Header .menunav ul li.selected{top:0;background:0 0}#Header .menunav ul li.selected::after,#Header .menunav ul li.selected::before{display:none}#Header .show-form-search{display:block;width:50px;height:50px;max-height:inherit;padding:10px;opacity:.5;top:0;right:50px;position:absolute}#Header .show-form-search::before{font-size:24px;line-height:50px;width:50px;height:50px;text-align:center;color:#eee;top:0;left:0;position:absolute}#Header .show-form-search.hide{opacity:1}#Header .show-form-search.hide+.form-search{display:none}#Header .form-search{z-index:10;width:100%;height:60px;padding:10px;background:#35548f;top:53px;left:0;position:absolute}#Header .form-search .form_txt{display:block;width:100%;height:40px;padding:0 40px 0 5px}#Header .form-search .submit{top:10px;right:10px;display:block;width:40px;height:40px}#Header .form-search.mvicon-search::before{font-family:mvfont;font-size:24px;line-height:40px;position:absolute;right:10px;display:block;width:40px;height:40px;content:'\e631';text-align:center;color:#35548f}#Header .login-user{display:block;width:50px;height:50px;max-height:inherit;padding:10px;color:#fff;box-shadow:none;top:0;right:0;position:absolute}#Header .login-user::before{font-size:24px;line-height:50px;width:50px;height:50px;text-align:center;color:#eee;top:0;left:0;position:absolute}}@media (min-width:600px) and (max-width:767px){.articles .entry{width:100%}.articles .entry-header .entry-tags{margin-bottom:10px}.articles .entry .entry-content{padding:0 20px}.articles .entry.full-width .entry-content{padding:0 20px}#Web{width:100%;min-width:600px}#Web.articles #MainContent{margin-top:0}#Header{display:table;width:100%}#Header .menunav ul li a{text-indent:-99999px}#Header .menunav ul li.selected:after,#Header .menunav ul li.selected:before{display:none}#Header .form-search{margin:0;padding:0 10px 0 160px}#Header .show-form-search{display:none}}.sidebar{float:right;width:340px;margin-bottom:20px}.articles .post .sidebar{top:0;right:0;position:absolute}.sidebar .sidebox{position:relative;float:left;width:100%;margin-bottom:10px;box-shadow:0 0 0 1px #eee inset}.articles .sidebar .sidebox{box-shadow:none}.sidebar .sidebox>.title{font-size:1em;font-weight:700;line-height:20px;position:relative;z-index:10;float:left;width:100%;padding:10px;text-align:center;color:#35548f;border-top:3px solid #35548f;border-bottom:1px solid #bbb;box-shadow:none;text-shadow:0 1px #fff}.sidebar .sidebox.best>.title{border:none}@media (min-width:320px) and (max-width:1023px){.sidebar{margin:0}.articles .post .sidebar{position:static}}@media (min-width:320px) and (max-width:599px){.sidebar{width:100%;max-width:inherit;padding:0}}@media (min-width:600px) and (max-width:767px){.sidebar{width:100%;max-width:inherit;padding:0}}@media (min-width:768px) and (max-width:999px){#Header{display:table;width:100%}#Header .logomv{position:absolute;z-index:10;display:block;float:none;width:150px;height:100px;background:url(https://static.malavida.com/global/css/img/malavida_top.svg) center center no-repeat #35548f;-moz-background-size:100% 100%;background-size:100% 100%;-ms-background-size:100% 100%}#Header .menunav ul li a{text-indent:-999999px}#Header .menunav ul li.selected:after,#Header .menunav ul li.selected:before{display:none}#Header .form-search{padding:0 10px 0 160px}#Header .show-form-search{display:none}.sidebar{width:100%}.articles .sidebar{width:100%;max-width:inherit;padding:0}}</style>
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="https://static.malavida.com/global/css_V84/cms-article.css">
+    </noscript>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        document.createElement("nav");
+        document.createElement("header");
+        document.createElement("main");
+        document.createElement("footer");
+        document.createElement("section");
+        document.createElement("article");
+        document.createElement("aside");
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://static.malavida.com/es/css/main_ie_V49.css">
+    <![endif]-->
+
+<script type="text/javascript">var gExecuteOnLoad = new Array();
+var gJsToLoad = 0;
+var gJsLoaded = 0;
+
+// Add a script element as a child of the body
+function downloadJSAtOnload() {
+  // fADebug("<br/>execJSAtOnload");
+  var lArr = ["https:\/\/www.malavida.com\/es\/js-malavida\/v23\/mv-articulos.js","https:\/\/www.malavida.com\/jsu_V23\/js-ns_util_showwhenscroll-nsmvsite-mv_util-mv_usr-mvbjzoom-mv_css_async.js"];
+  var element = null;
+  gJsToLoad = lArr.length;
+  for(var i=0;i<lArr.length;i++){      
+    element = document.createElement('script');
+    element.type = 'text/javascript';
+    element.src = lArr[i];
+    //element.onload = execJSAtOnload;
+    if(element.addEventListener) element.addEventListener("load", execJSAtOnload, false);
+    else if(element.attachEvent) element.attachEvent("onload", execJSAtOnload);
+    else element.onload = execJSAtOnload;
+    //IE older versions
+    element.onreadystatechange = function () {
+      if(this.readyState=='complete') execJSAtOnload();
+    }
+    //if(!element.onload) element.onload = execJSAtOnload;
+    document.body.appendChild(element);
+  }
+}
+//Load ScriptCode on all script element loaded
+function execJSAtOnload() {
+  gJsLoaded++;
+  if(gJsLoaded==gJsToLoad) {
+    for(var i=0;i<gExecuteOnLoad.length;i++) {
+      var MvexecJSAtLoad  = gExecuteOnLoad[i];
+      // fADebug("<br/>"+MvexecJSAtLoad);
+      try {
+        if(typeof MvexecJSAtLoad == 'function')
+          MvexecJSAtLoad();
+        else
+          eval(MvexecJSAtLoad);
+      }catch(err) {
+        console.log = 'ExecOnloadError:'+ err.message;
+      }
+    }
+    var e = document.querySelector('#Web');
+    e.classList.toggle('is-loaded'); 
+  }
+}
+// Check for browser support of event handling capability
+if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;</script><script>var adKeyword="gCat='articulos';gName='la-historia-de-android';";</script>
+<!-- DFP Async -->
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+  var gads = document.createElement("script");
+  gads.async = true;
+  gads.type = "text/javascript";
+  gads.src = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
+  var node = document.getElementsByTagName("script")[0];
+  node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+var lUW = 0;var b = document.body;
+    if(b && b.offsetWidth) lUW = b.offsetWidth;
+    else if(window.innerWidth) lUW = window.innerWidth;
+    switch(true){
+      case (lUW<480 && !!lUW):
+        gts_header = googletag.defineSlot("/4096369/MV_ES_Artic_CAB_320", [[320,50],[320,100]], "div-gpt-ad-header").addService(googletag.pubads());
+        gts_aftertags = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_300", [300,250], "div-gpt-ad-aftertags").addService(googletag.pubads());
+        gts_postbody = googletag.defineSlot("/4096369/MV_ES_Artic_INF", [[300,250]], "div-gpt-ad-postbody").addService(googletag.pubads());
+        break;
+      case (lUW<600 && !!lUW):
+        gts_header = googletag.defineSlot("/4096369/MV_ES_Artic_CAB_320", [[320,50],[320,100]], "div-gpt-ad-header").addService(googletag.pubads());
+        gts_aftertags = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_300", [300,250], "div-gpt-ad-aftertags").addService(googletag.pubads());
+        gts_postbody = googletag.defineSlot("/4096369/MV_ES_Artic_INF", [[300,250]], "div-gpt-ad-postbody").addService(googletag.pubads());
+        break;
+      case (lUW<768 && !!lUW):
+        gts_header = googletag.defineSlot("/4096369/MV_ES_Artic_CAB_320", [[320,50],[320,100]], "div-gpt-ad-header").addService(googletag.pubads());
+        gts_aftertags = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_300", [300,250], "div-gpt-ad-aftertags").addService(googletag.pubads());
+        gts_postbody = googletag.defineSlot("/4096369/MV_ES_Artic_INF", [[300,250]], "div-gpt-ad-postbody").addService(googletag.pubads());
+        break;
+      case (lUW<1024 && !!lUW):
+        gts_header = googletag.defineSlot("/4096369/MV_ES_Artic_CAB_728", [728,90], "div-gpt-ad-header").addService(googletag.pubads());
+        gts_aftertags = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_300", [300,250], "div-gpt-ad-aftertags").addService(googletag.pubads());
+        gts_postbody = googletag.defineSlot("/4096369/MV_ES_Artic_INF", [[300,250],[600,250]], "div-gpt-ad-postbody").addService(googletag.pubads());
+        break;
+      default:
+        gts_header = googletag.defineSlot("/4096369/MV_ES_Artic_CAB_970", [[728,90],[970,90],[970,250]], "div-gpt-ad-header").addService(googletag.pubads());
+        gts_sidebar = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_300", [[300,250],[300,600]], "div-gpt-ad-sidebar").addService(googletag.pubads());
+        gts_sidebar_inf = googletag.defineSlot("/4096369/MV_ES_Artic_LAT_INF_300", [[300,250],[300,600]], "div-gpt-ad-sidebar-inf").addService(googletag.pubads());
+        gts_postinf = googletag.defineSlot("/4096369/MV_ES_Artic_INF", [[300,250],[600,250]], "div-gpt-ad-postinf").addService(googletag.pubads());
+        break;
+    }
+    googletag.pubads().setTargeting("TypeU", "Article");
+    googletag.pubads().setTargeting("OS", "n");
+    googletag.pubads().setTargeting("IdArt", "3517");
+    googletag.pubads().setTargeting("noin", "0");
+    googletag.pubads().collapseEmptyDivs();
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().addEventListener("slotRenderEnded",function(event) {if(event.slot.getSlotElementId()=='div-gpt-ad-sidebar'){var s = document.querySelector('aside#Sidebar');var m = document.querySelector('main.entry .entry-content');if(s && m){if(s.clientHeight > m.clientHeight){if(!m.style.minHeight) m.style.minHeight = s.clientHeight+'px';}else{if(m.style.minHeight) m.style.minHeight = '';}}}});
+    googletag.enableServices();
+  });
+</script>
+
+        <script type="text/javascript">
+        var lUW = 0;
+        if(document.body  && document.body.offsetWidth) lUW = document.body.offsetWidth;
+        else if(window.innerWidth) lUW = window.innerWidth;
+        if(!(lUW>=1024 || !lUW)){
+        var NSMv=NSMv||{};NSMv.cookie=NSMv.cookie||{};
+          (function (o){
+            o.get = function (n) {var v = "; " + document.cookie;var p = v.split("; " + n + "=");if (p.length == 2) return p.pop().split(";").shift();};
+            o.set = function (n,v,t){var e = "";if(t){var d = new Date();d.setTime(d.getTime()+t*24*60*60*1000);e = "; expires=" + d.toUTCString();}document.cookie = n + "=" + v + e + "; path=/";};
+          })(NSMv.cookie);
+          var cw = NSMv.cookie.get('cookie-warning');
+          if(cw=='1')
+        
+          document.write("<script async src=\"\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\"><\/script>\r\n<script>\r\n  (adsbygoogle = window.adsbygoogle || []).push({\r\n    google_ad_client: \"ca-pub-2181195710737927\",\r\n    enable_page_level_ads: true\r\n  });\r\n<\/script>");
+        }
+        </script>
+<!-- AdsSenseRelatedContent -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>var dataLayer = (typeof dataLayer !== 'undefined') ? dataLayer : [];dataLayer.push({'pageType': 'Otros','eventsDataLayer': 'true'});</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?_=v2&id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-MQ79NG');
+		</script>
+		<!-- End Google Tag Manager --><script>
+            document.addEventListener('DOMContentLoaded', function(){
+                eventTagRRSS();
+                eventTagDefault();
+                eventTagVirtual();
+            });
+            function eventTagVirtual(){
+                var registryModal = document.getElementById('test');
+            }
+            function eventTagRRSS(){
+                var facebook = document.getElementById('share-facebook');
+                if(facebook){
+                    facebook.addEventListener('click', function(event){
+                        event.preventDefault();
+                        var href = this.href.split('%2F').join('/').split('%3A').join(':');
+                        dataLayer.push({
+                            'socialNetwork': 'Facebook',
+                            'socialAction': 'Compartir Software',
+                            'socialTarget': href,
+                            'event': 'socialevent'
+                        });
+                        window.open(href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0');
+                        console.log(href);
+                    });
+                }
+                var twitter = document.getElementById('share-twitter');
+                if(twitter){
+                    twitter.addEventListener('click', function(event){
+                        event.preventDefault();
+                        var href = this.href.split('%2F').join('/').split('%3A').join(':');
+                        var lExit;
+                        dataLayer.push({
+                            'socialNetwork': 'Twitter',
+                            'socialAction': 'Compartir Software',
+                            'socialTarget': href,
+                            'event': 'socialevent'
+                        });
+                        if (document.querySelectorAll){
+                            lExit = document.querySelectorAll('script[src*="platform.twitter.com/widgets.js"]').length;
+                        }
+                        if (!lExit) {
+                            window.open(href, 'mywin', 'left=50,top=50,width=600,height=350,toolbar=0');
+                        }
+                    });
+                }
+                var sidebarFollowUs = document.querySelectorAll('section#follow-us-box a');
+                if(sidebarFollowUs.length > 0){
+                    for(var i = 0; i < sidebarFollowUs.length; i++){
+                        sidebarFollowUs[i].addEventListener('click', function(){
+                        var href = this.href.split('%2F').join('/').split('%3A').join(':');
+                        var type = this.getAttribute('data-js-type');
+                        dataLayer.push({
+                            'socialNetwork': type,
+                            'socialAction': 'Siguenos',
+                            'socialTarget': href,
+                            'event': 'socialevent'
+                        });
+                    });
+                    }
+                }
+            }
+            function eventTagDefault(){
+                var btnDownload = document.getElementById('DownloadButton');
+                if(btnDownload){
+                    btnDownload.addEventListener('click', function(){
+                        var softName = this.getAttribute('data-js-download-name');
+                        dataLayer.push({
+                            'category': 'Conversion',
+                            'action': 'DownloadSoftware-PrevioFicha',
+                            'label': softName,
+                            'event': 'eventga'
+                        });
+                    });
+                }
+                var btnCommentDownload = document.getElementById('submit');
+                if(btnCommentDownload){
+                    btnCommentDownload.addEventListener('click', function(){
+                         dataLayer.push({
+                            'category': 'Interaccion',
+                            'action': 'Comentario Software',
+                            'label': 'Opinar',
+                            'event': 'eventga'
+                        });
+                    });
+                }
+                var msgCommentDownload = document.getElementById('CommentFormMsg');
+                var listCommentDownload = document.getElementById('CommentUsrLast');
+                if(msgCommentDownload){
+                    msgCommentDownload.addEventListener('change', function(){
+                        if(this.classList.contains('error')){
+                            dataLayer.push({
+                                'category': 'Interaccion',
+                                'action': 'Comentario Software',
+                                'label': 'Comentario Error',
+                                'event': 'eventga'
+                            });
+                        }
+                    });
+                }
+                if(listCommentDownload){
+                    listCommentDownload.addEventListener('change', function(){
+                        dataLayer.push({
+                            'category': 'Interaccion',
+                            'action': 'Comentario Software',
+                            'label': 'Comentario OK',
+                            'event': 'eventga'
+                        });
+                    });
+                }
+                var btnDownloadFile = document.getElementById('mv-download')
+                if(btnDownloadFile){
+                    btnDownloadFile.addEventListener('click', function(){
+                        var softName = this.getAttribute('data-js-download-name');
+                         dataLayer.push({
+                            'category': 'Conversion',
+                            'action': 'DownloadSoftware',
+                            'label': softName,
+                            'event': 'eventga'
+                        });
+                    });
+                }
+                var highLightsDownload = document.querySelectorAll('section#Highlights .app-download a.app-name');
+                if(highLightsDownload.length > 0){
+                    for(var i = 0; i < highLightsDownload.length; i ++){
+                        highLightsDownload[i].addEventListener('click', function(){
+                            var softName = this.getAttribute('data-js-download-name');
+                             dataLayer.push({
+                                'category': 'Conversion',
+                                'action': 'DownloadSoftware-PrevioHome',
+                                'label': softName,
+                                'event': 'eventga'
+                            });
+                        });
+                    }
+                }
+                var floatBoxTitle = document.getElementById('float-box-title-link');
+                var floatBoxImg = document.getElementById('float-box-title-img')
+                if(floatBoxTitle){
+                    floatBoxTitle.addEventListener('click', function(){
+                         var softName = this.getAttribute('data-js-download-name');
+                         dataLayer.push({
+                            'category': 'ScrollBox',
+                            'action': 'Link',
+                            'label': softName,
+                            'event': 'eventga'
+                        });
+                    });
+                }
+                if(floatBoxImg){
+                    floatBoxImg.addEventListener('click', function(){
+                         var softName = this.getAttribute('data-js-download-name');
+                         dataLayer.push({
+                            'category': 'ScrollBox',
+                            'action': 'Thumb',
+                            'label': softName,
+                            'event': 'eventga'
+                        });
+                    });
+                }
+            }
+        </script>
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ79NG"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --><div id="Web" class="es articles">
+<!-- HEADER -->
+<header id="Header">
+    <a rel="home" href="https://www.malavida.com/es/articulos/" class="logomv" id="HomeLink" aria-label="Malavida">
+        <img src="https://static.malavida.com/global/imag/malavida_logo_mobile.svg"  title="Malavida" alt="Malavida" width="150" height="50"/>    </a>
+    <a id="SMN" href="javascript:hide2('SMN',['SML','SFS','UserPanel'])" class="show-menunav mvicon-blog hide" aria-label="Change SO"></a>
+    <nav class="menunav">
+        <ul>
+                                                <li><a href="https://www.malavida.com/es/windows/" class="mvicon-windows"rel="" title="Descargar programas gratis para Windows" >Windows</a></li>
+                                                                <li><a href="https://www.malavida.com/es/android/" class="mvicon-android"rel="" title="Descargar programas gratis para Android" >Android</a></li>
+                                                                <li><a href="https://www.malavida.com/es/iphone/" class="mvicon-iphone"rel="" title="Descargar programas gratis para iPhone" >iPhone</a></li>
+                                                                <li><a href="https://www.malavida.com/es/mac/" class="mvicon-mac"rel="" title="Descargar programas gratis para Mac" >Mac</a></li>
+                                                                <li><a href="https://www.malavida.com/es/linux/" class="mvicon-linux"rel="" title="Descargar programas gratis para Linux" >Linux</a></li>
+                                                                <li><a href="https://www.malavida.com/es/webapps/" class="mvicon-webapp"rel="" title="Webapps gratis – Aplicaciones web gratis" >Webapps</a></li>
+                                                                <li class="selected"><a href="https://www.malavida.com/es/articulos/" class="mvicon-blog"rel="" title="Artículos sobre Software" >Art&iacute;culos</a></li>
+                                    </ul>
+    </nav>
+    <a id="SFS" href="javascript:hide2('SFS',['SML','SMN','UserPanel'])" class="mvicon-search show-form-search hide" aria-label="Show Search"></a>
+    <form name="busqueda" action="https://www.malavida.com/es/pre-search" method="GET" class="mvicon-search form-search">
+        <input name="so" type="hidden" value="w"/>
+        <input name="lng" type="hidden" />
+        <input name="st" type="hidden" value="blog"/>
+        <input name="comun" type="text" aria-label="Buscar en artículos"  placeholder="Buscar en artículos" maxlength="85" class="form_txt"/>
+        <input type="submit" value="search" class="submit"/>
+    </form>
+    
+        <a href="javascript:userManager.getForm(1)" class="mvicon-user login-user" aria-label="Login"></a>
+</header>
+    <div id="mv_cab_banner" class="publisubtitle">
+        <!-- MV_ES_Artic_CAB_970 -->
+<div id="div-gpt-ad-header"><script type="text/javascript">googletag.cmd.push(function() {if(typeof gts_header!='undefined'){
+            if(checkEeu.hasCookie === false && checkEeu.isRequested === false){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else if(checkEeu.hasCookie === false && checkEeu.isRequested === true && checkEeu.isEeu === true){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else{
+                googletag.pubads().setTargeting('NoCookEU', '0');
+            }
+         googletag.display("div-gpt-ad-header"); googletag.pubads().refresh([gts_header]);}});</script></div>
+    </div>
+     
+  <div id="MainContent">
+
+
+            <nav id="Navigation"><nav class="breadcrumb">
+  <ol>
+
+    <li><a href="https://www.malavida.com/es/articulos/" title="Artículos">Artículos</a></li>
+
+    <li><a href="https://www.malavida.com/es/analisis" title="Análisis">Análisis</a></li>
+
+  </ol>
+</nav>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [  
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+    "@id": "https://www.malavida.com/es/articulos/",
+    "name": "Artículos"
+    }
+  },  
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item":
+   {
+    "@id": "https://www.malavida.com/es/analisis",
+    "name": "Análisis"
+    }
+  } 
+ ]
+}
+</script>
+</nav>
+<div class="entry-header">
+    <h1 class="entry-title">
+        La historia de Android: de Apple Pie 1.0 a Pie 9    </h1>
+        <div class="entry-social">
+        <a id="share-whatsapp-central" rel="nofollow noopener" class="mvicon-whatsapp whatsapp bg-whatsapp"
+            href="whatsapp://send?text=La+historia+de+Android%3A+de+Apple+Pie+1.0+a+Pie+9 https://www.malavida.com/es/analisis/la-historia-de-android?utm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BCentral" target="_blank">WhatsApp</a>
+        <a id="share-facebook-central" rel="nofollow noopener" class="mvicon-facebook facebook bg-facebook"
+           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BCentral" target="_blank"
+           onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;">Compartir</a>
+        <a id="share-twitter-central" rel="nofollow noopener" class="mvicon-twitter twitter bg-twitter"
+           href="https://twitter.com/intent/tweet?text=La+historia+de+Android%3A+de+Apple+Pie+1.0+a+Pie+9&url=https://www.malavida.com/es/analisis/la-historia-de-android?utm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BCentral;via=malavida" target="_blank"
+           onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;">Twittear</a>
+        <a id="share-email-central" rel="nofollow noopener" class="mvicon-email email bg-email"
+           href="mailto:?subject=La%20historia%20de%20Android%3A%20de%20Apple%20Pie%201.0%20a%20Pie%209&body=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Demail%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BCentral">Enviar</a>
+    </div>
+    <strong class="entry-description">Te invitamos a descubrir la historia de Android: de Apple Pie 1.0 a Android Pie 9, y a conocer los aspectos más importantes de Android y cada una de sus versiones desde su nacimiento</strong>
+                <div class="entry-tags">
+                                            <a href="https://www.malavida.com/es/tag/historia" title="Historia">Historia</a>
+                    </div>
+        <div class="entry-authordate">
+        <span class="author">Por <a href="https://www.malavida.com/es/editor/hector-hernandez" rel="author">Héctor Hernández</a></span><span class="date">el <strong>21 agosto, 2017</strong> <strong>(Actualizado el 2 mayo, 2019)</strong></span>    </div>
+            <div class="entry-meta">
+            <span class="category">en
+                <a class="analysis"
+                   href="https://www.malavida.com/es/analisis" title="Análisis"
+                   rel="category">Análisis</a>
+            </span>
+        </div>
+    </div>
+
+        <script type="text/javascript">
+            var CheckSo = CheckSo || {};
+            CheckSo.so = CheckSo.so || {};
+            (function (oSO) {
+                oSO.isMobile = {
+                    Android: function () {
+                        return /Android/i.test(navigator.userAgent);
+                    },
+                    BlackBerry: function () {
+                        return /BlackBerry/i.test(navigator.userAgent);
+                    },
+                    iOS: function () {
+                        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+                    },
+                    Windows: function () {
+                        return /IEMobile/i.test(navigator.userAgent);
+                    },
+                    any: function () {
+                        return (oSO.isMobile.Android() || oSO.isMobile.BlackBerry() || oSO.isMobile.iOS() || oSO.isMobile.Windows());
+                    }
+                };
+                oSO.hideElementDesktop = function(e){
+                    var parent = e.parentNode;
+                    if(!oSO.isMobile.any()){
+                        parent.removeChild(e);
+                    }
+                };
+            })(CheckSo.so);
+            window.addEventListener('DOMContentLoaded', function(){
+                /**
+                 * Share del sidebar
+                 * @type {HTMLElement}
+                 */
+                var whatsappShareSidebar = document.getElementById('share-whatsapp');
+                if(whatsappShareSidebar){
+                    CheckSo.so.hideElementDesktop(whatsappShareSidebar);
+                }
+                /**
+                 * Share del bloque central
+                 */
+                var whatsappShareCentral = document.getElementById('share-whatsapp-central');
+                if(whatsappShareCentral){
+                    CheckSo.so.hideElementDesktop(whatsappShareCentral);
+                }
+        
+            });
+        </script>
+    <script type="text/javascript">gExecuteOnLoad.push("userManager.ObjCode='bGEtaGlzdG9yaWEtZGUtYW5kcm9pZCN3IzM=';");</script><main role="main" class="post entry full-width">
+    <div class="entry-content">
+                    <div class="entry-photo">
+                                    <img class="" alt="El largo camino de Android desde Apple Pie hasta hoy en día" src="https://imag.malavida.com/articulos-big/full-size/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-50.jpg" width="1000"/>
+                            </div>
+                <div>
+                        <p>Repasa la historia de Android y su cronolog&iacute;a. A continuaci&oacute;n podr&aacute;s revisar todas y cada una de las versiones de Android y las caracter&iacute;sticas m&aacute;s importantes que se han ido a&ntilde;adiendo con el paso del tiempo.</p><!-- MV_ES_Artic_LAT_300 -->
+<div id="div-gpt-ad-aftertags"><script type="text/javascript">googletag.cmd.push(function() {if(typeof gts_aftertags!='undefined'){
+            if(checkEeu.hasCookie === false && checkEeu.isRequested === false){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else if(checkEeu.hasCookie === false && checkEeu.isRequested === true && checkEeu.isEeu === true){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else{
+                googletag.pubads().setTargeting('NoCookEU', '0');
+            }
+         googletag.display("div-gpt-ad-aftertags"); googletag.pubads().refresh([gts_aftertags]);}});</script></div>
+
+<p>Mucho ha llovido desde el nacimiento de Android Inc. El sistema operativo m&oacute;vil m&aacute;s usado del mundo ha recorrido un largo camino, y no se nos ocurre mejor momento para echar la vista atr&aacute;s y ver de forma retrospectiva c&oacute;mo ha evolucionado. &Uacute;nete a nosotros en este <strong>viaje temporal a trav&eacute;s de la historia de Android</strong>...</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-52.jpg"  alt="La evolución de Android representado por un androide comilón" class="centered" /><span class="image-credits">La evolución de Android representado por un androide comilón / <a href="http://bonkersworld.net/robot-evolution" title="Manu Cornet" target="_blank" rel="external nofollow noopener"> Manu Cornet</a> editada con licencia <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" title="CC BY-NC-ND 3.0" target="_blank" rel="external nofollow noopener">CC BY-NC-ND 3.0</a></span>
+<p class="head-title">A&ntilde;o 2003</p>
+<p>En octubre de ese a&ntilde;o, <strong>Andy Rubin, Rich Miner, Nick Sears y Chris White fundaban Android Inc.</strong> en la localidad de Palo Alto, California. Su objetivo era desarrollar un sistema operativo basado en Linux para m&oacute;viles. Como curiosidad, tomaron el nombre de la empresa de la novela de Philip K. Dick &iquest;Sue&ntilde;an los androides con ovejas el&eacute;ctricas?, que posteriormente fue adaptada al cine con el nombre de Blade Runner.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-53.jpg"  alt="Andy Rubin, creador de Android" class="centered" /><span class="image-credits">Andy Rubin, creador de Android / <a href="https://www.flickr.com/photos/joi/2948146343/sizes/o/in/photostream/" title="Joi" target="_blank" rel="external nofollow noopener"> Joi</a> editada con licencia <a href=" https://creativecommons.org/licenses/by/2.0/" title=" CC 2.0" target="_blank" rel="external nofollow noopener">CC 2.0</a></span>
+<p class="head-title">A&ntilde;o 2005</p><!-- MV_ES_Artic_INF -->
+<div id="div-gpt-ad-postbody"><script type="text/javascript">googletag.cmd.push(function() {if(typeof gts_postbody!='undefined'){
+            if(checkEeu.hasCookie === false && checkEeu.isRequested === false){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else if(checkEeu.hasCookie === false && checkEeu.isRequested === true && checkEeu.isEeu === true){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else{
+                googletag.pubads().setTargeting('NoCookEU', '0');
+            }
+         googletag.display("div-gpt-ad-postbody"); googletag.pubads().refresh([gts_postbody]);}});</script></div>
+
+<p>La multinacional Google adquiere la compa&ntilde;&iacute;a en julio por un <strong>precio estimado de 50 millones de d&oacute;lares</strong>. Una compra poco pomposa dado que Android Inc. apenas era conocida. Google se limit&oacute; a exaltar el talento de sus ingenieros y las posibilidades de la tecnolog&iacute;a que hab&iacute;an creado, disparando la rumorolog&iacute;a sobre sus intenciones.</p>
+<p class="head-title">A&ntilde;o 2006</p>
+<p>Rubin y el equipo de desarrolladores dise&ntilde;an y trabajan sobre un <strong>SO basado en el <em>kernel</em> de Linux</strong> con una interfaz f&aacute;cil de utilizar. Adem&aacute;s piden la colaboraci&oacute;n de otros fabricantes, sentando las bases de la posterior concepci&oacute;n abierta de <a href="https://www.malavida.com/es/android/" title="Android">Android</a>. Aparecen las primeras preocupaciones sobre <em>malware</em>.</p>
+<p class="head-title">A&ntilde;o 2007</p>
+<p>El 5 de noviembre, Google (junto a un conglomerado de empresas entre las que tambi&eacute;n se encontraba: LG, Qualcomm, Intel, T-Mobile, Sprint Nextel, Moto, Texas Instruments o HTC... 35 fabricantes en total) firmaba la <em>Open Handset Alliance</em>. Se trataba de una alianza comercial cuyo principal objetivo es el <strong>desarrollo de est&aacute;ndares abiertos</strong> para dispositivos m&oacute;viles. En diciembre se unir&iacute;an otras 14 empresas como ARM, Garmin, Sony Ericsson, Toshiba, Vodafone o ZTE.</p>
+<h2>Android 1.0 Apple Pie</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-54.jpg"  alt="Apple Pie o Tarta de Manzana fue la primera versión de Android" class="centered" /><span class="image-credits">Apple Pie o Tarta de Manzana fue la primera versión de Android </span>
+<p>Ese mismo d&iacute;a se anunci&oacute; Android 1.0 Apple Pie. La primera versi&oacute;n se presenta como un sistema operativo m&oacute;vil totalmente gratuito y <em>Open Source</em> a diferencia de iOS. Estaba desarrollado sobre el <em>kernel</em> de Linux 2.6. Los primeros terminales con Android estar&iacute;an disponibles durante el segundo trimestre del a&ntilde;o 2008. Google realiz&oacute; su propia presentaci&oacute;n oficial del SDK el 23 de septiembre. La <strong>primera versi&oacute;n comercial ten&iacute;a mucho margen de mejora </strong>y apenas inquiet&oacute; a la competencia, pero ya introduc&iacute;a algunos conceptos que a&ntilde;os despu&eacute;s son un est&aacute;ndar de los sistemas operativos m&oacute;viles:</p>
+<ul type="disc">
+<li>Men&uacute; desplegable de notificaciones</li>
+<li><em>Widgets</em> de escritorio</li>
+<li>Android Market, la tienda de apps (no contaba con ning&uacute;n sistema de pago para usuarios. Todo el cat&aacute;logo era gratuito)</li>
+<li>Integraci&oacute;n con Google Mail, Contacts y Calendar</li>
+<li>Navegador, Maps, Google Talk, reproductor de YouTube y soporte para c&aacute;maras</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-55.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 55" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 55 / Android 1.0 Apple Pie estaba basado en el kernel de Linux 2.6</span>
+<p class="head-title">A&ntilde;o 2008</p>
+<p>En agosto aparece el primer <em>smartphone </em>con sistema operativo Android, el HTC Dream, rebautizado como T-Mobile G1 en Estados Unidos, donde se puso en venta oficialmente el 22 de octubre. En 6 meses se vendieron un mill&oacute;n de unidades en Estados Unidos y 100.000 m&aacute;s en Gran Breta&ntilde;a. Android entraba con fuerza en el mercado de los terminales inteligentes.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-56.jpg"  alt="El HTC Dream fue el primer smartphone con Android que se puso a la venta" class="centered" /><span class="image-credits">El HTC Dream fue el primer smartphone con Android que se puso a la venta / <a href="https://commons.wikimedia.org/wiki/File:HTC_Dream_Orange_FR.jpeg#/media/File:HTC_Dream_Orange_FR.jpeg" title=" Akela NDE" target="_blank" rel="external nofollow noopener"> Akela NDE</a> editada con licencia <a href=" https://creativecommons.org/licenses/by-sa/3.0/" title=" CC BY-SA 3.0" target="_blank" rel="external nofollow noopener"> CC BY-SA 3.0</a></span>
+<p class="head-title">A&ntilde;o 2009</p>
+<h2>Android 1.1 Banana Bread</h2>
+<p>Apenas 3 meses despu&eacute;s del lanzamiento de Android 1.0 llegaba la primera actualizaci&oacute;n, Android 1.1 Banana Bread, concretamente en febrero. No a&ntilde;ad&iacute;a grandes novedades, pero s&iacute; <strong>correg&iacute;a numerosos fallos</strong> y <em>bugs</em>detectados en la primera versi&oacute;n e introduc&iacute;a un concepto por entonces poco usado por los rivales que buscaba facilitar la vida al usuario: las actualizaciones autom&aacute;ticas, con las que resultaba muy simple mantener todo el software del terminal al d&iacute;a.</p>
+<h2>Android 1.5 Cupcake</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-57.jpg"  alt="Andy junto a una cupcake representativa de Android 1.5" class="centered" /><span class="image-credits">Andy junto a una cupcake representativa de Android 1.5 / <a href="https://www.flickr.com/photos/joi/3841346681" title="Joi Ito" target="_blank" rel="external nofollow noopener"> Joi Ito</a> editada con licencia <a href=" https://creativecommons.org/licenses/by/2.0/" title=" CC 2.0" target="_blank" rel="external nofollow noopener">CC 2.0</a></span>
+<p>El 30 de abril aparece la primera actualizaci&oacute;n de gran calado, Android 1.5 Cupcake, y con ella se inicia la golosa nomenclatura de Google para con su SO m&oacute;vil. Se realizaron cambios casi imperceptibles sobre algunos elementos de la interfaz, pero las novedades m&aacute;s interesantes llegaron a nivel de <strong>usabilidad con nuevas caracter&iacute;sticas</strong>:</p>
+<ul type="disc">
+<li>Teclado t&aacute;ctil QWERTY en pantalla con predicci&oacute;n de texto</li>
+<li>Camcorder para la grabaci&oacute;n y reproducci&oacute;n de v&iacute;deos</li>
+<li>Widget de escritorio de Google para realizar b&uacute;squedas directamente</li>
+<li>SDK para el desarrollo de widgets de escritorio por parte de terceros</li>
+<li>Funciones del portapapeles ampliadas</li>
+<li>Interfaz para grabar y reproducir v&iacute;deos mejorada</li>
+<li>Bluetooth</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-58.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 58" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 58 / Android 1.5 Cupcake mejoraba la usabilidad</span>
+<p>Se pone a la venta el HTC Magic, HTC myTouch 3G para los usuarios yankis. El teclado en pantalla fue algo que s&oacute;lo se pudo materializar tras el lanzamiento de este primer m&oacute;vil con pantalla <em>touchscreen</em>. Como el HTC Dream, super&oacute; el mill&oacute;n de unidades vendidas en 6 meses gracias especialmente a su atractivo precio, una de las principales armas de Google en el mercado de los m&oacute;viles.</p>
+<blockquote>El HTC Magic fue el primer m&oacute;vil Android con pantalla <em>touchscreen</em>.</blockquote>
+<p>Adem&aacute;s de <strong>a&ntilde;adir el teclado en pantalla</strong> y la grabaci&oacute;n y reproducci&oacute;n de v&iacute;deos, Google abri&oacute; ambas funcionalidades a los desarrolladores, que fueron capaces de crear sus propias versiones tanto del teclado en pantalla como de la interfaz del reproductor de v&iacute;deo.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-59.jpg"  alt="El HTC Magic superó el millón de unidades vendidas en 6 meses" class="centered" /><span class="image-credits">El HTC Magic superó el millón de unidades vendidas en 6 meses / <a href="https://www.flickr.com/photos/11340659@N03/5146891099" title="Brendan McNally" target="_blank" rel="external nofollow noopener"> Brendan McNally </a> editada con licencia <a href=" https://creativecommons.org/licenses/by-nd/2.0/ " title="CC BY-ND 2.0" target="_blank" rel="external nofollow noopener"> CC BY-ND 2.0</a></span>
+<h2>Android 1.6 Donut</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-60.jpg"  alt="Imagen promocional de Android Donut" class="centered" /><span class="image-credits">Imagen promocional de Android Donut </span>
+<p>Android 1.6 Donut aparec&iacute;a en septiembre con algunas novedades adicionales. Toda la interfaz volvi&oacute; a sufrir peque&ntilde;os retoques visuales m&aacute;s algunos nuevos elementos, pero <strong>lo realmente atractivo estaba en el n&uacute;cleo </strong>del SO:</p>
+<ul type="disc">
+<li>Soporte para CDMA/EVDO, 802.1x, VPN, que ampliaba los mercados al alcance de Android</li>
+<li>Compatible con distintas resoluciones de pantalla. Soporte WVGA</li>
+<li>Actualizaci&oacute;n y nuevo dise&ntilde;o del Android Market</li>
+<li>Utilidad de b&uacute;squeda universal en Internet y en el mismo dispositivo</li>
+<li>Redise&ntilde;o de la interfaz de la aplicaci&oacute;n de c&aacute;mara de fotos</li>
+</ul>
+<p><div class="player-video"><iframe width="640" height="380" src="https://www.youtube.com/embed/MBRFkLKRwFw" frameborder="0" allowfullscreen> </iframe></div></p>
+<h2>Android 2.0 Eclair</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-61.jpg"  alt="Imagen promocional de Android Eclair" class="centered" /><span class="image-credits">Imagen promocional de Android Eclair </span>
+<p>Apenas dos meses despu&eacute;s, en noviembre, aparec&iacute;a Android 2.0 Eclair, uno de los cambios m&aacute;s sustanciales sufridos por Android tanto a nivel de dise&ntilde;o como de arquitectura interna. Era una <strong>versi&oacute;n dirigida a dispositivos de mayor tama&ntilde;o</strong> en un tiempo en el que los fabricantes empezaban a diversificar su oferta. La versi&oacute;n 2.1 mantuvo la misma nomenclatura y s&oacute;lo corrigi&oacute; algunos fallos, pero su uso fue mayor entre los fabricantes que la versi&oacute;n anterior.</p>
+<ul type="disc">
+<li>Soporte para m&uacute;ltiples cuentas de usuario</li>
+<li>Google Maps Navigation, sistema de navegaci&oacute;n GPS gratuito</li>
+<li>Compatible con Microsoft Exchange</li>
+<li>Soporte para m&aacute;s pantallas</li>
+<li>Navegador actualizado, soporte para HTML5 y barra de direcci&oacute;n y b&uacute;squeda unificada</li>
+<li>Funci&oacute;n Text to Speech para escribir textos mediante el uso de la voz</li>
+<li>Nueva pantalla de desbloqueo</li>
+<li>Zoom digital</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-62.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 62" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 62 / Android 2.0 Eclair incluía Google Maps Navigation</span>
+<p>El 17 de octubre <strong>Motorola lanzaba Droid</strong> a trav&eacute;s de la operadora Verizon, un <em>smartphone </em>con resoluci&oacute;n 854x480 que pretend&iacute;a competir contra el iPhone. La venta de 250000 terminales s&oacute;lo la primera semana en Estados Unidos supuso uno de los m&aacute;s grandes &eacute;xitos en la historia de la compa&ntilde;&iacute;a.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-63.jpg"  alt="El Motorola Droid pretendía competir contra el iPhone" class="centered" /><span class="image-credits">El Motorola Droid pretendía competir contra el iPhone / <a href="https://commons.wikimedia.org/wiki/File:Motorola-milestone-wikipedia.jpg#/media/File:Motorola-milestone-wikipedia.jpg" title="Shritwod" target="_blank" rel="external nofollow noopener"> Shritwod </a> editada con licencia <a href="https://creativecommons.org/licenses/by-sa/3.0/" title="CC BY-SA 3.0" target="_blank" rel="external nofollow noopener"> CC BY-SA 3.0</a></span>
+<p class="head-title">A&ntilde;o 2010</p>
+<p>El 5 de enero Google lanza el <strong>primer terminal firmado por ellos mismos en colaboraci&oacute;n con HTC</strong>, el llamado Nexus One. Con &eacute;l Google se aseguraba una experiencia Android "pura" para sus usuarios en lugar de las ROMs personalizadas de cada fabricante. En febrero ve&iacute;a la luz el HTC Desire, el terminal m&oacute;vil Android m&aacute;s potente del mercado hasta aquel momento. Poco despu&eacute;s, en mayo, tambi&eacute;n aparecer&iacute;a el HTC Wildfire HTC se hab&iacute;a convertido en el principal aliado de Android, pero se atisbaba la llegada de un duro competidor en el campo de la fabricaci&oacute;n de hardware: Samsung. Su Galaxy S logr&oacute; vender m&aacute;s de 10 millones de copias y fue uno de los principales motivos, junto con la pujanza del hardware de HTC, para que Android superase a iOS en cuota de mercado por primera vez.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-64.jpg"  alt="El Samsung Galaxy S logró vender más de 10 millones de copias" class="centered" /><span class="image-credits">El Samsung Galaxy S logró vender más de 10 millones de copias </span>
+<h2>Android 2.2 Froyo</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-65.jpg"  alt="Imagen promocional de Android Froyo" class="centered" /><span class="image-credits">Imagen promocional de Android Froyo </span>
+<p>El 20 de mayo aparec&iacute;a una nueva actualizaci&oacute;n del sistema operativo, Android 2.2 Froyo. Tra&iacute;a numerosos cambios, algunos copiados de otras ROMs y otros con <strong>el uso empresarial en mente</strong>. El Nexus One fue precisamente el primer m&oacute;vil que fue actualizado, lo que dejaba entrever cu&aacute;l ser&iacute;a la pol&iacute;tica de Google desde aquel entonces.</p>
+<ul type="disc">
+<li>Pantalla Home totalmente redise&ntilde;ada con 5 paneles en lugar de 3</li>
+<li>Nueva galer&iacute;a de im&aacute;genes</li>
+<li>Soporte para actuar como <em>hotspot</em> para otros dispositivos, <em>tethering</em> de datos</li>
+<li>Soporte para Flash 10.1</li>
+<li>Funci&oacute;n copiar y pegar mejorada en Google Mail</li>
+<li>Nueva pantalla alternativa de desbloqueo mediante c&oacute;digo PIN</li>
+<li>Nuevo compilador que mejoraba la velocidad</li>
+<li>Grabaci&oacute;n de v&iacute;deo en 720p</li>
+<li>Compilador JIT</li>
+<li>Motor JavaScript V8 de Chrome usado en el Browser</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-67.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 67" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 67 / Android 2.2 Froyo fue diseñado con el uso empresarial en mente</span>
+<p>Ese mismo a&ntilde;o ver&iacute;an la luz las <strong>primeras tabletas</strong> equipadas con el sistema operativo m&oacute;vil de Google, entre ellas la Samsung Galaxy Tab, de la cual han aparecido numerosas versiones posteriores. Pretend&iacute;a ser la competencia directa del iPad.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-68.jpg"  alt="La Samsung GT-P1000 Galaxy Tab 7.0 fue una de las primeras tabletas con Android" class="centered" /><span class="image-credits">La Samsung GT-P1000 Galaxy Tab 7.0 fue una de las primeras tabletas con Android </span>
+<h2>Android 2.3 Gingerbread</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-69.jpg"  alt="Imagen promocional de Android Gingerbread" class="centered" /><span class="image-credits">Imagen promocional de Android Gingerbread </span>
+<p>Para finalizar el a&ntilde;o, en diciembre, Google lanz&oacute; una nueva revisi&oacute;n del sistema operativo. Android 2.3 Gingerbread supon&iacute;a una continuaci&oacute;n en la pol&iacute;tica de actualizaciones acompa&ntilde;adas por el lanzamiento de nuevos tel&eacute;fonos, esta vez aliados con Samsung. <strong>Gingerbread se convertir&iacute;a en la versi&oacute;n de Android m&aacute;s extendida </strong>durante los siguientes a&ntilde;os.</p>
+<ul type="disc">
+<li>Revisi&oacute;n est&eacute;tica completa; pantalla de inicio, barra de estado&hellip;</li>
+<li>Nuevo dise&ntilde;o para el teclado num&eacute;rico en pantalla</li>
+<li>Compatible con pantallas y resoluciones mayores</li>
+<li>Funci&oacute;n para copiar y pegar mejorada con soporte para caracteres individuales en lugar de cajas de texto</li>
+<li>Teclado en pantalla mejorado</li>
+<li>Soporte para NFC</li>
+<li>Herramientas de visualizaci&oacute;n de consumo y uso de la bater&iacute;a mejoradas</li>
+<li>Soporte para c&aacute;maras frontales</li>
+<li>Acceso de bajo nivel para los desarrolladores de juegos</li>
+<li>Sustituci&oacute;n del sistema de archivos YAFFS por ext4</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-70.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 70" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 70 / Android 2.3 Gingerbread fue una de las versiones de Android más extendidas</span>
+<p>Gingerbread lleg&oacute; de la mano del Google Nexus S, un derivado de la exitosa l&iacute;nea de terminales Galaxy S de Samsung. Fue el primero en eliminar la bola de navegaci&oacute;n hardware del tel&eacute;fono, por lo que la interacci&oacute;n con el sistema operativo paso a ser totalmente t&aacute;ctil a trav&eacute;s de la pantalla.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-71.jpg"  alt="El Google Nexus S fue el primero en eliminar la bola de navegación hardware del teléfono" class="centered" /><span class="image-credits">El Google Nexus S fue el primero en eliminar la bola de navegación hardware del teléfono </span>
+<p class="head-title">A&ntilde;o 2011</p>
+<h2>Android 3.0 Honeycomb</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-72.jpg"  alt="Imagen promocional de Android Honeycomb" class="centered" /><span class="image-credits">Imagen promocional de Android Honeycomb </span>
+<p>En febrero Google lanza Android 3.0 Honeycomb. Se trata de una <strong>actualizaci&oacute;n espec&iacute;fica para tabletas</strong>, no compatible con tel&eacute;fonos, que introduc&iacute;a las l&iacute;neas maestras de la interfaz en el futuro. Las versiones 3.1 y 3.2 mantuvieron el mismo nombre y fueron b&aacute;sicamente un conjunto de correcciones.</p>
+<ul type="disc">
+<li>Pantalla de Inicio redise&ntilde;ada</li>
+<li>Inclusi&oacute;n de tonos azules en la interfaz en detrimento del verde tradicional</li>
+<li>Nuevas funcionalidades para el emplazamiento y uso de widgets</li>
+<li>Fin de los botones f&iacute;sicos. Adaptaci&oacute;n autom&aacute;tica del SO seg&uacute;n el dispositivo</li>
+<li>Multitarea mejorada</li>
+<li>Aceleraci&oacute;n gr&aacute;fica mediante hardware</li>
+<li>Optimizaci&oacute;n del renderizado de gr&aacute;ficos 3D</li>
+<li>Videochat en Google Talk</li>
+<li>Soporte para perif&eacute;ricos USB</li>
+</ul>
+<p><img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-73.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 73" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 73 / Android 3.0 Honeycomb fue una actualización específica para tabletas</span> <div class="player-video"><iframe width="640" height="380" src="https://www.youtube.com/embed/hPUGNCIozp0" frameborder="0" allowfullscreen> </iframe></div></p>
+<p>Esta vez recuperaron su alianza con <strong>Motorola para lanzar Xoom</strong>, la primera tableta equipada con esta versi&oacute;n de Android. Se present&oacute; en el CES de 2011 y se erigi&oacute; r&aacute;pidamente como una de la mejores tabletas disponibles, tanto por su software como por sus prestaciones t&eacute;cnicas.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-74.jpg"  alt="Motorola Xoom, una de las mejores tabletas del momento" class="centered" /><span class="image-credits">Motorola Xoom, una de las mejores tabletas del momento / <a href=" https://www.flickr.com/photos/takapprs_flickr/5483633507" title="TAKA@P.P.R.S" target="_blank" rel="external nofollow noopener"> TAKA@P.P.R.S </a> editada con licencia <a href=" https://creativecommons.org/licenses/by-sa/2.0/" title="CC BY-SA 2.0" target="_blank" rel="external nofollow noopener"> CC BY-SA 2.0</a></span>
+<h2>Android 4.0 Ice Cream Sandwich</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-75.jpg"  alt="Imagen promocional de Android Ice Cream Sandwich" class="centered" /><span class="image-credits">Imagen promocional de Android Ice Cream Sandwich </span>
+<p>En octubre aparec&iacute;a Android 4.0 Ice Cream Sandwich, una versi&oacute;n basada en <strong>Honeycomb pero optimizada para</strong> <em>smartphones</em>. Fue uno de los cambios m&aacute;s importantes sufridos por Android en tel&eacute;fonos, y es considerado como el momento en el que adquiri&oacute; su mayor&iacute;a de edad. Ese a&ntilde;o super&oacute; la cuota de mercado de BlackBerry y se convirti&oacute; en el sistema operativo m&oacute;vil m&aacute;s usado de mundo. Como curiosidad, Google y Samsung planearon una presentaci&oacute;n conjunta del SO y el tel&eacute;fono que hab&iacute;an creado para el 11 de octubre, pero fue suspendida: la muerte de Steve Jobs d&iacute;as antes trastoc&oacute; sus planes.</p>
+<ul type="disc">
+<li>Nueva fuente tipogr&aacute;fica Roboto</li>
+<li>Interfaz Holo</li>
+<li>Sistema de gesti&oacute;n de notificaciones mejorado</li>
+<li>Multitarea mejorada</li>
+<li>Sugerencias y diccionarios para el teclado virtual</li>
+<li>Nuevo dise&ntilde;o y funcionalidades para la pantalla &ldquo;Home&rdquo;</li>
+<li>Android Beam, funcionalidad para transferir datos entre dos dispositivos v&iacute;a NFC</li>
+<li>Funci&oacute;n de desbloqueo mediante el rostro</li>
+<li>Nuevas funciones para la visualizaci&oacute;n y gesti&oacute;n del consumo de datos</li>
+<li>Nuevas aplicaciones de correo y calendario</li>
+<li>Herramienta integrada de captura de (botones de volumen y encendido simult&aacute;neamente)</li>
+<li>Soporte MKV</li>
+<li>Soporte Stylus (l&aacute;piz t&aacute;ctil)</li>
+</ul>
+<p><img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-76.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 76" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 76 / Android 4.0 Ice Cream Sandwich se convirtió en el sistema operativo móvil más usado de mundo</span> <div class="player-video"><iframe width="640" height="380" src="https://www.youtube.com/embed/RrYZDWuBptI" frameborder="0" allowfullscreen> </iframe></div></p>
+<p>Google Ice Cream Sandwich apareci&oacute; junto a un nuevo Nexus fabricado por Samsung, sucesor de los primeros Nexus One y Nexus S. Se present&oacute; en octubre de aquel a&ntilde;o y adopt&oacute; las mismas l&iacute;neas maestras del dise&ntilde;o de toda la gama de productos Galaxy de los coreanos.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-86.jpg"  alt="El Galaxy Nexus, sucesor de los emblemáticos smartphones de Google: Nexus One y Nexus S" class="centered" /><span class="image-credits">El Galaxy Nexus, sucesor de los emblemáticos smartphones de Google: Nexus One y Nexus S </span>
+<p class="head-title">A&ntilde;o 2012</p>
+<h2>Android 4.1 Jelly Bean</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-77.jpg"  alt="Imagen promocional de Android Jelly Bean" class="centered" /><span class="image-credits">Imagen promocional de Android Jelly Bean </span>
+<p>En el I/O de Google 2012 celebrado en julio aparece Android 4.1 Jelly Bean, un lanzamiento que reformula la estrategia de Android en tabletas a&ntilde;adiendo nuevas caracter&iacute;sticas. A primera vista los cambios no son palpables, pero los hubo e importantes. Destaca la <strong>desaparici&oacute;n del soporte para Flash Player</strong>:</p>
+<ul type="disc">
+<li>Rendimiento del sistema y gr&aacute;fico mejorado gracias a Project Butter</li>
+<li>Sistema de detecci&oacute;n de entrada de datos t&aacute;ctiles optimizado</li>
+<li>Estreno de Google Now, el servicio-asistente de voz inteligente de Google</li>
+<li>Navegador Google Chrome</li>
+<li>B&uacute;squeda mediante voz mejorada</li>
+<li>Redise&ntilde;o de la tipograf&iacute;a Roboto</li>
+<li>Nuevas posibilidades para las notificaciones interactivas de escritorio</li>
+<li>Mejoras en el ajuste de tama&ntilde;o de los widgets de escritorio</li>
+<li>Mejoras en la correcci&oacute;n ortogr&aacute;fica y la predicci&oacute;n del teclado</li>
+<li>Dictado de voz offline</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-78.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 78" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 78 / En Android 4.1 Jelly Bean desaparece el soporte para Flash Player</span>
+<blockquote>
+<p>Sali&oacute; de la mano de la ASUS Nexus 7. Para entonces Samsung ya se hab&iacute;a convertido en una de las empresas que m&aacute;s m&oacute;viles vend&iacute;a. Ese a&ntilde;o lanzaron al mercado su Samsung S III, el smartphone m&aacute;s vendido del mundo tras el iPhone.</p>
+</blockquote>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-79.jpg"  alt="La Nexus 7 es un dispositivo basado en Android que ofrece la mejor experiencia Google" class="centered" /><span class="image-credits">La Nexus 7 es un dispositivo basado en Android que ofrece la mejor experiencia Google </span>
+<p>3 meses despu&eacute;s de que apareciera Jelly Bean, en noviembre, lleg&oacute; Android 4.2, que manten&iacute;a el mismo nombre y a&ntilde;ad&iacute;a las habituales correcciones. El acto donde se pretend&iacute;a hacer el anuncio oficial tuvo que ser <strong>cancelado por el hurac&aacute;n Sandy</strong>. Pese a todo Google dio la noticia contra viento y marea, nunca mejor dicho.</p>
+<ul type="disc">
+<li>Rendimiento mejorado</li>
+<li>Nuevas animaciones</li>
+<li>Nuevo panel de control</li>
+<li>Acceso a widgets y c&aacute;mara fotogr&aacute;fica desde la pantalla de bloqueo</li>
+<li>Soporte para Miracast (funci&oacute;n de streaming de v&iacute;deo y audio desde el terminal)</li>
+<li>Redise&ntilde;o de la aplicaci&oacute;n de reloj y de sus widgets</li>
+<li>Soporte para varios perfiles de usuario</li>
+<li>Photosphere, captura de fotograf&iacute;as panor&aacute;micas de 360&ordm;</li>
+<li>Gestual Mode para personas invidentes</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-80.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 80" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 80 / Android 4.2 llegó como una actualización menor del sistema</span>
+<blockquote>
+<p>Poco antes que viera la luz Android 4.2 aparec&iacute;a el Google Nexus 4, un tel&eacute;fono fabricado por LG para la empresa de Mountain View con una relaci&oacute;n calidad precio atractiva que vio la luz el 13 de noviembre. Fue el primero en ser compatible con esta versi&oacute;n, aunque no se anunci&oacute; ese mismo d&iacute;a, para el que reservaron la tableta Nexus 10, la primera tableta de 10 pulgadas.</p>
+</blockquote>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-81.jpg"  alt="El Nexus 4 fue desarrollado por Google en colaboración con LG" class="centered" /><span class="image-credits">El Nexus 4 fue desarrollado por Google en colaboración con LG </span>
+<p class="head-title">A&ntilde;o 2013</p>
+<p>La divisi&oacute;n Android de Google cambia de direcci&oacute;n. Desde marzo es Sundar Pichai en sustituci&oacute;n de Andy Rubin quien asume el mando, la misma persona que dirige el desarrollo de Chrome y el sistema operativo Chrome OS. Rubin pas&oacute; a trabajar en otros proyectos.</p>
+<p>El 24 de julio Google anunciaba Android 4.3, que manten&iacute;a el nombre de Jelly Bean pese a los rumores sobre Android 5. Sali&oacute; junto a la tableta Nexus 7 y estaba de hecho dise&ntilde;ado con ella en mente. Tambi&eacute;n pretende consolidar Android como un sistema operativo capaz de hacer correr juegos.</p>
+<ul type="disc">
+<li>Soporte miltiusuario y de perfiles mejorado</li>
+<li>Soporte OpenGL ES 3.0</li>
+<li>Compatible con TRIM</li>
+<li>Bluetooth Smart</li>
+<li>Plataforma Google Games</li>
+<li>Servicios de localizaci&oacute;n Wi-Fi mejorados</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-82.jpg"  alt="La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 82" class="centered" /><span class="image-credits">La historia de Android: de Apple Pie 1.0 a Lollipop 5.0 - imagen 82 / Android 4.3 Jelly Bean daba soporte oficial a OpenGL ES 3.0</span>
+<p>Para no perder la tradici&oacute;n Google anunci&oacute; la versi&oacute;n 4.3 junto con una actualizaci&oacute;n de la tableta Nexus 7. Reduc&iacute;a el tama&ntilde;o de los modelos anteriores y mejoraba de forma importante sus prestaciones, con <strong>pantalla Full HD y soporte LTE</strong>.</p>
+<h2>Android 4.4 KitKat</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-83.jpg"  alt="Imagen promocional de Android KitKat" class="centered" /><span class="image-credits">Imagen promocional de Android KitKat </span>
+<p>Android 4.4 KitKat ofrece nuevas posibilidades al usuario al tiempo que corrige uno de sus principales defectos: hay muchas versiones y los fabricantes tienen dificultades para adaptar sus productos a los requisitos de las &uacute;ltimas entregas, por lo que muchos usuarios no se actualizan. Pese a los rumores y los vaivenes con el nombre (esta versi&oacute;n fue conocida como <strong>Key Lime Pie antes de que Google y Nestl&eacute; sellar&aacute;n su particular acuerdo</strong>) no se present&oacute; p&uacute;blicamente hasta el pasado 31 de octubre. Por primera vez Google se al&iacute;a con una empresa externa para utilizar el nombre de uno de sus productos en la versi&oacute;n del sistema operativo. Una campa&ntilde;a publicitaria conjunta que esperemos no acabe por derretirse en tus manos...</p>
+<ul type="disc">
+<li>Rebaja de requisitos hardware para corregir la fragmentaci&oacute;n de versiones</li>
+<li>Compatible con terminales con 512 MB de memoria RAM</li>
+<li>Reducci&oacute;n del consumo de bater&iacute;a mediante la optimizaci&oacute;n de los sensores</li>
+<li>Incluye la suite ofim&aacute;tica QuickOffice</li>
+<li>Servicios de almacenamiento online integrados: Google Drive, Box...</li>
+<li>Soporte para infrarrojos. Usa el m&oacute;vil como mando de TV</li>
+<li>Aplicaciones a pantalla completa, modo inmersivo</li>
+<li>Soporte Bluetooth HID a trav&eacute;s de GATT y Bluetooth Message Access Profile</li>
+<li>Captura de pantalla en v&iacute;deo</li>
+</ul>
+<p>Google present&oacute; KitKat 4.4 al mismo tiempo que mostraba en sociedad el nuevo Nexus 5, otro <em>smartphone</em>firmado junto a LG y basado en el modelo de gama alta G2. Sin embargo poco hab&iacute;a que ver, pues las filtraciones de las semanas precedentes lo hab&iacute;an dicho pr&aacute;cticamente todo. Es una evoluci&oacute;n del Nexus 4 lanzado apenas un a&ntilde;o antes.</p>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-84.jpg"  alt="El Nexus 5 es un terminal de gama alta con procesador Snapdragon de 4 núcleos y 2 GB de RAM" class="centered" /><span class="image-credits">El Nexus 5 es un terminal de gama alta con procesador Snapdragon de 4 núcleos y 2 GB de RAM </span>
+<p class="head-title">A&ntilde;o 2014</p>
+<p>Android ampl&iacute;a sus horizontes en 2014 y se instala en todo tipo de dispositivos: Android TV, smarwatches, Android Auto y otros dispositivos para el entretenimiento como Nexus Player.</p>
+<p>A finales de junio, en la conferencia de desarrolladores Google I/O se presentaba oficialmente el nuevo Android L. En esos momentos s&oacute;lo estaba disponible para desarrolladores y no se conoc&iacute;a cu&aacute;l ser&iacute;a su nombre final: &iquest;Lollipop? &iquest;Lemon Meringue Pie? &iquest;Lemon Drop? &iquest;Android 5.0?</p>
+<h2>Android 5.0 Lollipop</h2>
+<img src="https://imag.malavida.com/articulos-big/la-historia-de-android-de-apple-pie-10-a-lollipop-50-imagen-85.jpg"  alt="Imagen promocional de Android Lollipop" class="centered" /><span class="image-credits">Imagen promocional de Android Lollipop </span>
+<p>Finalmente, el 15 de octubre fue desvelado el enigma. La nueva actualizaci&oacute;n de Android se llamar&iacute;a <a href="https://www.malavida.com/es/soft/android-5-lollipop/android/" title="Android 5 Lollipop">Android 5 Lollipop</a> y uno de sus rasgos m&aacute;s llamativos fue la inclusi&oacute;n <strong>Material Design</strong>, un nuevo lenguaje de dise&ntilde;o que unificar&aacute; la experiencia de uso en cualquier tipo de dispositivo.</p>
+<ul type="disc">
+<li>Nuevo dise&ntilde;o basado en Material Design que logra un flujo de trabajo m&aacute;s fluido</li>
+<li>Interfaz que se adapta a cualquier tama&ntilde;o de dispositivo</li>
+<li>Mejoras en el apartado visual con efectos y animaciones que proporcionan una interacci&oacute;n m&aacute;s real</li>
+<li>Renovado sistema de notificaciones inteligente</li>
+<li>Interesante vista multitarea que muestra capas con las diferentes aplicaciones abiertas</li>
+<li>Aumento del rendimiento energ&eacute;tico (enmarcado en el Proyecto Volta), posibilitando una mayor autonom&iacute;a de la bater&iacute;a</li>
+<li>Funci&oacute;n <em>Android Smart Lock</em>, que permite emparejar un dispositivo Android con otro, ya sea un reloj inteligente o un autom&oacute;vil.</li>
+<li>Modo "Invitado" para que puedas prestar el dispositivo sin que otros usuarios tengan acceso a tu informaci&oacute;n privada.</li>
+<li>El entorno de ejecuci&oacute;n de aplicaciones ART (<em>Android RunTime</em>) pasa a ser el predeterminado</li>
+<li>Soporte para sistemas de 64 bits</li>
+</ul>
+<p><div class="player-video"><iframe width="640" height="380" src="https://www.youtube.com/embed/p4gmvHyuZzw" frameborder="0" allowfullscreen> </iframe></div></p>
+<p>Junto a la presentaci&oacute;n oficial de Android 5.0 Lollipop se descubr&iacute;an los nuevos terminales: el <em>phablet</em> Nexus 6, la tableta Nexus 9 y &iexcl;la gran sorpresa! el <strong>Nexus Player a modo de centro de entretenimiento</strong> que permite utilizar aplicaciones, jugar y reproducir contenidos multimedia en tu TV.</p>
+<p>En diciembre de ese mismo a&ntilde;o aparec&iacute;an las primeras actualizaciones del sistema (5.0.1 y 5.0.2) enfocadas a la correcci&oacute;n de errores. En concreto, Android 5.0.1 solucionaba un fallo que se produc&iacute;a tras varios <strong>intentos err&oacute;neos al desbloquear la pantalla</strong> del dispositivo. Tambi&eacute;n inclu&iacute;a mejoras en la seguridad Wi-Fi. Por su parte, Android 5.0.2 correg&iacute;a la disminuci&oacute;n del rendimiento de los dispositivos tras ser reiniciados, mejoraba la gesti&oacute;n de las tarjetas de almacenamiento externo y fallos en la aplicaci&oacute;n Alarma.</p>
+<img src="https://imag.malavida.com/articulos-big/telefono-nexus-6-de-google.jpg"  alt="Teléfono Nexus 6 de Google" class="centered" /><span class="image-credits">Teléfono Nexus 6 de Google </span>
+<p class="head-title">A&ntilde;o 2015</p>
+<p>No fue hasta marzo de 2015 que estuvo disponible la esperada actualizaci&oacute;n Android 5.1 Lollipop, con la que se <strong>mejoraba el rendimiento</strong> del procesador y se aumentaba la autonom&iacute;a de la bater&iacute;a. A pesar de no incluir grandes novedades s&iacute; proporcionaba algunas mejoras:</p>
+<ul>
+<li>Soporte nativo para m&uacute;ltiples SIMs.</li>
+<li>Mejora relacionada con la gesti&oacute;n del Modo Silencio y las Alarmas.</li>
+<li>Acceso a las opciones de Wi-Fi y Bluetooth desde los Ajustes R&aacute;pidos.</li>
+<li>Posibilidad de ocultar las notificaciones emergentes desliz&aacute;ndolas hacia arriba.</li>
+<li>Mejora en la gesti&oacute;n de memoria RAM.</li>
+<li>Nuevas animaciones para el Reloj y los iconos de la barra de Ajustes R&aacute;pidos.</li>
+<li>Soporte para llamadas de voz en alta definici&oacute;n.</li>
+</ul>
+<img src="https://imag.malavida.com/articulos/android-51-permite-una-mejor-gestion-de-las-alarmas.jpg"  alt="Android 5.1 permite una mejor gestión de las alarmas" class="centered" /><span class="image-credits">Android 5.1 permite una mejor gestión de las alarmas / Android 5.1 permite realizar una mejor gestión de las alarmas</span>
+<p>En abril aparec&iacute;a Android 5.1.1, que ser&iacute;a la &uacute;ltima actualizaci&oacute;n "Lollipop" antes de la llegada definitiva de Marshmallow. Adem&aacute;s de la cl&aacute;sica correcci&oacute;n de errores, esta versi&oacute;n optimizaba la <strong>velocidad de funcionamiento</strong> de los dispositivos.</p>
+<h2>Android 6.0 Marshmallow</h2>
+<img src="https://imag.malavida.com/articulos-big/android-60-marshmallow.jpg"  alt="Imagen promocional de Android Marshmallow" class="centered" /><span class="image-credits">Imagen promocional de Android Marshmallow </span>
+<p>El 17 de agosto se anunciaba oficialmente <a href="https://www.malavida.com/es/soft/android-6-marshmallow/android/" title="Android 6 Marshmallow">Android 6 Marshmallow</a>. El lanzamiento de la versi&oacute;n 6.0 del sistema se estima para finales del tercer cuatrimestre del a&ntilde;o, aunque los desarrolladores ya pueden descargar el SDK. La Developer Preview 3 dispone de un nuevo paquete de fondos de pantalla y una nueva animaci&oacute;n de inicio. Algunas de las novedades que incluir&aacute; el tambi&eacute;n conocido como Android M son las siguientes:</p>
+<ul>
+<li>Soporte para el USB Tipo-C.</li>
+<li>Soporte para la autenticaci&oacute;n de huella digital.</li>
+<li>Desinstalaci&oacute;n r&aacute;pida de las aplicaciones desde la pantalla de inicio.</li>
+<li>Nuevo esquema de gesti&oacute;n de energ&iacute;a llamado Doze.</li>
+<li>Mayor duraci&oacute;n de la bater&iacute;a cuando el dispositivo est&aacute; en reposo.</li>
+<li>Inclusi&oacute;n de Android Pay que emplear&aacute; el chip NFC.</li>
+<li>Mejoras en Google Now.</li>
+<li>Mayor control sobre los permisos requeridos por las aplicaciones.</li>
+</ul>
+<img src="https://imag.malavida.com/articulos-big/capturas-de-android-60.jpg"  alt="Capturas de Android 6.0" class="centered" /><span class="image-credits">Capturas de Android 6.0 / Android 6.0 Marshmallow implementa un mejor control de los permisos de las aplicaciones</span>
+<p class="head-title">A&ntilde;o 2016</p>
+<p>Durante el Google I/O celebrado en mayo de 2016, la empresa de Mountain View anunci&oacute; la llegada de la que ser&iacute;a la<strong> versi&oacute;n 7.0 de su sistema operativo m&oacute;vil</strong>, conocida tambi&eacute;n como Android N, por seguir el orden alfab&eacute;tico utilizado para nombrar su producto.</p>
+<p>En ese momento comenz&oacute; la especulaci&oacute;n, como ocurre todos los a&ntilde;os, sobre el nombre oficial que recibir&iacute;a la nueva actualizaci&oacute;n de Android. Mes y medio m&aacute;s tarde, el 30 de junio de 2016, Google por fin desvelaba ese nombre poniendo fin a los rumores: <strong>se anunciaba oficialmente la llegada de Android Nougat</strong>.</p>
+<h2>Android 7.0 Nougat</h2>
+<img src="https://imag.malavida.com/articulos-big/imagen-promocional-de-android-7-nougat.jpg"  alt="Imagen promocional de Android 7 Nougat" class="centered" /><span class="image-credits">Imagen promocional de Android 7 Nougat / <a href=" https://commons.wikimedia.org/wiki/File:Android_7.0_Nougat.jpg#/media/File:Android_7.0_Nougat.jpg" title="Google Inc." target="_blank" rel="external nofollow noopener"> Google Inc.</a> editada con licencia <a href=" https://creativecommons.org/licenses/by-sa/4.0/" title="CC BY-SA 4.0" target="_blank" rel="external nofollow noopener"> CC BY-SA 4.0</a></span>
+<p><a href="https://www.malavida.com/es/soft/android-7-nougat/android/" title="Android 7 Nougat">Android 7 Nougat</a>, traducido al castellano como turr&oacute;n, es el nuevo sistema Android ya disponible para su descarga. Como siempre viene con <strong>numerosas novedades y mejoras</strong> tanto en el apartado funcional como el est&eacute;tico que resumimos a continuaci&oacute;n:</p>
+<ul>
+<li>Redise&ntilde;o del bot&oacute;n de apps recientes con nuevas funciones.</li>
+<li>Mejores notificaciones para organizarlas mejor y trabajar con ellas en lotes.</li>
+<li>Posibilidad de interactuar mejor con las notificaciones y configurarlas.</li>
+<li>Compatibilidad con m&aacute;s de 100 idiomas nuevos.</li>
+<li>Funci&oacute;n multiventana nativa para ejecutar dos apps a la vez en la misma pantalla.</li>
+<li>Mayor personalizaci&oacute;n y configuraciones para los atajos r&aacute;pidos.</li>
+<li>Forma m&aacute;s inteligente de bloquear llamadas entrantes.</li>
+<li>Acceso a Instant Apps si necesidad de descargarlas ni instalarlas.</li>
+<li>Ahorro de datos m&aacute;s inteligente para bloquear el consumo de aplicaciones que se ejecutan en segundo plano.</li>
+</ul>
+<p class="head-title">A&ntilde;o 2017</p>
+<p>Durante el mes de marzo y coincidiendo con un eclipse de sol total en Estados Unidos Google anunci&oacute; la aparici&oacute;n de una nueva versi&oacute;n de su sistema operativo para m&oacute;viles y tabletas. A&uacute;n no ten&iacute;a nombre confirmado, pero se comenzaban a liberar versiones para desarrolladores y para los &uacute;ltimos tel&eacute;fonos lanzados por la compa&ntilde;&iacute;a. En total se lanzar&iacute;an <strong>cuatro versiones previas</strong> de distribuci&oacute;n limitada antes de la llegada de la versi&oacute;n definitiva para el gran p&uacute;blico.</p>
+<h2>Android 8.0 Oreo</h2>
+<img src="https://imag.malavida.com/articulos-big/logotipo-e-imagen-de-android-oreo-8.jpg"  alt="Logotipo e imagen de Android Oreo 8" class="centered" /><span class="image-credits">Logotipo e imagen de Android Oreo 8 </span>
+<p>El a&ntilde;o 2017 fue el a&ntilde;o de <a href="https://www.malavida.com/es/soft/android-8-oreo/android/" title="Descargar Android Oreo 8.0">Android 8 Oreo</a>, una nueva muesca de la compa&ntilde;&iacute;a americana para con el mundo del dulce, esta vez adoptando el nombre de unas populares galletas. Tras un par de versiones para desarrolladores vio la luz definitivamente el <strong>21 de agosto de 2017</strong> para dispositivos Nexus y Pixel compatibles. Entre las novedades introducidas cabe destacar:</p>
+<ul>
+<li>Modo imagen en imagen (PiP) para ver en ventana flotante v&iacute;deos por ejemplo mientras otra app usa la pantalla completa.</li>
+<li>Nuevos iconos adaptativos para adaptarse mejor al dise&ntilde;o del sistema.</li>
+<li>Muchas mejoras en cuanto a notificaciones: mejores filtros, opci&oacute;n para posponerlas, nuevo dise&ntilde;o, jerarquizaci&oacute;n, puntos de notificaci&oacute;n en iconos...</li>
+<li>Autocompletado.</li>
+<li>Opci&oacute;n para a&ntilde;adir tus propios tonos y sonidos sin necesidad de recurrir a apps de terceros.</li>
+<li>Cambios en la opci&oacute;n de instalar apps desde or&iacute;genes desconocidos: define qu&eacute; app puede instalar otras.</li>
+<li>Nueva barra de progreso durante la instalaci&oacute;n de apps.</li>
+<li>Selector de texto inteligente.</li>
+<li>Nueva opci&oacute;n pegar sin formato.</li>
+<li>Mejoras en la gesti&oacute;n de redes wifi, permitiendo conectar con redes fiables aunque tengamos desactivada la conexi&oacute;n.</li>
+<li>Nuevo dise&ntilde;o de emojis.</li>
+<li>Navegaci&oacute;n segura a&ntilde;adida a webview.</li>
+<li><em>Project Treble</em> para intentar mejorar la fragmentaci&oacute;n y las actualizaciones de sistema entre fabricantes.</li>
+<li>Nueva compatibilidad con Neighbor Awareness Networking (NAN).</li>
+<li>Soporte multipantalla.</li>
+<li>Opciones mejoradas para el control de apps en segundo plano que consumen bater&iacute;a y memoria.</li>
+</ul>
+<p class="head-title">A&ntilde;o 2018</p>
+<p>El 7 de marzo de 2018 se anunci&oacute; y estuvo disponible para descargar la primera versi&oacute;n para desarrolladores de lo que ser&iacute;a la nueva versi&oacute;n del sistema operativo m&oacute;vil de Google. Con el nombre en clave de P se lanzar&iacute;an cuatro versiones m&aacute;s hasta julio de ese mismo a&ntilde;o. S&oacute;lo habr&iacute;a que esperar algunas semanas m&aacute;s para conocer la nueva apuesta de la empresa de Mountain View.</p>
+<h2>Android 9 Pie</h2>
+<img src="https://imag.malavida.com/articulos-big/icono-del-nuevo-android-9-pie.jpg"  alt="Icono del nuevo Android 9 Pie" class="centered" /><span class="image-credits">Icono del nuevo Android 9 Pie </span>
+<p>Tras varios meses con versiones previas con el nombre en clave de P, Google anunci&oacute; finalmente el <strong>6 de agosto del a&ntilde;o 2018</strong> la siguiente iteraci&oacute;n de su sistema operativo m&oacute;vil, <a href="https://www.malavida.com/es/soft/android-9/android/" title="Descargar Android 9 Pie">Android 9 Pie</a>. Tras varias versiones que tomaban el nombre de productos comerciales dulces, esta vez tan solo se eligi&oacute; el nombre de un tipo de postre, una simplificaci&oacute;n en sinton&iacute;a con los cambios aparecidos enfocados a facilitar el manejo y el mayor aprendizaje del sistema de tus h&aacute;bitos y costumbres mediante la inteligencia a artificial al tiempo que se busca un comportamiento menos invasivo y absorbente en sinton&iacute;a con los h&aacute;bitos de vida saludables.</p>
+<ul>
+<li>Consumo de bater&iacute;a de aplicaciones y brillo de pantalla inteligente gracias a la inteligencia artificial, capaz de detectar aplicaciones, momentos y lugares para optimizar el consumo de procesadores y por tanto la duraci&oacute;n de la bater&iacute;a.</li>
+<li>Predicci&oacute;n de tareas y activades en funci&oacute;n de las rutinas diarias que realizamos simplificando el acceso hasta las herramientas correspondientes. Su nombre es <em>App Actions</em>.</li>
+<li><em>Slices</em>, b&uacute;squedas mejoradas con sugerencias de acceso directo a funcionalidades internas de cada app.</li>
+<li>Navegaci&oacute;n por gestos a trav&eacute;s del sistema reformulada al estilo de lo que ocurre en el iPhone X.</li>
+<li>Detecci&oacute;n de texto mejorada para ofrecer siempre la opci&oacute;n m&aacute;s adecuada al copiar texto en cualquier parte.</li>
+<li>Nuevo <em>Dashboard</em> de control de actividad para monitorizar el uso que hacemos del dispositivo, nuevos modos de uso responsable de app estableciendo limitadores de tiempo y nuevos modos <em>Do not Disturb</em> y <em>Win Down</em> para eliminar molestias en la pantalla o activar conjuntamente la luz nocturna y el no molestar.</li>
+</ul></p>                            <div class="font-credits"><a href=" https://www.flickr.com/photos/73471799@N05/14528415098" title=" 00はがはがはが" target="_blank" rel="external nofollow noopener"> 00はがはがはが</a> editada con licencia <a href="https://creativecommons.org/licenses/by/2.0/ " title="CC 2.0" target="_blank" rel="external nofollow noopener">CC  2.0</a></div>
+                        </div>
+                    <div class="entry-tags">
+                    <a href="https://www.malavida.com/es/tag/android" title="Android">Android</a>
+            </div>
+            
+    </div>
+
+    <div class="footer entry-footer">
+        <div id="SocialZone" class="social-zone">
+                        <p class="call-action">Nos encanta escucharte ¿Nos dejas tu opinión? </p>
+            <div class="comments">
+                                <span class="mvicon-comments num-comments">5 </span>
+                <a href="#comments" class="mvicon-comment button">Comentar</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="scroll-social" class='scroll-social hide'>
+        <div class="total-shares hide" id="total-shares">
+             Compartido  <span class="number"> 0 </span>
+            <small>  Veces </small>
+        </div>
+                    <span class="claim">Compartir</span>
+                        <div class="social-box">
+            <a class="mvicon-whatsapp whatsapp bg-whatsapp" href="whatsapp://send?text=La+historia+de+Android%3A+de+Apple+Pie+1.0+a+Pie+9 https://www.malavida.com/es/analisis/la-historia-de-android?utm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget" target="_blank"
+               rel="nofollow noopener">WhatsApp</a>
+            <a class="mvicon-facebook facebook bg-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget" target="_blank"
+               rel="nofollow noopener" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;">Comp&aacute;rtelo</a>
+            <a class="mvicon-twitter twitter bg-twitter" href="https://twitter.com/intent/tweet?text=La+historia+de+Android%3A+de+Apple+Pie+1.0+a+Pie+9&url=https://www.malavida.com/es/analisis/la-historia-de-android?utm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget;via=malavida" target="_blank"
+               rel="nofollow noopener" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;">Tuit&eacute;alo</a>
+            <a class="mvicon-googleplus googleplus bg-googleplus" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Dgoogleplus%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget" target="_blank"
+               rel="nofollow noopener">Mu&eacute;velo</a>
+            <a class="fl_flip_button" href="https://share.flipboard.com/bookmarklet/popout?v=2&url=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget" target="_blank"
+               rel="nofollow noopener">Flip</a>
+            <a class="mvicon-meneame meneame bg-meneame" href="https://meneame.net/submit.php?url=https%3A%2F%2Fwww.malavida.com%2Fes%2Fanalisis%2Fla-historia-de-android%3Futm_source%3Dmeneame%26utm_medium%3Dsocial%26utm_campaign%3DMVES%2BArticle%2BWidget" target="_blank"
+               rel="nofollow noopener">Men&eacute;alo</a>
+        </div>
+        <button class="mvicon-close close"></button>
+        <button class="mvicon-share share"></button>
+    </div>
+    
+        <div class="post_pub">
+            <!-- MV_ES_Artic_INF -->
+<div id="div-gpt-ad-postinf"><script type="text/javascript">googletag.cmd.push(function() {if(typeof gts_postinf!='undefined'){
+            if(checkEeu.hasCookie === false && checkEeu.isRequested === false){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else if(checkEeu.hasCookie === false && checkEeu.isRequested === true && checkEeu.isEeu === true){
+                googletag.pubads().setTargeting('NoCookEU', '1');
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }else{
+                googletag.pubads().setTargeting('NoCookEU', '0');
+            }
+         googletag.display("div-gpt-ad-postinf"); googletag.pubads().refresh([gts_postinf]);}});</script></div>
+        </div>
+    
+                <section class="rel-profile related-ad">
+                <h4 class="mvicon-updated title">Contenido Patrocinado</h4>
+                <div class="related-ad" style="padding: 10px;">
+                    <!-- MV ART DESK RELATED CONTENT -->
+<div class="asrc"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2181195710737927" data-ad-slot="1498631461" data-matched-content-rows-num="2,1" data-matched-content-columns-num="2,4" data-matched-content-ui-type="image_stacked,image_stacked" data-ad-format="autorelaxed"></ins>
+<script>
+            if(checkEeu.hasCookie === false && checkEeu.isRequested === false){
+                (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;
+                (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;
+                (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;
+            }else if(checkEeu.hasCookie === false && checkEeu.isRequested === true && checkEeu.isEeu === true){
+                (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;
+                (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;
+                (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;
+            }
+        (adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>                </div>
+            </section>
+                    <!-- RELATED -->
+    <div class="entry-related">
+                    <!-- RELATED STD -->
+            <section class="rel-profile articles">
+                <h3 class="mvicon-articles title">La historia del software está aquí</h3>
+                <div class="content">
+                        <article>
+        <a title="La historia de WhatsApp: 10 años liderando la mensajería instantánea" rel="bookmark" href="https://www.malavida.com/es/analisis/la-historia-de-whatsapp-006659">
+            <div class="header">
+                <h6 class="title">La historia de WhatsApp: 10 años liderando la mensajería instantánea</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="La historia de WhatsApp: 10 años liderando la mensajería instantánea" src="https://imag.malavida.com/articulos/top-fw/colores-y-logotipo-de-whatsapp.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="La historia de Microsoft: la evolución del padre de Windows" rel="bookmark" href="https://www.malavida.com/es/analisis/la-historia-de-microsoft-la-evolucion-del-padre-de-windows-006505">
+            <div class="header">
+                <h6 class="title">La historia de Microsoft: la evolución del padre de Windows</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="La historia de Microsoft: la evolución del padre de Windows" src="https://imag.malavida.com/articulos/top-fw/cuartel-general-de-microsoft.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="La historia de Google, de simple buscador a dueño y señor de Internet" rel="bookmark" href="https://www.malavida.com/es/analisis/la-historia-de-google-de-simple-buscador-a-dueno-y-senor-de-internet-006495">
+            <div class="header">
+                <h6 class="title">La historia de Google, de simple buscador a dueño y señor de Internet</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="La historia de Google, de simple buscador a dueño y señor de Internet" src="https://imag.malavida.com/articulos/top-fw/google-dueno-de-internet.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="La historia de YouTube, evolución y crecimiento del gigante del vídeo" rel="bookmark" href="https://www.malavida.com/es/analisis/la-historia-de-youtube-evolucion-y-crecimiento-del-gigante-del-video-006493">
+            <div class="header">
+                <h6 class="title">La historia de YouTube, evolución y crecimiento del gigante del vídeo</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="La historia de YouTube, evolución y crecimiento del gigante del vídeo" src="https://imag.malavida.com/articulos/top-fw/youtube-en-un-imac.jpeg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="La historia del navegador Safari: la apuesta de Apple para la web" rel="bookmark" href="https://www.malavida.com/es/analisis/la-historia-del-navegador-safari-006488">
+            <div class="header">
+                <h6 class="title">La historia del navegador Safari: la apuesta de Apple para la web</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="La historia del navegador Safari: la apuesta de Apple para la web" src="https://imag.malavida.com/articulos/top-fw/apariencia-de-safari-en-un-ordenador-mac.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="Redes P2P, evolución de un protocolo más allá de las descargas" rel="bookmark" href="https://www.malavida.com/es/analisis/redes-p2p-evolucion-de-un-protocolo-mas-alla-de-las-descargas-006483">
+            <div class="header">
+                <h6 class="title">Redes P2P, evolución de un protocolo más allá de las descargas</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="Redes P2P, evolución de un protocolo más allá de las descargas" src="https://imag.malavida.com/articulos/top-fw/cliente-p2p.jpg" width="395" height="239">
+        </a>
+
+    </article>
+    
+                </div>
+            </section>
+                    <!-- RELATED MORE -->
+            <section class="rel-profile articles">
+                <h3 class="mvicon-articles title">Otros relacionados</h3>
+                <div class="content">
+                        <article>
+        <a title="Qué es el Android Open Source Project (AOSP)" rel="bookmark" href="https://www.malavida.com/es/analisis/que-es-el-android-open-source-project-aosp-006763">
+            <div class="header">
+                <h6 class="title">Qué es el Android Open Source Project (AOSP)</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="Qué es el Android Open Source Project (AOSP)" src="https://imag.malavida.com/articulos/top-fw/muneco-de-android.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="Qué es Android TV y para qué sirve" rel="bookmark" href="https://www.malavida.com/es/analisis/que-es-android-tv-y-para-que-sirve-006760">
+            <div class="header">
+                <h6 class="title">Qué es Android TV y para qué sirve</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="Qué es Android TV y para qué sirve" src="https://imag.malavida.com/articulos/top-fw/smart-tv.jpg" width="395" height="239">
+        </a>
+
+    </article>
+        <article>
+        <a title="Qué es el interfaz de Android" rel="bookmark" href="https://www.malavida.com/es/analisis/que-es-el-interfaz-de-android-006748">
+            <div class="header">
+                <h6 class="title">Qué es el interfaz de Android</h6>
+                <span class="category">Análisis</span>
+            </div>
+            <img alt="Qué es el interfaz de Android" src="https://imag.malavida.com/articulos/top-fw/telefonos-con-interfaces-android-distintas.jpg" width="395" height="239">
+        </a>
+
+    </article>
+    
+                </div>
+            </section>
+                <!-- COMMENTS -->
+            <section id="SlideShowComments" class="rel-profile comments">
+        <h4 class="mvicon-comments title">Opiniones de los usuarios</h4>
+        <div id="CommentsTabs" class="collapsed">
+            <div id="TabOrdDate">
+                <ul id="CommentListDate" class="commentlist">
+                                            <li class="alt">
+                            <div id="Comment-txt-date-5598"
+                                 class="commentbox expanded">
+                                <div class="header">
+                                    <img class="avatar" width="40"
+                                         height="40"
+                                         alt="caro_3"
+                                         src="https://imag.malavida.com/autores/noimg.jpg"/>
+                                    <cite><span>caro_3</span></cite>
+                                    <small class="date"><a name="comment-5598"
+                                                           class="num-comment">Comentó el 09 de julio de 2014 a las 23:56</a></small>
+                                </div>
+                                                                <div class="comment-text">
+                                    <p>
+                                        tengo un celu dell mini 5 con android 2.3.3. y no me deja actualizar  el android.. como puedo hacer?                                    </p>
+                                </div>
+                                <div id="Karma-date-5598" data-karmaold="0"
+                                     class="footer">
+                                    <span class="karma zero">0</span>
+                                    <div class="tooltip">
+                                        <span>Votos: </span><span class="kp">+0</span> y <span class="kn">-0</span>
+                                    </div>
+                                    <span class="vote positive mvicon-thumbsup" onclick="userManager.setCommentKarma('5598',1,'date-')">+</span>
+                                    <span class="vote negative mvicon-thumbsdown" onclick="userManager.setCommentKarma('5598',-1,'date-')">-</span>
+
+                                </div>
+                                                            </div>
+                        </li>
+                                                                    <li class="alt">
+                            <div id="Comment-txt-date-5222"
+                                 class="commentbox expanded">
+                                <div class="header">
+                                    <img class="avatar" width="40"
+                                         height="40"
+                                         alt="Fernandroid"
+                                         src="https://imag.malavida.com/autores/noimg.jpg"/>
+                                    <cite><span>Fernandroid</span></cite>
+                                    <small class="date"><a name="comment-5222"
+                                                           class="num-comment">Comentó el 04 de diciembre de 2013 a las 00:50</a></small>
+                                </div>
+                                                                <div class="comment-text">
+                                    <p>
+                                        ¡Guau! Menudo post.... Todavía recuerdo mi primer htc magic, que recuerdos. Ahora estoy a la espera de mi nexus 5 jeje.                                    </p>
+                                </div>
+                                <div id="Karma-date-5222" data-karmaold="0"
+                                     class="footer">
+                                    <span class="karma zero">0</span>
+                                    <div class="tooltip">
+                                        <span>Votos: </span><span class="kp">+0</span> y <span class="kn">-0</span>
+                                    </div>
+                                    <span class="vote positive mvicon-thumbsup" onclick="userManager.setCommentKarma('5222',1,'date-')">+</span>
+                                    <span class="vote negative mvicon-thumbsdown" onclick="userManager.setCommentKarma('5222',-1,'date-')">-</span>
+
+                                </div>
+                                                            </div>
+                        </li>
+                                                                    <li class="alt">
+                            <div id="Comment-txt-date-5221"
+                                 class="commentbox collapsed">
+                                <div class="header">
+                                    <img class="avatar" width="40"
+                                         height="40"
+                                         alt="Eduardo Archanco"
+                                         src="https://imag.malavida.com/autores/noimg.jpg"/>
+                                    <cite><span>Eduardo Archanco</span></cite>
+                                    <small class="date"><a name="comment-5221"
+                                                           class="num-comment">Comentó el 03 de diciembre de 2013 a las 16:51</a></small>
+                                </div>
+                                                                    <span class="comment-text-action"
+                                          onclick="colapse('Comment-txt-date-5221','commentbox')"></span>
+                                                                <div class="comment-text">
+                                    <p>
+                                        Un buen resumen de la historia de Android, gracias. </p><p></p><p>Compartido en Google Plus, por supuesto.                                    </p>
+                                </div>
+                                <div id="Karma-date-5221" data-karmaold="0"
+                                     class="footer">
+                                    <span class="karma zero">0</span>
+                                    <div class="tooltip">
+                                        <span>Votos: </span><span class="kp">+0</span> y <span class="kn">-0</span>
+                                    </div>
+                                    <span class="vote positive mvicon-thumbsup" onclick="userManager.setCommentKarma('5221',1,'date-')">+</span>
+                                    <span class="vote negative mvicon-thumbsdown" onclick="userManager.setCommentKarma('5221',-1,'date-')">-</span>
+
+                                </div>
+                                                            </div>
+                        </li>
+                                                                    <li class="alt">
+                            <div id="Comment-txt-date-5177"
+                                 class="commentbox expanded">
+                                <div class="header">
+                                    <img class="avatar" width="40"
+                                         height="40"
+                                         alt="Gerardo Reyes"
+                                         src="https://imag.malavida.com/autores/noimg.jpg"/>
+                                    <cite><span>Gerardo Reyes</span></cite>
+                                    <small class="date"><a name="comment-5177"
+                                                           class="num-comment">Comentó el 08 de noviembre de 2013 a las 18:59</a></small>
+                                </div>
+                                                                <div class="comment-text">
+                                    <p>
+                                        Excelente Post sobre la historia de android                                    </p>
+                                </div>
+                                <div id="Karma-date-5177" data-karmaold="0"
+                                     class="footer">
+                                    <span class="karma zero">0</span>
+                                    <div class="tooltip">
+                                        <span>Votos: </span><span class="kp">+0</span> y <span class="kn">-0</span>
+                                    </div>
+                                    <span class="vote positive mvicon-thumbsup" onclick="userManager.setCommentKarma('5177',1,'date-')">+</span>
+                                    <span class="vote negative mvicon-thumbsdown" onclick="userManager.setCommentKarma('5177',-1,'date-')">-</span>
+
+                                </div>
+                                                            </div>
+                        </li>
+                                                                    <li class="alt">
+                            <div id="Comment-txt-date-5174"
+                                 class="commentbox expanded">
+                                <div class="header">
+                                    <img class="avatar" width="40"
+                                         height="40"
+                                         alt="Miriam_2"
+                                         src="https://imag.malavida.com/autores/noimg.jpg"/>
+                                    <cite><span>Miriam_2</span></cite>
+                                    <small class="date"><a name="comment-5174"
+                                                           class="num-comment">Comentó el 07 de noviembre de 2013 a las 12:56</a></small>
+                                </div>
+                                                                <div class="comment-text">
+                                    <p>
+                                        Enhorabuena por el pedazo de artículo! Compartido ;)                                    </p>
+                                </div>
+                                <div id="Karma-date-5174" data-karmaold="0"
+                                     class="footer">
+                                    <span class="karma zero">0</span>
+                                    <div class="tooltip">
+                                        <span>Votos: </span><span class="kp">+0</span> y <span class="kn">-0</span>
+                                    </div>
+                                    <span class="vote positive mvicon-thumbsup" onclick="userManager.setCommentKarma('5174',1,'date-')">+</span>
+                                    <span class="vote negative mvicon-thumbsdown" onclick="userManager.setCommentKarma('5174',-1,'date-')">-</span>
+
+                                </div>
+                                                            </div>
+                        </li>
+                                                            </ul>
+            </div>
+                    </div>
+    </section>
+<section class="rel-profile comment">
+    <h4 class="mvicon-comment title">
+        <a name="comments">Nos encanta escucharte ¿Nos dejas tu opinión?</a>
+    </h4>
+    
+        <div id="CommentUsrLast" class="last-comment"></div>
+    
+    <form id="CommentForm" class="comment-form"
+          onsubmit="userManager.sendRegForm('CommentForm','CommentFormMsg',3);return false;">
+        <div class="user-comment">
+            
+                <img src="https://imag.malavida.com/autores/noimg.jpg" alt="Desconectado" width="50" height="50" class="avatar"/>
+                        <p>
+        <span class="user">
+          <a name="Comment">Desconectado</a>
+        </span>
+            </p>
+                    </div>
+        <div class="form_linea">
+            <div class="corner-textarea"></div>
+            <textarea rows="10" name="comment" class="forms_input form_texta" id="comment"
+                      aria-label="Comment"></textarea>
+        </div>
+        <div class="form_linea">
+            <p class="notification" id="CommentFormMsg"></p>
+            <input type="submit"
+                   value="Opinar"
+                   id="submit" name="submit" class="forms_submit"/>
+        </div>
+    </form>
+</section>        <!-- PREV | NEXT -->
+        <nav class="navigation">
+                            <div class="prev-post">
+                    <a rel="prev" class="mvicon-arrowup"
+                       href="https://www.malavida.com/es/listas/las-10-mejores-apps-para-ligar-en-android-006460">Las 10 mejores apps para ligar en Android</a>
+                </div>
+                                <div class="next-post">
+                    <a rel="next" class="mvicon-arrowdown"
+                       href="https://www.malavida.com/es/guias-trucos/como-tener-dos-whatsapp-en-un-iphone-006462">Cómo tener dos WhatsApp en un iPhone</a>
+                </div>
+                        </nav>
+    </div>
+</main>
+    
+
+</div>
+<!-- FOOTER -->
+<footer id="Footer" class="lite">
+    <!-- UP -->
+    <a href="#" class="mvicon-arrowup up"
+       title="Subir">Subir</a>
+    
+  <div class="list tags mvicon-tags">
+    <p><a href="https://www.malavida.com/es/tags/" title="Tags">Tags</a></p>
+    <ul><li><a href="https://www.malavida.com/es/tag/como-descargar"rel="" title="Cómo Descargar" >Cómo Descargar</a></li><li><a href="https://www.malavida.com/es/tag/trucos-android"rel="" title="Trucos Android" >Trucos Android</a></li><li><a href="https://www.malavida.com/es/tag/alternativas"rel="" title="Alternativas" >Alternativas</a></li><li><a href="https://www.malavida.com/es/tag/mejores-apps-android"rel="" title="Mejores apps Android" >Mejores apps Android</a></li></ul>
+  </div>    <!-- LINKS-->
+    <div class="mvicon-attachment links util">
+        <span>Secciones útiles</span>
+        
+      <a href="https://www.malavida.com/es/editors"rel="" title="Editores" >Editores</a>
+      <a href="https://www.malavida.com/es/mapa-web/"rel="" title="Mapa de artículos" >Mapa de artículos</a>    </div>
+    <div class="mvicon-info links us">
+        <span>Sobre nosotros</span>
+        
+      <a href="https://www.malavida.com/es/legal"rel="nofollow" title="Información legal" >Información legal</a>
+      <a href="https://www.malavida.com/es/privacy"rel="nofollow" title="Política de privacidad" >Política de privacidad</a>
+      <a href="https://www.malavida.com/es/contact"rel="nofollow" title="Contacto" >Contacto</a>    </div>
+                    <!-- SOCIAL LINKS -->
+            <ul class="social">
+                                    <li><a rel="external nofollow" href="https://www.facebook.com/malavidaES" class="mvicon-facebook2" title="Facebook" rel="me">Facebook</a></li>
+                                    <li><a rel="external nofollow" href="https://twitter.com/Malavida" class="mvicon-twitter2" title="Twitter" rel="me">Twitter</a></li>
+                                    <li><a rel="external nofollow" href="https://www.youtube.com/malavida" class="mvicon-youtube" title="Youtube" rel="me">Youtube</a></li>
+                                    <li><a rel="external nofollow" href="https://feeds.feedburner.com/malavida" class="rss mvicon-feed" title="RSS" rel="me">RSS</a></li>
+                            </ul>
+        <div class="footer-logo">
+        <div class="mvlogo"> <img src="https://static.malavida.com/global/imag/malavida_logo_mobile.svg"  title="Malavida" alt="Malavida" width="150" height="50"/></div>
+        <div class="copyright">© Copyright 2019 Malavida. Todos los derechos reservados</div>
+        <a class="firmlogo" target="_blank" href="http://www.ontecnia.com/" rel="nofollow noopener">ONTECNIA</a>    </div>
+</footer>
+</div>
+
+<div class="notification cookie hide">
+    <button class="close" title="Ok">Ok</button>
+    Usamos cookies propias y de terceros con fines publicitarios, de sesión, analíticas y de redes sociales. Cualquier acción que no sea su bloqueo, o la solicitud expresa del servicio vinculado a la cookie, implican el consentimiento para su uso. Consulte nuestra <a href="https://www.malavida.com/es/privacy" rel="nofollow">Política de Privacidad</a>.</div>
+<script>
+    var NSMv = NSMv || {};
+    NSMv.cookie = NSMv.cookie || {};
+    (function (o) {
+        o.getCookie = function(name){
+            let cookieName = name + "=";
+            let ca = document.cookie.split(';');
+            for(let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cookieName) === 0) {
+                    return c.substring(cookieName.length, c.length);
+                }
+            }
+            return "";
+        };
+        o.setCookie = function(name, value, expire){
+            let date = new Date();
+            date.setTime(date.getTime() + (expire * 24 * 60 * 60 * 1000))
+            let expireString = "expires="+date.toUTCString();
+            document.cookie = name + "=" + value + ";" + expireString + ";domain=.malavida.com;path=/;SameSite=Lax";
+        };
+        o.makeRequestSinc = function(vURL, vMethod, vParams, typeRespond){
+            let ajax = new XMLHttpRequest();
+            if(ajax.overrideMimeType){
+                ajax.overrideMimeType(typeRespond);
+            }
+            ajax.withCredentials = true;
+            if (vMethod == null){
+                vMethod = 'POST';
+            }
+            ajax.open(vMethod, vURL, false);
+            if (vMethod === 'POST'){
+                ajax.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            }
+            if (vParams){
+                ajax.send(vParams);
+            } else {
+                ajax.send(null);
+            }
+            return ajax;
+        };
+        let oldCookieName = 'cookie-warning-v1';
+        let cookieName = 'cookie-warning-v2';
+        let setNewCookie = false;
+        /**
+         * Si exiete la cookie antigua la borramos y marcamos para agregar la nueva
+         */
+        if(o.getCookie(oldCookieName)){
+            o.setCookie(oldCookieName, '1', -1);
+            setNewCookie = true;
+        }
+        /**
+         * Si la cookie actual no tiene el valor correcto la marcamos para insertar
+         */
+        if (o.getCookie(cookieName) !== '1') {
+            setNewCookie = true;
+        }
+        /**
+         * Si no existe cookie la insertamos
+         */
+        if (setNewCookie) {
+            /**
+             * Colocamos la cookie
+             */
+            let w = document.querySelector('.notification.cookie');
+            if (w){
+                w.className = w.className.replace('hide', '').trim();
+            }
+            let e = document.querySelector('#Web');
+            if (e){
+                e.className += ' ' + cookieName;
+            }
+            o.setCookie(cookieName, '1', 7300);
+            /**
+             * Evento para cerrar el aviso de cookies
+             */
+            let b = document.querySelector('.notification.cookie .close');
+            if (b && w) {
+                if (b.addEventListener){
+                    b.addEventListener("click", function () {
+                        if (w.className.indexOf('hide') === -1) w.className += ' hide';
+                    }, false);
+                } else if (b.attachEvent) {
+                    b.attachEvent("on" + "click", function () {
+                        if (w.className.indexOf('hide') === -1) w.className += ' hide';
+                    });
+                }
+            }
+        }
+    })(NSMv.cookie);
+</script>
+	<script type="text/javascript">
+		gExecuteOnLoad.push("NSMv.site.Scroll_CallBack = function(){\nvar lRet = false;\nvar lTop = NSMv.util.getAbsoluteElementPosition(\"Navigation\").top;\nlRet = NSMv.util.showscroll.getScrollY()>= lTop;\nvar lElement  = document.getElementById(\"SocialZone\");\nif(lRet && lElement){\nlTop = NSMv.util.getAbsoluteElementPosition(lElement).top ;\nlRet = NSMv.util.showscroll.getScrollY()<= lTop;\n}\n return lRet;\n}\r\n  NSMv.util.getAbsoluteElementPosition = function (element) {\r\n  if (typeof element == \"string\")\r\n    element = document.getElementById(element)\r\n\r\n  if (!element) return { top:0,left:0 };\r\n\r\n  var y = 0;\r\n  var x = 0;\r\n  while (element.offsetParent) {\r\n    x += element.offsetLeft;\r\n    y += element.offsetTop;\r\n    element = element.offsetParent;\r\n  }\r\n  return {top:y,left:x};\r\n};var lConfig={offset_callBack: NSMv.site.Scroll_CallBack,cerrado: false, oculto: true, IdBox: 'scroll-social', HideById:'author',onHide: function(){var lCW = document.querySelector('.notification.cookie');if(lCW && lCW.className.indexOf('down')!=-1)lCW.className =  lCW.className.replace(' down','');}};NSMv.util.showscroll.addConfig(lConfig);");
+	</script>
+	<script type="text/javascript">
+		gExecuteOnLoad.push("(function(){var lBtnClose = document.querySelector('#scroll-social .mvicon-close.close');var lBtnShare = document.querySelector('#scroll-social .mvicon-share.share');if(lBtnShare)lBtnShare.onclick = function(){var lE = document.querySelector('#scroll-social');if(lE && lE.className.indexOf('is-active')==-1){lE.className+= ' is-active';var lCW = document.querySelector('.notification.cookie');if(lCW && lCW.className.indexOf('down')==-1)lCW.className+= ' down';}};if(lBtnClose)lBtnClose.onclick = function(){var lE = document.querySelector('#scroll-social');if(lE && lE.className.indexOf('is-active')!=-1){lE.className = lE.className.replace(' is-active','');var lCW = document.querySelector('.notification.cookie');if(lCW && lCW.className.indexOf('down')!=-1)lCW.className =  lCW.className.replace(' down','');}};})();");
+	</script>
+	<script type="text/javascript">
+		gExecuteOnLoad.push("function IsMobile() {if( navigator.userAgent.match(\/Android\/i) || navigator.userAgent.match(\/webOS\/i) || navigator.userAgent.match(\/iPhone\/i) || navigator.userAgent.match(\/iPad\/i) || navigator.userAgent.match(\/iPod\/i) || navigator.userAgent.match(\/BlackBerry\/i) || navigator.userAgent.match(\/Windows Phone\/i)){return true;}else {return false;}}if(!IsMobile()){var lElement = document.querySelector('#scroll-social .mvicon-whatsapp.whatsapp.bg-whatsapp');if(lElement){lElement.parentNode.removeChild(lElement);var lElem = document.querySelector('#scroll-social .social-box');lElem.className += \" no-whatsapp\";}}");
+	</script>
+	<script type="text/javascript">
+		gExecuteOnLoad.push("hideShowGroupByClassName('code-hs');");
+	</script><script type="text/javascript">gExecuteOnLoad.push(function(){loadCSS("https://static.malavida.com/global/css_V84/cms-article.css");});</script>
+	<script type="text/javascript">if(typeof gUsrWidth  == 'undefined'){var gUsrWidth = (document.body  && document.body.offsetWidth) ? document.body.offsetWidth : ( (window.innerWidth) ? window.innerWidth : 0 );}if(gUsrWidth && gUsrWidth<=599){var lElement = document.getElementById('HomeLink');if(lElement){lElement.href='https://www.malavida.com/es/articulos/';}}</script>
+</body>
+</html>
+
+<!-- Cache Load Gen(Tue, 27 Aug 2019 21:12:57 +0200) Next(Wed, 28 Aug 2019 09:12:57 +0200) -->

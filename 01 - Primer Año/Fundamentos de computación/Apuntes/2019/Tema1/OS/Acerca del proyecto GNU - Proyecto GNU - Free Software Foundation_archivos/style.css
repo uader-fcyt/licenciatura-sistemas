@@ -1,0 +1,27 @@
+/*
+style.es.css -- css stylesheet used for Spanish translations on www.gnu.org
+
+Copyright (C) 2006, 2007, 2012 Free Software Foundation
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+*/
+
+
+#logo{background:url(/graphics/topbanner.es.png) no-repeat;}
+
+
+/*
+#logo a{display:block;text-decoration:none;overflow:hidden;border:0;margin:0;padding:0;padding-top:101px;height:0px !important;width:550px;cursor:pointer;}
+
+#navigation li{background-color: maroon;  display: inline; margin: 0 2px; padding: 0.5em 0.5em 0.5em 0.5em; }
+*/
