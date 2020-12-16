@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 
-busqueda_binaria(<tipoDato> buscarEn[], int cantidadElementos, <tipoDato> elementoBuscado, int &pos){
+bool busqueda_binaria(<tipoDato> buscarEn[], int cantidadElementos, <tipoDato> elementoBuscado, int &pos){
 	int inf = 0, sup = cantidadElementos-1;
 	int mid = (inf + sup) / 2;
     bool encontrado = true;
