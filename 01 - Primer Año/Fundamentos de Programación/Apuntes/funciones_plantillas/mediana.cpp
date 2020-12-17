@@ -1,4 +1,4 @@
-//vector debe estar ordenado
+// vector debe estar ordenado
 #include <iostream>
 using namespace std;
 float mediana(<tipoDato> vec[], int muestra);

@@ -1,12 +1,12 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int moda(<tipoDato> vec[], int muestra); 
+int moda(<tipoDato> vec[], int muestra);
 
-int main(int argc, char *argv[]) {
-
+int main(){
+	
 	return 0;
 }
-
+	
 int moda(<tipoDato> vec[], int muestra){
 	const int cant = 999999;
 	int vecModa[cant]; //cambiar constante del arreglo acorde al mayor valor en vec[]
