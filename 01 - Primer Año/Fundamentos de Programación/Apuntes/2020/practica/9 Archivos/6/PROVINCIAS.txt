@@ -1,0 +1,24 @@
+Buenos Aires 0
+Catamarca 1
+Chaco 2
+Chubut 3
+Cordoba 4
+Corrientes 5
+Entre Rios 6
+Formosa 7
+Jujuy 8
+La Pampa 9
+La Rioja 10
+Mendoza 11
+Misiones 12
+Neuquen 13
+Rio Negro 14
+Salta 15
+San Juan 16
+San Luis 17
+Santa Cruz 18
+Santa Fe 19
+Santiago del Estero 20
+Tierra del Fuego 21
+Tucuman 22
+Ciudad Autonoma de Buenos Aires 23

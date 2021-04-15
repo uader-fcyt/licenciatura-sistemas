@@ -1,0 +1,4 @@
+panadero|10
+rafa|3
+borracho|1
+cabezon|2

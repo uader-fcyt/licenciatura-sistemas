@@ -1,0 +1,7 @@
+1 Naturales 1 San Benito 1
+2 Gaseosas 2 Las Lajitas 2
+3 Vinos 2 General Alvear 2
+4 Cervezas 2 Tanti-Villa Santa Cruz del Lago-Estancia Vieja 7​ 2
+5 Whisky 2 Clodomira 2
+6 Licores 2 Carhué 2
+7 Energéticos 2 El Carril 2

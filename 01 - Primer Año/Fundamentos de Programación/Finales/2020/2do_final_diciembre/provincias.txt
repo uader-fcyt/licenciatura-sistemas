@@ -1,0 +1,72 @@
+2
+CABA
+4
+6
+Buenos Aires
+46223
+14
+Cordoba
+16283
+82
+Santa Fe
+15622
+50
+Mendoza
+6675
+90
+Tucuman
+5504
+30
+Entre Rios
+3977
+18
+Corrientes
+3470
+66
+Salta
+3015
+22
+Chaco
+2656
+62
+Rio Negro
+2513
+58
+Neuquen
+2482
+54
+Misiones
+2208
+70
+San Juan
+2174
+26
+Chubut
+1794
+86
+Santiago del Estero
+1708
+38
+Jujuy
+1674
+46
+La Rioja
+1444
+74
+San Luis
+1324
+34
+Formosa
+1093
+42
+La Pampa
+1058
+10
+Catamarca
+1042
+78
+Santa Cruz
+1005
+94
+Tierra del Fuego
+703

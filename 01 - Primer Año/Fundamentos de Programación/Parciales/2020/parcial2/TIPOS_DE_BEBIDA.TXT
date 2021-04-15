@@ -1,0 +1,7 @@
+1 0 Naturales
+2 0 Gaseosas
+3 1 Vinos
+4 1 Cervezas
+5 1 Whisky
+6 1 Licores
+7 0 Energéticos

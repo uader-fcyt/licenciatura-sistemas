@@ -1,0 +1,50 @@
+1 San Benito
+2 Las Lajitas
+3 General Alvear
+4 Tanti-Villa Santa Cruz del Lago-Estancia Vieja 7​
+5 Clodomira
+6 Carhué
+7 El Carril
+8 Calchaquí
+9 Presidencia de la Plaza
+10 La Cumbre-Los Cocos-San Esteban
+11 Villa de Soto
+12 Ingenio San Pablo
+13 Pedro Luro
+14 Basavilbaso
+15 Ibarreta
+16 Los Ralos 8​
+17 Huinca Renancó
+18 Viale
+19 San Bernardo
+20 Río Seco-Villa Quinteros 7​
+21 Empedrado
+22 Monte Cristo
+23 Eduardo Castex
+24 Capilla del Señor
+25 Pampa del Indio
+26 Los Cardales-Alto Los Cardales 7​
+27 Rada Tilly
+28 Campo Largo
+29 Adolfo Gonzales Chaves
+30 Pampa del Infierno
+31 San Javier
+32 Coronel Moldes
+33 Campo Quijano
+34 Maipú
+35 General Ramírez
+36 Laprida
+37 Vedia
+38 Villa Cañás
+39 Puerto Tirol
+40 Río Turbio
+41 Embalse
+42 San Genaro Norte-San Genaro
+43 Abra Pampa
+44 Canals
+45 Henderson
+46 Urdinarrain
+47 Bovril
+48 Perdriel 9​
+49 Justiniano Posse
+50 Suipacha
